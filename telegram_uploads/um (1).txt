@@ -1,0 +1,5 @@
+► EVALPy
+p(reply.media.document.attributes[0]) 
+
+ ► OUTPUT: 
+DocumentAttributeAudio(duration=192, voice=True, title='Save Your Tears (with Ariana Grande) (Remix)', performer='The Weeknd/Ariana Grande', waveform=b'A\x10\x83\x14\xf5h\xb1\xc6\x16\xf2T!CD\x08\x82\x18\xa4\xa8G\x8b5\xb6\x90\xa7\n\x19"\x02')
