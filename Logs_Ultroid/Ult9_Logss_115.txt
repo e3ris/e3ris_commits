@@ -1,0 +1,100 @@
+2021-07-01T04:20:12.198356+00:00 app[ultroid.1]: 
+2021-07-01T04:20:12.198356+00:00 app[ultroid.1]: During handling of the above exception, another exception occurred:
+2021-07-01T04:20:12.198356+00:00 app[ultroid.1]: 
+2021-07-01T04:20:12.198356+00:00 app[ultroid.1]: Traceback (most recent call last):
+2021-07-01T04:20:12.198357+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/requests/adapters.py", line 439, in send
+2021-07-01T04:20:12.198357+00:00 app[ultroid.1]:     resp = conn.urlopen(
+2021-07-01T04:20:12.198357+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/urllib3/connectionpool.py", line 755, in urlopen
+2021-07-01T04:20:12.198357+00:00 app[ultroid.1]:     retries = retries.increment(
+2021-07-01T04:20:12.198357+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/urllib3/util/retry.py", line 574, in increment
+2021-07-01T04:20:12.198357+00:00 app[ultroid.1]:     raise MaxRetryError(_pool, url, error or ResponseError(cause))
+2021-07-01T04:20:12.198359+00:00 app[ultroid.1]: urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='del.dog', port=443): Max retries exceeded with url: /documents (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fd38b575bb0>: Failed to establish a new connection: [Errno 101] Network is unreachable'))
+2021-07-01T04:20:12.198359+00:00 app[ultroid.1]: 
+2021-07-01T04:20:12.198359+00:00 app[ultroid.1]: During handling of the above exception, another exception occurred:
+2021-07-01T04:20:12.198359+00:00 app[ultroid.1]: 
+2021-07-01T04:20:12.198359+00:00 app[ultroid.1]: Traceback (most recent call last):
+2021-07-01T04:20:12.198360+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 454, in _dispatch_update
+2021-07-01T04:20:12.198360+00:00 app[ultroid.1]:     await callback(event)
+2021-07-01T04:20:12.198360+00:00 app[ultroid.1]:   File "/root/TeamUltroid/plugins/bot.py", line 138, in _
+2021-07-01T04:20:12.198360+00:00 app[ultroid.1]:     await def_logs(event)
+2021-07-01T04:20:12.198360+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/pyUltroid/functions/all.py", line 1578, in def_logs
+2021-07-01T04:20:12.198361+00:00 app[ultroid.1]:     requests.post("https://del.dog/documents", data=ok.encode("UTF-8"))
+2021-07-01T04:20:12.198361+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/requests/api.py", line 119, in post
+2021-07-01T04:20:12.198361+00:00 app[ultroid.1]:     return request('post', url, data=data, json=json, **kwargs)
+2021-07-01T04:20:12.198361+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/requests/api.py", line 61, in request
+2021-07-01T04:20:12.198361+00:00 app[ultroid.1]:     return session.request(method=method, url=url, **kwargs)
+2021-07-01T04:20:12.198361+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/requests/sessions.py", line 542, in request
+2021-07-01T04:20:12.198362+00:00 app[ultroid.1]:     resp = self.send(prep, **send_kwargs)
+2021-07-01T04:20:12.198370+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/requests/sessions.py", line 655, in send
+2021-07-01T04:20:12.198370+00:00 app[ultroid.1]:     r = adapter.send(request, **kwargs)
+2021-07-01T04:20:12.198370+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/requests/adapters.py", line 516, in send
+2021-07-01T04:20:12.198370+00:00 app[ultroid.1]:     raise ConnectionError(e, request=request)
+2021-07-01T04:20:12.198370+00:00 app[ultroid.1]: requests.exceptions.ConnectionError: HTTPSConnectionPool(host='del.dog', port=443): Max retries exceeded with url: /documents (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fd38b575bb0>: Failed to establish a new connection: [Errno 101] Network is unreachable'))
+2021-07-01T04:27:02.406367+00:00 app[ultroid.1]: [WARNING/2021-07-01 09:57:02,406] py.warnings: /usr/local/lib/python3.9/site-packages/urllib3/connectionpool.py:1013: InsecureRequestWarning: Unverified HTTPS request is being made to host 'virginia.sessions.logs.heroku.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+2021-07-01T04:27:02.406377+00:00 app[ultroid.1]:   warnings.warn(
+2021-07-01T04:27:02.406379+00:00 app[ultroid.1]: 
+2021-07-01T04:27:02.487927+00:00 app[ultroid.1]: [ INFO/2021-07-01 09:57:02,487] telethon.client.uploads: Uploading file of 12438 bytes in 1 chunks of 131072
+2021-07-01T04:40:20.925912+00:00 app[ultroid.1]: [ INFO/2021-07-01 10:10:20,925] telethon.client.uploads: Uploading file of 12438 bytes in 1 chunks of 131072
+2021-07-01T05:04:16.145437+00:00 app[ultroid.1]: [ INFO/2021-07-01 10:34:16,145] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2021-07-01T05:11:06.762824+00:00 app[ultroid.1]: [ INFO/2021-07-01 10:41:06,762] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2021-07-01T05:11:12.250616+00:00 app[ultroid.1]: [WARNING/2021-07-01 10:41:12,250] py.warnings: /usr/local/lib/python3.9/site-packages/urllib3/connectionpool.py:1013: InsecureRequestWarning: Unverified HTTPS request is being made to host 'virginia.sessions.logs.heroku.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+2021-07-01T05:11:12.250629+00:00 app[ultroid.1]:   warnings.warn(
+2021-07-01T05:11:12.250630+00:00 app[ultroid.1]: 
+2021-07-01T05:11:12.320337+00:00 app[ultroid.1]: [ INFO/2021-07-01 10:41:12,320] telethon.client.uploads: Uploading file of 12544 bytes in 1 chunks of 131072
+2021-07-01T05:15:26.796334+00:00 app[ultroid.1]: [ INFO/2021-07-01 10:45:26,796] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2021-07-01T05:15:31.397045+00:00 app[ultroid.1]: [WARNING/2021-07-01 10:45:31,396] py.warnings: /usr/local/lib/python3.9/site-packages/urllib3/connectionpool.py:1013: InsecureRequestWarning: Unverified HTTPS request is being made to host 'virginia.sessions.logs.heroku.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+2021-07-01T05:15:31.397060+00:00 app[ultroid.1]:   warnings.warn(
+2021-07-01T05:15:31.397060+00:00 app[ultroid.1]: 
+2021-07-01T05:15:31.469121+00:00 app[ultroid.1]: [ INFO/2021-07-01 10:45:31,468] telethon.client.uploads: Uploading file of 12632 bytes in 1 chunks of 131072
+2021-07-01T05:20:18.040835+00:00 app[ultroid.1]: [ INFO/2021-07-01 10:50:18,040] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2021-07-01T05:20:23.437978+00:00 app[ultroid.1]: [WARNING/2021-07-01 10:50:23,437] py.warnings: /usr/local/lib/python3.9/site-packages/urllib3/connectionpool.py:1013: InsecureRequestWarning: Unverified HTTPS request is being made to host 'virginia.sessions.logs.heroku.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+2021-07-01T05:20:23.437988+00:00 app[ultroid.1]:   warnings.warn(
+2021-07-01T05:20:23.437988+00:00 app[ultroid.1]: 
+2021-07-01T05:20:23.527778+00:00 app[ultroid.1]: [ INFO/2021-07-01 10:50:23,527] telethon.client.uploads: Uploading file of 12683 bytes in 1 chunks of 131072
+2021-07-01T05:23:44.600671+00:00 app[ultroid.1]: [ INFO/2021-07-01 10:53:44,600] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2021-07-01T06:12:43.666318+00:00 app[ultroid.1]: [ INFO/2021-07-01 11:42:43,666] telethon.client.uploads: Uploading file of 12915 bytes in 1 chunks of 131072
+2021-07-01T06:12:43.717223+00:00 app[ultroid.1]: Getting Connection With Redis Database
+2021-07-01T06:12:43.717226+00:00 app[ultroid.1]: Succesfully Established Connection With Redis DataBase.
+2021-07-01T06:12:43.717227+00:00 app[ultroid.1]: 'NoneType' object has no attribute 'format'
+2021-07-01T06:12:43.717227+00:00 app[ultroid.1]: 'NoneType' object has no attribute 'format'
+2021-07-01T06:12:43.717228+00:00 app[ultroid.1]: 'NoneType' object has no attribute 'format'
+2021-07-01T06:12:43.717228+00:00 app[ultroid.1]: 'NoneType' object has no attribute 'format'
+2021-07-01T06:12:43.717228+00:00 app[ultroid.1]: 'NoneType' object has no attribute 'format'
+2021-07-01T06:12:43.717229+00:00 app[ultroid.1]: 'NoneType' object has no attribute 'format'
+2021-07-01T06:12:43.717229+00:00 app[ultroid.1]: 'NoneType' object has no attribute 'format'
+2021-07-01T06:12:43.717229+00:00 app[ultroid.1]: 'NoneType' object has no attribute 'format'
+2021-07-01T06:12:43.717230+00:00 app[ultroid.1]: 'NoneType' object has no attribute 'format'
+2021-07-01T06:12:43.717230+00:00 app[ultroid.1]: 'NoneType' object has no attribute 'format'
+2021-07-01T06:12:43.717231+00:00 app[ultroid.1]: 'NoneType' object has no attribute 'format'
+2021-07-01T06:12:43.717231+00:00 app[ultroid.1]: 'NoneType' object has no attribute 'format'
+2021-07-01T06:12:43.717231+00:00 app[ultroid.1]: 'NoneType' object has no attribute 'format'
+2021-07-01T06:12:43.717231+00:00 app[ultroid.1]: 'NoneType' object has no attribute 'format'
+2021-07-01T06:12:43.717232+00:00 app[ultroid.1]: 'NoneType' object has no attribute 'format'
+2021-07-01T06:12:43.717232+00:00 app[ultroid.1]: 'NoneType' object has no attribute 'format'
+2021-07-01T06:12:43.717237+00:00 app[ultroid.1]: 'NoneType' object has no attribute 'format'
+2021-07-01T06:12:43.717238+00:00 app[ultroid.1]: 'NoneType' object has no attribute 'format'
+2021-07-01T06:12:43.717238+00:00 app[ultroid.1]: 'NoneType' object has no attribute 'format'
+2021-07-01T06:12:43.717238+00:00 app[ultroid.1]: 'NoneType' object has no attribute 'format'
+2021-07-01T06:12:43.717239+00:00 app[ultroid.1]: 'NoneType' object has no attribute 'format'
+2021-07-01T06:12:43.717239+00:00 app[ultroid.1]: 'NoneType' object has no attribute 'format'
+2021-07-01T06:12:43.717240+00:00 app[ultroid.1]: 'NoneType' object has no attribute 'format'
+2021-07-01T06:12:43.717240+00:00 app[ultroid.1]: 'NoneType' object has no attribute 'format'
+2021-07-01T06:12:43.717240+00:00 app[ultroid.1]: 'NoneType' object has no attribute 'format'
+2021-07-01T06:12:43.717250+00:00 app[ultroid.1]: [warn] [<NdsFile>] Error when getting size of 'header': delete it
+2021-07-01T06:12:43.723891+00:00 app[ultroid.1]: [ INFO/2021-07-01 11:42:43,723] telethon.client.uploads: Uploading file of 48325 bytes in 1 chunks of 131072
+2021-07-01T07:07:29.433397+00:00 app[ultroid.1]: [ INFO/2021-07-01 12:37:29,433] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2021-07-01T07:07:45.452284+00:00 app[ultroid.1]: [ INFO/2021-07-01 12:37:45,452] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2021-07-01T07:09:38.961882+00:00 app[ultroid.1]: [ERROR/2021-07-01 12:39:38,961] telethon.client.updates: Unhandled exception on query_ibutton
+2021-07-01T07:09:38.961898+00:00 app[ultroid.1]: Traceback (most recent call last):
+2021-07-01T07:09:38.961899+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 454, in _dispatch_update
+2021-07-01T07:09:38.961900+00:00 app[ultroid.1]:     await callback(event)
+2021-07-01T07:09:38.961902+00:00 app[ultroid.1]:   File "/root/TeamUltroid/addons/btnsss.py", line 90, in query_ibutton
+2021-07-01T07:09:38.961902+00:00 app[ultroid.1]:     result = builder.photo(
+2021-07-01T07:09:38.961903+00:00 app[ultroid.1]: TypeError: photo() got an unexpected keyword argument 'title'
+2021-07-01T07:09:39.039696+00:00 app[ultroid.1]: [ERROR/2021-07-01 12:39:39,039] telethon.client.updates: Unhandled exception on query_ibutton
+2021-07-01T07:09:39.039699+00:00 app[ultroid.1]: Traceback (most recent call last):
+2021-07-01T07:09:39.039710+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 454, in _dispatch_update
+2021-07-01T07:09:39.039711+00:00 app[ultroid.1]:     await callback(event)
+2021-07-01T07:09:39.039712+00:00 app[ultroid.1]:   File "/root/TeamUltroid/addons/btnsss.py", line 90, in query_ibutton
+2021-07-01T07:09:39.039713+00:00 app[ultroid.1]:     result = builder.photo(
+2021-07-01T07:09:39.039714+00:00 app[ultroid.1]: TypeError: photo() got an unexpected keyword argument 'title'
