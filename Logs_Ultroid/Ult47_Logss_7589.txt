@@ -1,0 +1,100 @@
+2021-07-01T08:03:29.775388+00:00 app[ultroid.1]: [ INFO/2021-07-01 13:33:29,775] telethon.network.mtprotosender: Disconnection from 149.154.175.51:443/TcpFull complete!
+2021-07-01T08:03:29.775532+00:00 app[ultroid.1]: [ INFO/2021-07-01 13:33:29,775] telethon.network.mtprotosender: Disconnection from 149.154.175.51:443/TcpFull complete!
+2021-07-01T08:03:29.775654+00:00 app[ultroid.1]: [ INFO/2021-07-01 13:33:29,775] telethon.network.mtprotosender: Disconnection from 149.154.175.51:443/TcpFull complete!
+2021-07-01T08:03:29.775795+00:00 app[ultroid.1]: [ INFO/2021-07-01 13:33:29,775] telethon.network.mtprotosender: Disconnection from 149.154.175.51:443/TcpFull complete!
+2021-07-01T08:03:29.775921+00:00 app[ultroid.1]: [ INFO/2021-07-01 13:33:29,775] telethon.network.mtprotosender: Disconnection from 149.154.175.51:443/TcpFull complete!
+2021-07-01T08:03:29.776043+00:00 app[ultroid.1]: [ INFO/2021-07-01 13:33:29,775] telethon.network.mtprotosender: Disconnection from 149.154.175.51:443/TcpFull complete!
+2021-07-01T08:03:29.776168+00:00 app[ultroid.1]: [ INFO/2021-07-01 13:33:29,776] telethon.network.mtprotosender: Disconnection from 149.154.175.51:443/TcpFull complete!
+2021-07-01T08:03:29.776296+00:00 app[ultroid.1]: [ INFO/2021-07-01 13:33:29,776] telethon.network.mtprotosender: Disconnection from 149.154.175.51:443/TcpFull complete!
+2021-07-01T08:03:29.776419+00:00 app[ultroid.1]: [ INFO/2021-07-01 13:33:29,776] telethon.network.mtprotosender: Disconnection from 149.154.175.51:443/TcpFull complete!
+2021-07-01T08:03:29.776544+00:00 app[ultroid.1]: [ INFO/2021-07-01 13:33:29,776] telethon.network.mtprotosender: Disconnection from 149.154.175.51:443/TcpFull complete!
+2021-07-01T08:03:29.776670+00:00 app[ultroid.1]: [ INFO/2021-07-01 13:33:29,776] telethon.network.mtprotosender: Disconnection from 149.154.175.51:443/TcpFull complete!
+2021-07-01T08:03:29.776794+00:00 app[ultroid.1]: [ INFO/2021-07-01 13:33:29,776] telethon.network.mtprotosender: Disconnection from 149.154.175.51:443/TcpFull complete!
+2021-07-01T08:03:29.776923+00:00 app[ultroid.1]: [ INFO/2021-07-01 13:33:29,776] telethon.network.mtprotosender: Disconnection from 149.154.175.51:443/TcpFull complete!
+2021-07-01T08:03:29.795228+00:00 app[ultroid.1]: [ INFO/2021-07-01 13:33:29,794] telethon.network.mtprotosender: Disconnecting from 149.154.175.51:443/TcpFull...
+2021-07-01T08:03:29.795877+00:00 app[ultroid.1]: [ INFO/2021-07-01 13:33:29,795] telethon.network.mtprotosender: Disconnection from 149.154.175.51:443/TcpFull complete!
+2021-07-01T08:03:29.848809+00:00 app[ultroid.1]: [ INFO/2021-07-01 13:33:29,848] telethon.network.mtprotosender: Disconnecting from 149.154.175.51:443/TcpFull...
+2021-07-01T08:03:29.849406+00:00 app[ultroid.1]: [ INFO/2021-07-01 13:33:29,849] telethon.network.mtprotosender: Disconnection from 149.154.175.51:443/TcpFull complete!
+2021-07-01T08:03:29.869390+00:00 app[ultroid.1]: [ INFO/2021-07-01 13:33:29,869] telethon.network.mtprotosender: Disconnecting from 149.154.175.51:443/TcpFull...
+2021-07-01T08:03:29.869951+00:00 app[ultroid.1]: [ INFO/2021-07-01 13:33:29,869] telethon.network.mtprotosender: Disconnection from 149.154.175.51:443/TcpFull complete!
+2021-07-01T08:03:29.997348+00:00 app[ultroid.1]: [ INFO/2021-07-01 13:33:29,996] telethon.network.mtprotosender: Disconnecting from 149.154.175.51:443/TcpFull...
+2021-07-01T08:03:29.998271+00:00 app[ultroid.1]: [ INFO/2021-07-01 13:33:29,998] telethon.network.mtprotosender: Disconnection from 149.154.175.51:443/TcpFull complete!
+2021-07-01T08:03:30.035047+00:00 app[ultroid.1]: [ INFO/2021-07-01 13:33:30,034] telethon.client.uploads: Uploading file of 48325 bytes in 1 chunks of 131072
+2021-07-01T10:01:38.426716+00:00 app[ultroid.1]: [ INFO/2021-07-01 15:31:38,426] telethon.client.uploads: Uploading file of 20210 bytes in 1 chunks of 131072
+2021-07-01T10:01:38.462160+00:00 app[ultroid.1]: [ INFO/2021-07-01 15:31:38,461] telethon.client.uploads: Uploading file of 2860101 bytes in 22 chunks of 131072
+2021-07-01T10:44:01.783199+00:00 app[ultroid.1]: [ INFO/2021-07-01 16:14:01,782] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2021-07-01T10:44:30.930428+00:00 app[ultroid.1]: [ INFO/2021-07-01 16:14:30,930] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2021-07-01T10:44:32.188122+00:00 app[ultroid.1]: [ERROR/2021-07-01 16:14:32,187] pyUltroid: object NoneType can't be used in 'await' expression
+2021-07-01T10:44:32.188139+00:00 app[ultroid.1]: Traceback (most recent call last):
+2021-07-01T10:44:32.188140+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/pyUltroid/misc/_decorators.py", line 99, in wrapper
+2021-07-01T10:44:32.188141+00:00 app[ultroid.1]:     await func(ult)
+2021-07-01T10:44:32.188142+00:00 app[ultroid.1]:   File "/root/TeamUltroid/addons/eris_git.py", line 71, in git_commit
+2021-07-01T10:44:32.188142+00:00 app[ultroid.1]:     await sleep(1)
+2021-07-01T10:44:32.188143+00:00 app[ultroid.1]: TypeError: object NoneType can't be used in 'await' expression
+2021-07-01T10:46:44.002941+00:00 app[ultroid.1]: [ INFO/2021-07-01 16:16:44,002] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2021-07-01T10:48:26.239286+00:00 app[ultroid.1]: [ INFO/2021-07-01 16:18:26,239] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2021-07-01T10:48:28.260649+00:00 app[ultroid.1]: [ERROR/2021-07-01 16:18:28,260] pyUltroid: name 'git_commit_link' is not defined
+2021-07-01T10:48:28.260661+00:00 app[ultroid.1]: Traceback (most recent call last):
+2021-07-01T10:48:28.260666+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/pyUltroid/misc/_decorators.py", line 99, in wrapper
+2021-07-01T10:48:28.260667+00:00 app[ultroid.1]:     await func(ult)
+2021-07-01T10:48:28.260668+00:00 app[ultroid.1]:   File "/root/TeamUltroid/addons/eris_git.py", line 101, in git_commit
+2021-07-01T10:48:28.260668+00:00 app[ultroid.1]:     links += f'<b>-> <a href="{git_commit_link}">Raw Link</a>'
+2021-07-01T10:48:28.260669+00:00 app[ultroid.1]: NameError: name 'git_commit_link' is not defined
+2021-07-01T10:51:58.357299+00:00 app[ultroid.1]: [ INFO/2021-07-01 16:21:58,356] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2021-07-01T10:52:29.347820+00:00 app[ultroid.1]: [ INFO/2021-07-01 16:22:29,347] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2021-07-01T11:01:01.563561+00:00 app[ultroid.1]: [ERROR/2021-07-01 16:31:01,562] pyUltroid: rename: src should be string, bytes or os.PathLike, not NoneType
+2021-07-01T11:01:01.563575+00:00 app[ultroid.1]: Traceback (most recent call last):
+2021-07-01T11:01:01.563575+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/pyUltroid/misc/_decorators.py", line 99, in wrapper
+2021-07-01T11:01:01.563576+00:00 app[ultroid.1]:     await func(ult)
+2021-07-01T11:01:01.563577+00:00 app[ultroid.1]:   File "/root/TeamUltroid/plugins/converter.py", line 91, in imak
+2021-07-01T11:01:01.563577+00:00 app[ultroid.1]:     os.rename(file, inp)
+2021-07-01T11:01:01.563578+00:00 app[ultroid.1]: TypeError: rename: src should be string, bytes or os.PathLike, not NoneType
+2021-07-01T11:01:48.039952+00:00 app[ultroid.1]: [ INFO/2021-07-01 16:31:48,039] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2021-07-01T11:02:16.139704+00:00 app[ultroid.1]: [ INFO/2021-07-01 16:32:16,139] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2021-07-01T11:02:52.468144+00:00 app[ultroid.1]: [ INFO/2021-07-01 16:32:52,467] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2021-07-01T11:04:06.123964+00:00 app[ultroid.1]: [ INFO/2021-07-01 16:34:06,123] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2021-07-01T11:04:06.169446+00:00 app[ultroid.1]: [ INFO/2021-07-01 16:34:06,169] telethon.client.downloads: File lives in another DC
+2021-07-01T11:04:06.169920+00:00 app[ultroid.1]: [ INFO/2021-07-01 16:34:06,169] telethon.network.mtprotosender: Connecting to 149.154.167.91:443/TcpFull...
+2021-07-01T11:04:07.123778+00:00 app[ultroid.1]: [ INFO/2021-07-01 16:34:07,123] telethon.network.mtprotosender: Connection to 149.154.167.91:443/TcpFull complete!
+2021-07-01T11:04:07.123989+00:00 app[ultroid.1]: [ INFO/2021-07-01 16:34:07,123] telethon.client.telegrambaseclient: Exporting auth for new borrowed sender in DcOption(id=4, ip_address='149.154.167.91', port=443, ipv6=False, media_only=False, tcpo_only=False, cdn=False, static=False, secret=None)
+2021-07-01T11:04:10.016592+00:00 app[ultroid.1]: [ERROR/2021-07-01 16:34:10,012] telethon.client.updates: Unhandled exception on git_link
+2021-07-01T11:04:10.016637+00:00 app[ultroid.1]: Traceback (most recent call last):
+2021-07-01T11:04:10.016638+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 454, in _dispatch_update
+2021-07-01T11:04:10.016639+00:00 app[ultroid.1]:     await callback(event)
+2021-07-01T11:04:10.016639+00:00 app[ultroid.1]:   File "/root/TeamUltroid/addons/eris_git.py", line 133, in git_link
+2021-07-01T11:04:10.016640+00:00 app[ultroid.1]:     await event.answer([result])
+2021-07-01T11:04:10.016640+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/events/inlinequery.py", line 228, in answer
+2021-07-01T11:04:10.016641+00:00 app[ultroid.1]:     return await self._client(
+2021-07-01T11:04:10.016641+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+2021-07-01T11:04:10.016642+00:00 app[ultroid.1]:     return await self._call(self._sender, request, ordered=ordered)
+2021-07-01T11:04:10.016642+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/client/users.py", line 79, in _call
+2021-07-01T11:04:10.016643+00:00 app[ultroid.1]:     result = await future
+2021-07-01T11:04:10.016643+00:00 app[ultroid.1]: telethon.errors.rpcerrorlist.ButtonUrlInvalidError: Button URL invalid (caused by SetInlineBotResultsRequest)
+2021-07-01T11:05:47.945489+00:00 app[ultroid.1]: [ERROR/2021-07-01 16:35:47,944] telethon.client.updates: Unhandled exception on git_link
+2021-07-01T11:05:47.945502+00:00 app[ultroid.1]: Traceback (most recent call last):
+2021-07-01T11:05:47.945504+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 454, in _dispatch_update
+2021-07-01T11:05:47.945506+00:00 app[ultroid.1]:     await callback(event)
+2021-07-01T11:05:47.945506+00:00 app[ultroid.1]:   File "/root/TeamUltroid/addons/eris_git.py", line 133, in git_link
+2021-07-01T11:05:47.945507+00:00 app[ultroid.1]:     await event.answer([result])
+2021-07-01T11:05:47.945507+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/events/inlinequery.py", line 228, in answer
+2021-07-01T11:05:47.945508+00:00 app[ultroid.1]:     return await self._client(
+2021-07-01T11:05:47.945508+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+2021-07-01T11:05:47.945509+00:00 app[ultroid.1]:     return await self._call(self._sender, request, ordered=ordered)
+2021-07-01T11:05:47.945509+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/client/users.py", line 79, in _call
+2021-07-01T11:05:47.945509+00:00 app[ultroid.1]:     result = await future
+2021-07-01T11:05:47.945510+00:00 app[ultroid.1]: telethon.errors.rpcerrorlist.ButtonUrlInvalidError: Button URL invalid (caused by SetInlineBotResultsRequest)
+2021-07-01T11:06:03.218377+00:00 app[ultroid.1]: [ INFO/2021-07-01 16:36:03,218] telethon.client.telegrambaseclient: Disconnecting borrowed sender for DC 4
+2021-07-01T11:06:03.218530+00:00 app[ultroid.1]: [ INFO/2021-07-01 16:36:03,218] telethon.network.mtprotosender: Disconnecting from 149.154.167.91:443/TcpFull...
+2021-07-01T11:06:03.219112+00:00 app[ultroid.1]: [ INFO/2021-07-01 16:36:03,218] telethon.network.mtprotosender: Disconnection from 149.154.167.91:443/TcpFull complete!
+2021-07-01T11:07:45.827943+00:00 app[ultroid.1]: [ERROR/2021-07-01 16:37:45,827] telethon.client.updates: Unhandled exception on git_link
+2021-07-01T11:07:45.827966+00:00 app[ultroid.1]: Traceback (most recent call last):
+2021-07-01T11:07:45.827967+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 454, in _dispatch_update
+2021-07-01T11:07:45.827968+00:00 app[ultroid.1]:     await callback(event)
+2021-07-01T11:07:45.827968+00:00 app[ultroid.1]:   File "<string>", line 22, in git_link
+2021-07-01T11:07:45.827969+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/events/inlinequery.py", line 228, in answer
+2021-07-01T11:07:45.827969+00:00 app[ultroid.1]:     return await self._client(
+2021-07-01T11:07:45.827970+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+2021-07-01T11:07:45.827971+00:00 app[ultroid.1]:     return await self._call(self._sender, request, ordered=ordered)
+2021-07-01T11:07:45.827971+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/client/users.py", line 79, in _call
+2021-07-01T11:07:45.827972+00:00 app[ultroid.1]:     result = await future
+2021-07-01T11:07:45.827972+00:00 app[ultroid.1]: telethon.errors.rpcerrorlist.ButtonUrlInvalidError: Button URL invalid (caused by SetInlineBotResultsRequest)
