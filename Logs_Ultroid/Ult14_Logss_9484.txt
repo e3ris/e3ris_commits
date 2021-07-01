@@ -1,0 +1,100 @@
+2021-07-01T14:00:41.756612+00:00 app[ultroid.1]:     r = await self._client(functions.messages.UploadMediaRequest(
+2021-07-01T14:00:41.756612+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/client/users.py", line 79, in _call
+2021-07-01T14:00:41.756613+00:00 app[ultroid.1]:     result = await future
+2021-07-01T14:00:41.756613+00:00 app[ultroid.1]: telethon.errors.rpcerrorlist.MediaInvalidError: Media invalid (caused by UploadMediaRequest)
+2021-07-01T14:00:47.982202+00:00 app[ultroid.1]: [WARNING/2021-07-01 19:30:47,981] py.warnings: /usr/local/lib/python3.9/site-packages/urllib3/connectionpool.py:1013: InsecureRequestWarning: Unverified HTTPS request is being made to host 'virginia.sessions.logs.heroku.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+2021-07-01T14:00:47.982212+00:00 app[ultroid.1]:   warnings.warn(
+2021-07-01T14:00:47.982213+00:00 app[ultroid.1]: 
+2021-07-01T14:00:48.040565+00:00 app[ultroid.1]: [ INFO/2021-07-01 19:30:48,040] telethon.client.uploads: Uploading file of 11692 bytes in 1 chunks of 131072
+2021-07-01T14:16:05.226314+00:00 app[ultroid.1]: [ INFO/2021-07-01 19:46:05,225] telethon.network.mtprotosender: Connecting to 149.154.175.51:443/TcpFull...
+2021-07-01T14:16:05.274339+00:00 app[ultroid.1]: [ INFO/2021-07-01 19:46:05,274] telethon.network.mtprotosender: Connection to 149.154.175.51:443/TcpFull complete!
+2021-07-01T14:16:09.342828+00:00 app[ultroid.1]: [ INFO/2021-07-01 19:46:09,342] telethon.network.mtprotosender: Disconnecting from 149.154.175.51:443/TcpFull...
+2021-07-01T14:16:09.343444+00:00 app[ultroid.1]: [ INFO/2021-07-01 19:46:09,343] telethon.network.mtprotosender: Disconnection from 149.154.175.51:443/TcpFull complete!
+2021-07-01T14:16:09.344403+00:00 app[ultroid.1]: [ INFO/2021-07-01 19:46:09,344] telethon.client.uploads: Uploading file of 83112 bytes in 1 chunks of 131072
+2021-07-01T14:24:02.681899+00:00 app[ultroid.1]: [ERROR/2021-07-01 19:54:02,680] telethon.client.updates: Unhandled exception on query_ibutton
+2021-07-01T14:24:02.681910+00:00 app[ultroid.1]: Traceback (most recent call last):
+2021-07-01T14:24:02.681920+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/tl/custom/inlinebuilder.py", line 300, in document
+2021-07-01T14:24:02.681921+00:00 app[ultroid.1]:     fh = utils.get_input_document(file)
+2021-07-01T14:24:02.681921+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/utils.py", line 344, in get_input_document
+2021-07-01T14:24:02.681922+00:00 app[ultroid.1]:     return get_input_document(document.media)
+2021-07-01T14:24:02.681922+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/utils.py", line 346, in get_input_document
+2021-07-01T14:24:02.681922+00:00 app[ultroid.1]:     _raise_cast_fail(document, 'InputDocument')
+2021-07-01T14:24:02.681923+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/utils.py", line 138, in _raise_cast_fail
+2021-07-01T14:24:02.681924+00:00 app[ultroid.1]:     raise TypeError('Cannot cast {} to any kind of {}.'.format(
+2021-07-01T14:24:02.681925+00:00 app[ultroid.1]: TypeError: Cannot cast MessageMediaPhoto to any kind of InputDocument.
+2021-07-01T14:24:02.681926+00:00 app[ultroid.1]: 
+2021-07-01T14:24:02.681927+00:00 app[ultroid.1]: During handling of the above exception, another exception occurred:
+2021-07-01T14:24:02.681927+00:00 app[ultroid.1]: 
+2021-07-01T14:24:02.681927+00:00 app[ultroid.1]: Traceback (most recent call last):
+2021-07-01T14:24:02.681928+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 454, in _dispatch_update
+2021-07-01T14:24:02.681929+00:00 app[ultroid.1]:     await callback(event)
+2021-07-01T14:24:02.681929+00:00 app[ultroid.1]:   File "<string>", line 18, in query_ibutton
+2021-07-01T14:24:02.681929+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/events/inlinequery.py", line 221, in answer
+2021-07-01T14:24:02.681930+00:00 app[ultroid.1]:     results = [x.result() for x in futures]
+2021-07-01T14:24:02.681930+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/events/inlinequery.py", line 221, in <listcomp>
+2021-07-01T14:24:02.681930+00:00 app[ultroid.1]:     results = [x.result() for x in futures]
+2021-07-01T14:24:02.681931+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/tl/custom/inlinebuilder.py", line 314, in document
+2021-07-01T14:24:02.681931+00:00 app[ultroid.1]:     r = await self._client(functions.messages.UploadMediaRequest(
+2021-07-01T14:24:02.681931+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/client/users.py", line 79, in _call
+2021-07-01T14:24:02.681932+00:00 app[ultroid.1]:     result = await future
+2021-07-01T14:24:02.681932+00:00 app[ultroid.1]: telethon.errors.rpcerrorlist.MediaInvalidError: Media invalid (caused by UploadMediaRequest)
+2021-07-01T14:24:12.599438+00:00 app[ultroid.1]: [WARNING/2021-07-01 19:54:12,599] py.warnings: /usr/local/lib/python3.9/site-packages/urllib3/connectionpool.py:1013: InsecureRequestWarning: Unverified HTTPS request is being made to host 'virginia.sessions.logs.heroku.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+2021-07-01T14:24:12.599448+00:00 app[ultroid.1]:   warnings.warn(
+2021-07-01T14:24:12.599449+00:00 app[ultroid.1]: 
+2021-07-01T14:24:12.669018+00:00 app[ultroid.1]: [ INFO/2021-07-01 19:54:12,668] telethon.client.uploads: Uploading file of 12430 bytes in 1 chunks of 131072
+2021-07-01T16:20:36.817596+00:00 app[ultroid.1]: [ INFO/2021-07-01 21:50:36,809] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2021-07-01T16:21:00.839501+00:00 app[ultroid.1]: [ INFO/2021-07-01 21:51:00,839] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2021-07-01T16:22:03.270126+00:00 app[ultroid.1]: [ INFO/2021-07-01 21:52:03,269] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2021-07-01T16:24:33.471765+00:00 app[ultroid.1]: [ INFO/2021-07-01 21:54:33,471] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2021-07-01T16:25:11.326385+00:00 app[ultroid.1]: [ERROR/2021-07-01 21:55:11,325] telethon.client.updates: Unhandled exception on query_ibutton
+2021-07-01T16:25:11.326396+00:00 app[ultroid.1]: Traceback (most recent call last):
+2021-07-01T16:25:11.326397+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 454, in _dispatch_update
+2021-07-01T16:25:11.326398+00:00 app[ultroid.1]:     await callback(event)
+2021-07-01T16:25:11.326398+00:00 app[ultroid.1]:   File "/root/TeamUltroid/addons/btnsss.py", line 113, in query_ibutton
+2021-07-01T16:25:11.326399+00:00 app[ultroid.1]:     args =  "".join(e.text.split(maxsplit=1)[1:])
+2021-07-01T16:25:11.326399+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/events/inlinequery.py", line 228, in answer
+2021-07-01T16:25:11.326400+00:00 app[ultroid.1]:     return await self._client(
+2021-07-01T16:25:11.326400+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+2021-07-01T16:25:11.326401+00:00 app[ultroid.1]:     return await self._call(self._sender, request, ordered=ordered)
+2021-07-01T16:25:11.326401+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/client/users.py", line 79, in _call
+2021-07-01T16:25:11.326401+00:00 app[ultroid.1]:     result = await future
+2021-07-01T16:25:11.326402+00:00 app[ultroid.1]: telethon.errors.rpcerrorlist.ResultTypeInvalidError: Result type invalid (caused by SetInlineBotResultsRequest)
+2021-07-01T16:25:11.715672+00:00 app[ultroid.1]: [ERROR/2021-07-01 21:55:11,715] telethon.client.updates: Unhandled exception on query_ibutton
+2021-07-01T16:25:11.715685+00:00 app[ultroid.1]: Traceback (most recent call last):
+2021-07-01T16:25:11.715686+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 454, in _dispatch_update
+2021-07-01T16:25:11.715687+00:00 app[ultroid.1]:     await callback(event)
+2021-07-01T16:25:11.715687+00:00 app[ultroid.1]:   File "/root/TeamUltroid/addons/btnsss.py", line 101, in query_ibutton
+2021-07-01T16:25:11.715688+00:00 app[ultroid.1]:     await event.answer([result] if result else None)
+2021-07-01T16:25:11.715689+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/events/inlinequery.py", line 228, in answer
+2021-07-01T16:25:11.715690+00:00 app[ultroid.1]:     return await self._client(
+2021-07-01T16:25:11.715690+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+2021-07-01T16:25:11.715690+00:00 app[ultroid.1]:     return await self._call(self._sender, request, ordered=ordered)
+2021-07-01T16:25:11.715691+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/client/users.py", line 79, in _call
+2021-07-01T16:25:11.715692+00:00 app[ultroid.1]:     result = await future
+2021-07-01T16:25:11.715692+00:00 app[ultroid.1]: telethon.errors.rpcerrorlist.ResultTypeInvalidError: Result type invalid (caused by SetInlineBotResultsRequest)
+2021-07-01T16:25:55.085453+00:00 app[ultroid.1]: [ERROR/2021-07-01 21:55:55,083] telethon.client.updates: Unhandled exception on query_ibutton
+2021-07-01T16:25:55.085468+00:00 app[ultroid.1]: Traceback (most recent call last):
+2021-07-01T16:25:55.085479+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 454, in _dispatch_update
+2021-07-01T16:25:55.085480+00:00 app[ultroid.1]:     await callback(event)
+2021-07-01T16:25:55.085481+00:00 app[ultroid.1]:   File "/root/TeamUltroid/addons/btnsss.py", line 101, in query_ibutton
+2021-07-01T16:25:55.085482+00:00 app[ultroid.1]:     await event.answer([result] if result else None)
+2021-07-01T16:25:55.085483+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/events/inlinequery.py", line 228, in answer
+2021-07-01T16:25:55.085483+00:00 app[ultroid.1]:     return await self._client(
+2021-07-01T16:25:55.085484+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+2021-07-01T16:25:55.085484+00:00 app[ultroid.1]:     return await self._call(self._sender, request, ordered=ordered)
+2021-07-01T16:25:55.085484+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/client/users.py", line 79, in _call
+2021-07-01T16:25:55.085484+00:00 app[ultroid.1]:     result = await future
+2021-07-01T16:25:55.085485+00:00 app[ultroid.1]: telethon.errors.rpcerrorlist.ResultTypeInvalidError: Result type invalid (caused by SetInlineBotResultsRequest)
+2021-07-01T16:25:59.998929+00:00 app[ultroid.1]: [ERROR/2021-07-01 21:55:59,998] telethon.client.updates: Unhandled exception on query_ibutton
+2021-07-01T16:25:59.998943+00:00 app[ultroid.1]: Traceback (most recent call last):
+2021-07-01T16:25:59.998944+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 454, in _dispatch_update
+2021-07-01T16:25:59.998945+00:00 app[ultroid.1]:     await callback(event)
+2021-07-01T16:25:59.998945+00:00 app[ultroid.1]:   File "/root/TeamUltroid/addons/btnsss.py", line 101, in query_ibutton
+2021-07-01T16:25:59.998946+00:00 app[ultroid.1]:     await event.answer([result] if result else None)
+2021-07-01T16:25:59.998946+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/events/inlinequery.py", line 228, in answer
+2021-07-01T16:25:59.998947+00:00 app[ultroid.1]:     return await self._client(
+2021-07-01T16:25:59.998947+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+2021-07-01T16:25:59.998948+00:00 app[ultroid.1]:     return await self._call(self._sender, request, ordered=ordered)
+2021-07-01T16:25:59.998948+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/client/users.py", line 79, in _call
+2021-07-01T16:25:59.998948+00:00 app[ultroid.1]:     result = await future
+2021-07-01T16:25:59.998949+00:00 app[ultroid.1]: telethon.errors.rpcerrorlist.ResultTypeInvalidError: Result type invalid (caused by SetInlineBotResultsRequest)
