@@ -1,0 +1,100 @@
+2021-07-01T16:50:02.527778+00:00 app[ultroid.1]:     r = await self._client(functions.messages.UploadMediaRequest(
+2021-07-01T16:50:02.527778+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+2021-07-01T16:50:02.527779+00:00 app[ultroid.1]:     return await self._call(self._sender, request, ordered=ordered)
+2021-07-01T16:50:02.527779+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/client/users.py", line 37, in _call
+2021-07-01T16:50:02.527780+00:00 app[ultroid.1]:     await r.resolve(self, utils)
+2021-07-01T16:50:02.527780+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/tl/functions/messages.py", line 5747, in resolve
+2021-07-01T16:50:02.527781+00:00 app[ultroid.1]:     self.media = utils.get_input_media(self.media)
+2021-07-01T16:50:02.527781+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/utils.py", line 449, in get_input_media
+2021-07-01T16:50:02.527781+00:00 app[ultroid.1]:     _raise_cast_fail(media, 'InputMedia')
+2021-07-01T16:50:02.527782+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/utils.py", line 138, in _raise_cast_fail
+2021-07-01T16:50:02.527782+00:00 app[ultroid.1]:     raise TypeError('Cannot cast {} to any kind of {}.'.format(
+2021-07-01T16:50:02.527783+00:00 app[ultroid.1]: TypeError: Cannot cast NoneType to any kind of InputMedia.
+2021-07-01T16:51:11.703642+00:00 app[ultroid.1]: [ INFO/2021-07-01 22:21:11,703] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2021-07-01T16:51:11.799037+00:00 app[ultroid.1]: [ INFO/2021-07-01 22:21:11,798] telethon.client.downloads: File lives in another DC
+2021-07-01T16:51:11.800289+00:00 app[ultroid.1]: [ INFO/2021-07-01 22:21:11,800] telethon.network.mtprotosender: Connecting to 91.108.56.117:443/TcpFull...
+2021-07-01T16:51:12.035752+00:00 app[ultroid.1]: [ INFO/2021-07-01 22:21:12,035] telethon.network.mtprotosender: Connection to 91.108.56.117:443/TcpFull complete!
+2021-07-01T16:51:15.644689+00:00 app[ultroid.1]: [ERROR/2021-07-01 22:21:15,643] telethon.client.updates: Unhandled exception on git_link
+2021-07-01T16:51:15.644709+00:00 app[ultroid.1]: Traceback (most recent call last):
+2021-07-01T16:51:15.644711+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 454, in _dispatch_update
+2021-07-01T16:51:15.644712+00:00 app[ultroid.1]:     await callback(event)
+2021-07-01T16:51:15.644712+00:00 app[ultroid.1]:   File "/root/TeamUltroid/addons/eris_git.py", line 133, in git_link
+2021-07-01T16:51:15.644713+00:00 app[ultroid.1]:     [Button.url("Direct Link ⚡", url=f"{x[2]}")],
+2021-07-01T16:51:15.644714+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/events/inlinequery.py", line 228, in answer
+2021-07-01T16:51:15.644714+00:00 app[ultroid.1]:     return await self._client(
+2021-07-01T16:51:15.644714+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+2021-07-01T16:51:15.644715+00:00 app[ultroid.1]:     return await self._call(self._sender, request, ordered=ordered)
+2021-07-01T16:51:15.644715+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/client/users.py", line 79, in _call
+2021-07-01T16:51:15.644716+00:00 app[ultroid.1]:     result = await future
+2021-07-01T16:51:15.644716+00:00 app[ultroid.1]: telethon.errors.rpcerrorlist.ButtonUrlInvalidError: Button URL invalid (caused by SetInlineBotResultsRequest)
+2021-07-01T16:51:15.658333+00:00 app[ultroid.1]: [ERROR/2021-07-01 22:21:15,644] telethon.client.updates: Unhandled exception on git_link
+2021-07-01T16:51:15.658335+00:00 app[ultroid.1]: Traceback (most recent call last):
+2021-07-01T16:51:15.658337+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 454, in _dispatch_update
+2021-07-01T16:51:15.658337+00:00 app[ultroid.1]:     await callback(event)
+2021-07-01T16:51:15.658338+00:00 app[ultroid.1]:   File "/root/TeamUltroid/addons/eris_git.py", line 121, in git_link
+2021-07-01T16:51:15.658339+00:00 app[ultroid.1]:     if str(userid) not in owner_and_sudos():
+2021-07-01T16:51:15.658340+00:00 app[ultroid.1]: TypeError: argument of type 'function' is not iterable
+2021-07-01T16:51:15.663069+00:00 app[ultroid.1]: [ERROR/2021-07-01 22:21:15,662] telethon.client.updates: Unhandled exception on git_link
+2021-07-01T16:51:15.663071+00:00 app[ultroid.1]: Traceback (most recent call last):
+2021-07-01T16:51:15.663073+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 454, in _dispatch_update
+2021-07-01T16:51:15.663073+00:00 app[ultroid.1]:     await callback(event)
+2021-07-01T16:51:15.663074+00:00 app[ultroid.1]:   File "/root/TeamUltroid/addons/eris_git.py", line 121, in git_link
+2021-07-01T16:51:15.663075+00:00 app[ultroid.1]:     if str(userid) not in owner_and_sudos():
+2021-07-01T16:51:15.663075+00:00 app[ultroid.1]: TypeError: argument of type 'function' is not iterable
+2021-07-01T16:51:40.163846+00:00 app[ultroid.1]: [ INFO/2021-07-01 22:21:40,163] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2021-07-01T16:51:50.930668+00:00 app[ultroid.1]: [ INFO/2021-07-01 22:21:50,930] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2021-07-01T16:51:50.974923+00:00 app[ultroid.1]: [ INFO/2021-07-01 22:21:50,974] telethon.client.downloads: File lives in another DC
+2021-07-01T16:51:53.533310+00:00 app[ultroid.1]: [ERROR/2021-07-01 22:21:53,532] telethon.client.updates: Unhandled exception on git_link
+2021-07-01T16:51:53.533321+00:00 app[ultroid.1]: Traceback (most recent call last):
+2021-07-01T16:51:53.533322+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 454, in _dispatch_update
+2021-07-01T16:51:53.533323+00:00 app[ultroid.1]:     await callback(event)
+2021-07-01T16:51:53.533323+00:00 app[ultroid.1]:   File "/root/TeamUltroid/addons/eris_git.py", line 133, in git_link
+2021-07-01T16:51:53.533324+00:00 app[ultroid.1]:     ],
+2021-07-01T16:51:53.533324+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/events/inlinequery.py", line 228, in answer
+2021-07-01T16:51:53.533325+00:00 app[ultroid.1]:     return await self._client(
+2021-07-01T16:51:53.533325+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+2021-07-01T16:51:53.533326+00:00 app[ultroid.1]:     return await self._call(self._sender, request, ordered=ordered)
+2021-07-01T16:51:53.533326+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/client/users.py", line 79, in _call
+2021-07-01T16:51:53.533326+00:00 app[ultroid.1]:     result = await future
+2021-07-01T16:51:53.533327+00:00 app[ultroid.1]: telethon.errors.rpcerrorlist.ButtonUrlInvalidError: Button URL invalid (caused by SetInlineBotResultsRequest)
+2021-07-01T16:51:53.533749+00:00 app[ultroid.1]: [ERROR/2021-07-01 22:21:53,533] telethon.client.updates: Unhandled exception on git_link
+2021-07-01T16:51:53.533751+00:00 app[ultroid.1]: Traceback (most recent call last):
+2021-07-01T16:51:53.533751+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 454, in _dispatch_update
+2021-07-01T16:51:53.533752+00:00 app[ultroid.1]:     await callback(event)
+2021-07-01T16:51:53.533752+00:00 app[ultroid.1]:   File "/root/TeamUltroid/addons/eris_git.py", line 121, in git_link
+2021-07-01T16:51:53.533753+00:00 app[ultroid.1]:     return
+2021-07-01T16:51:53.533754+00:00 app[ultroid.1]: TypeError: argument of type 'function' is not iterable
+2021-07-01T16:51:53.534084+00:00 app[ultroid.1]: [ERROR/2021-07-01 22:21:53,533] telethon.client.updates: Unhandled exception on git_link
+2021-07-01T16:51:53.534085+00:00 app[ultroid.1]: Traceback (most recent call last):
+2021-07-01T16:51:53.534085+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 454, in _dispatch_update
+2021-07-01T16:51:53.534086+00:00 app[ultroid.1]:     await callback(event)
+2021-07-01T16:51:53.534086+00:00 app[ultroid.1]:   File "/root/TeamUltroid/addons/eris_git.py", line 121, in git_link
+2021-07-01T16:51:53.534087+00:00 app[ultroid.1]:     return
+2021-07-01T16:51:53.534087+00:00 app[ultroid.1]: TypeError: argument of type 'function' is not iterable
+2021-07-01T16:52:06.161623+00:00 app[ultroid.1]: [ERROR/2021-07-01 22:22:06,160] telethon.client.updates: Unhandled exception on git_link
+2021-07-01T16:52:06.161642+00:00 app[ultroid.1]: Traceback (most recent call last):
+2021-07-01T16:52:06.161643+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 454, in _dispatch_update
+2021-07-01T16:52:06.161644+00:00 app[ultroid.1]:     await callback(event)
+2021-07-01T16:52:06.161645+00:00 app[ultroid.1]:   File "/root/TeamUltroid/addons/eris_git.py", line 133, in git_link
+2021-07-01T16:52:06.161646+00:00 app[ultroid.1]:     ],
+2021-07-01T16:52:06.161647+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/events/inlinequery.py", line 228, in answer
+2021-07-01T16:52:06.161647+00:00 app[ultroid.1]:     return await self._client(
+2021-07-01T16:52:06.161648+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+2021-07-01T16:52:06.161648+00:00 app[ultroid.1]:     return await self._call(self._sender, request, ordered=ordered)
+2021-07-01T16:52:06.161648+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/client/users.py", line 79, in _call
+2021-07-01T16:52:06.161649+00:00 app[ultroid.1]:     result = await future
+2021-07-01T16:52:06.161649+00:00 app[ultroid.1]: telethon.errors.rpcerrorlist.ButtonUrlInvalidError: Button URL invalid (caused by SetInlineBotResultsRequest)
+2021-07-01T16:52:06.162180+00:00 app[ultroid.1]: [ERROR/2021-07-01 22:22:06,161] telethon.client.updates: Unhandled exception on git_link
+2021-07-01T16:52:06.162182+00:00 app[ultroid.1]: Traceback (most recent call last):
+2021-07-01T16:52:06.162191+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 454, in _dispatch_update
+2021-07-01T16:52:06.162192+00:00 app[ultroid.1]:     await callback(event)
+2021-07-01T16:52:06.162193+00:00 app[ultroid.1]:   File "/root/TeamUltroid/addons/eris_git.py", line 121, in git_link
+2021-07-01T16:52:06.162194+00:00 app[ultroid.1]:     return
+2021-07-01T16:52:06.162195+00:00 app[ultroid.1]: TypeError: argument of type 'function' is not iterable
+2021-07-01T16:52:06.162820+00:00 app[ultroid.1]: [ERROR/2021-07-01 22:22:06,162] telethon.client.updates: Unhandled exception on git_link
+2021-07-01T16:52:06.162820+00:00 app[ultroid.1]: Traceback (most recent call last):
+2021-07-01T16:52:06.162821+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 454, in _dispatch_update
+2021-07-01T16:52:06.162821+00:00 app[ultroid.1]:     await callback(event)
+2021-07-01T16:52:06.162822+00:00 app[ultroid.1]:   File "/root/TeamUltroid/addons/eris_git.py", line 121, in git_link
+2021-07-01T16:52:06.162822+00:00 app[ultroid.1]:     return
+2021-07-01T16:52:06.162823+00:00 app[ultroid.1]: TypeError: argument of type 'function' is not iterable
