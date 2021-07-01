@@ -1,0 +1,100 @@
+2021-07-01T04:05:18.056658+00:00 app[ultroid.1]: [ INFO/2021-07-01 09:35:18,056] pyUltroid: Ultroid - PLUGIN_CHANNEL - Installed - off_bio
+2021-07-01T04:05:18.658481+00:00 app[ultroid.1]: [ INFO/2021-07-01 09:35:18,658] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2021-07-01T04:05:18.724847+00:00 app[ultroid.1]: [ INFO/2021-07-01 09:35:18,724] pyUltroid: Ultroid - PLUGIN_CHANNEL - Installed - FLAC
+2021-07-01T04:05:19.468446+00:00 app[ultroid.1]: [ INFO/2021-07-01 09:35:19,468] pyUltroid: 
+2021-07-01T04:05:19.468457+00:00 app[ultroid.1]:                 ----------------------------------------------------------------------
+2021-07-01T04:05:19.468458+00:00 app[ultroid.1]:                     Ultroid has been deployed! Visit @TheUltroid for updates!!
+2021-07-01T04:05:19.468458+00:00 app[ultroid.1]:                 ----------------------------------------------------------------------
+2021-07-01T04:05:19.468459+00:00 app[ultroid.1]: 
+2021-07-01T04:06:19.219999+00:00 app[ultroid.1]: [ INFO/2021-07-01 09:36:19,219] telethon.client.telegrambaseclient: Disconnecting borrowed sender for DC 5
+2021-07-01T04:06:19.220500+00:00 app[ultroid.1]: [ INFO/2021-07-01 09:36:19,220] telethon.network.mtprotosender: Disconnecting from 91.108.56.117:443/TcpFull...
+2021-07-01T04:06:19.222375+00:00 app[ultroid.1]: [ INFO/2021-07-01 09:36:19,222] telethon.network.mtprotosender: Disconnection from 91.108.56.117:443/TcpFull complete!
+2021-07-01T04:06:27.281477+00:00 app[ultroid.1]: [ INFO/2021-07-01 09:36:27,281] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2021-07-01T04:20:12.198288+00:00 app[ultroid.1]: [ERROR/2021-07-01 09:50:12,193] telethon.client.updates: Unhandled exception on _
+2021-07-01T04:20:12.198333+00:00 app[ultroid.1]: Traceback (most recent call last):
+2021-07-01T04:20:12.198343+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/pyUltroid/functions/all.py", line 1570, in def_logs
+2021-07-01T04:20:12.198344+00:00 app[ultroid.1]:     requests.post("https://nekobin.com/api/documents", json={"content": ok})
+2021-07-01T04:20:12.198345+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/requests/models.py", line 900, in json
+2021-07-01T04:20:12.198346+00:00 app[ultroid.1]:     return complexjson.loads(self.text, **kwargs)
+2021-07-01T04:20:12.198346+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/simplejson/__init__.py", line 525, in loads
+2021-07-01T04:20:12.198347+00:00 app[ultroid.1]:     return _default_decoder.decode(s)
+2021-07-01T04:20:12.198347+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/simplejson/decoder.py", line 370, in decode
+2021-07-01T04:20:12.198347+00:00 app[ultroid.1]:     obj, end = self.raw_decode(s)
+2021-07-01T04:20:12.198347+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/simplejson/decoder.py", line 400, in raw_decode
+2021-07-01T04:20:12.198348+00:00 app[ultroid.1]:     return self.scan_once(s, idx=_w(s, idx).end())
+2021-07-01T04:20:12.198348+00:00 app[ultroid.1]: simplejson.errors.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2021-07-01T04:20:12.198349+00:00 app[ultroid.1]: 
+2021-07-01T04:20:12.198349+00:00 app[ultroid.1]: During handling of the above exception, another exception occurred:
+2021-07-01T04:20:12.198350+00:00 app[ultroid.1]: 
+2021-07-01T04:20:12.198350+00:00 app[ultroid.1]: Traceback (most recent call last):
+2021-07-01T04:20:12.198350+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/urllib3/connection.py", line 169, in _new_conn
+2021-07-01T04:20:12.198350+00:00 app[ultroid.1]:     conn = connection.create_connection(
+2021-07-01T04:20:12.198351+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/urllib3/util/connection.py", line 96, in create_connection
+2021-07-01T04:20:12.198351+00:00 app[ultroid.1]:     raise err
+2021-07-01T04:20:12.198351+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/urllib3/util/connection.py", line 86, in create_connection
+2021-07-01T04:20:12.198352+00:00 app[ultroid.1]:     sock.connect(sa)
+2021-07-01T04:20:12.198352+00:00 app[ultroid.1]: OSError: [Errno 101] Network is unreachable
+2021-07-01T04:20:12.198352+00:00 app[ultroid.1]: 
+2021-07-01T04:20:12.198352+00:00 app[ultroid.1]: During handling of the above exception, another exception occurred:
+2021-07-01T04:20:12.198353+00:00 app[ultroid.1]: 
+2021-07-01T04:20:12.198353+00:00 app[ultroid.1]: Traceback (most recent call last):
+2021-07-01T04:20:12.198353+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/urllib3/connectionpool.py", line 699, in urlopen
+2021-07-01T04:20:12.198353+00:00 app[ultroid.1]:     httplib_response = self._make_request(
+2021-07-01T04:20:12.198353+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/urllib3/connectionpool.py", line 382, in _make_request
+2021-07-01T04:20:12.198354+00:00 app[ultroid.1]:     self._validate_conn(conn)
+2021-07-01T04:20:12.198354+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/urllib3/connectionpool.py", line 1010, in _validate_conn
+2021-07-01T04:20:12.198354+00:00 app[ultroid.1]:     conn.connect()
+2021-07-01T04:20:12.198354+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/urllib3/connection.py", line 353, in connect
+2021-07-01T04:20:12.198354+00:00 app[ultroid.1]:     conn = self._new_conn()
+2021-07-01T04:20:12.198354+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/urllib3/connection.py", line 181, in _new_conn
+2021-07-01T04:20:12.198355+00:00 app[ultroid.1]:     raise NewConnectionError(
+2021-07-01T04:20:12.198356+00:00 app[ultroid.1]: urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x7fd38b575bb0>: Failed to establish a new connection: [Errno 101] Network is unreachable
+2021-07-01T04:20:12.198356+00:00 app[ultroid.1]: 
+2021-07-01T04:20:12.198356+00:00 app[ultroid.1]: During handling of the above exception, another exception occurred:
+2021-07-01T04:20:12.198356+00:00 app[ultroid.1]: 
+2021-07-01T04:20:12.198356+00:00 app[ultroid.1]: Traceback (most recent call last):
+2021-07-01T04:20:12.198357+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/requests/adapters.py", line 439, in send
+2021-07-01T04:20:12.198357+00:00 app[ultroid.1]:     resp = conn.urlopen(
+2021-07-01T04:20:12.198357+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/urllib3/connectionpool.py", line 755, in urlopen
+2021-07-01T04:20:12.198357+00:00 app[ultroid.1]:     retries = retries.increment(
+2021-07-01T04:20:12.198357+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/urllib3/util/retry.py", line 574, in increment
+2021-07-01T04:20:12.198357+00:00 app[ultroid.1]:     raise MaxRetryError(_pool, url, error or ResponseError(cause))
+2021-07-01T04:20:12.198359+00:00 app[ultroid.1]: urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='del.dog', port=443): Max retries exceeded with url: /documents (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fd38b575bb0>: Failed to establish a new connection: [Errno 101] Network is unreachable'))
+2021-07-01T04:20:12.198359+00:00 app[ultroid.1]: 
+2021-07-01T04:20:12.198359+00:00 app[ultroid.1]: During handling of the above exception, another exception occurred:
+2021-07-01T04:20:12.198359+00:00 app[ultroid.1]: 
+2021-07-01T04:20:12.198359+00:00 app[ultroid.1]: Traceback (most recent call last):
+2021-07-01T04:20:12.198360+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 454, in _dispatch_update
+2021-07-01T04:20:12.198360+00:00 app[ultroid.1]:     await callback(event)
+2021-07-01T04:20:12.198360+00:00 app[ultroid.1]:   File "/root/TeamUltroid/plugins/bot.py", line 138, in _
+2021-07-01T04:20:12.198360+00:00 app[ultroid.1]:     await def_logs(event)
+2021-07-01T04:20:12.198360+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/pyUltroid/functions/all.py", line 1578, in def_logs
+2021-07-01T04:20:12.198361+00:00 app[ultroid.1]:     requests.post("https://del.dog/documents", data=ok.encode("UTF-8"))
+2021-07-01T04:20:12.198361+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/requests/api.py", line 119, in post
+2021-07-01T04:20:12.198361+00:00 app[ultroid.1]:     return request('post', url, data=data, json=json, **kwargs)
+2021-07-01T04:20:12.198361+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/requests/api.py", line 61, in request
+2021-07-01T04:20:12.198361+00:00 app[ultroid.1]:     return session.request(method=method, url=url, **kwargs)
+2021-07-01T04:20:12.198361+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/requests/sessions.py", line 542, in request
+2021-07-01T04:20:12.198362+00:00 app[ultroid.1]:     resp = self.send(prep, **send_kwargs)
+2021-07-01T04:20:12.198370+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/requests/sessions.py", line 655, in send
+2021-07-01T04:20:12.198370+00:00 app[ultroid.1]:     r = adapter.send(request, **kwargs)
+2021-07-01T04:20:12.198370+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/requests/adapters.py", line 516, in send
+2021-07-01T04:20:12.198370+00:00 app[ultroid.1]:     raise ConnectionError(e, request=request)
+2021-07-01T04:20:12.198370+00:00 app[ultroid.1]: requests.exceptions.ConnectionError: HTTPSConnectionPool(host='del.dog', port=443): Max retries exceeded with url: /documents (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fd38b575bb0>: Failed to establish a new connection: [Errno 101] Network is unreachable'))
+2021-07-01T04:27:02.406367+00:00 app[ultroid.1]: [WARNING/2021-07-01 09:57:02,406] py.warnings: /usr/local/lib/python3.9/site-packages/urllib3/connectionpool.py:1013: InsecureRequestWarning: Unverified HTTPS request is being made to host 'virginia.sessions.logs.heroku.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+2021-07-01T04:27:02.406377+00:00 app[ultroid.1]:   warnings.warn(
+2021-07-01T04:27:02.406379+00:00 app[ultroid.1]: 
+2021-07-01T04:27:02.487927+00:00 app[ultroid.1]: [ INFO/2021-07-01 09:57:02,487] telethon.client.uploads: Uploading file of 12438 bytes in 1 chunks of 131072
+2021-07-01T04:40:20.925912+00:00 app[ultroid.1]: [ INFO/2021-07-01 10:10:20,925] telethon.client.uploads: Uploading file of 12438 bytes in 1 chunks of 131072
+2021-07-01T05:04:16.145437+00:00 app[ultroid.1]: [ INFO/2021-07-01 10:34:16,145] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2021-07-01T05:11:06.762824+00:00 app[ultroid.1]: [ INFO/2021-07-01 10:41:06,762] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2021-07-01T05:11:12.250616+00:00 app[ultroid.1]: [WARNING/2021-07-01 10:41:12,250] py.warnings: /usr/local/lib/python3.9/site-packages/urllib3/connectionpool.py:1013: InsecureRequestWarning: Unverified HTTPS request is being made to host 'virginia.sessions.logs.heroku.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+2021-07-01T05:11:12.250629+00:00 app[ultroid.1]:   warnings.warn(
+2021-07-01T05:11:12.250630+00:00 app[ultroid.1]: 
+2021-07-01T05:11:12.320337+00:00 app[ultroid.1]: [ INFO/2021-07-01 10:41:12,320] telethon.client.uploads: Uploading file of 12544 bytes in 1 chunks of 131072
+2021-07-01T05:15:26.796334+00:00 app[ultroid.1]: [ INFO/2021-07-01 10:45:26,796] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2021-07-01T05:15:31.397045+00:00 app[ultroid.1]: [WARNING/2021-07-01 10:45:31,396] py.warnings: /usr/local/lib/python3.9/site-packages/urllib3/connectionpool.py:1013: InsecureRequestWarning: Unverified HTTPS request is being made to host 'virginia.sessions.logs.heroku.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+2021-07-01T05:15:31.397060+00:00 app[ultroid.1]:   warnings.warn(
+2021-07-01T05:15:31.397060+00:00 app[ultroid.1]: 
+2021-07-01T05:15:31.469121+00:00 app[ultroid.1]: [ INFO/2021-07-01 10:45:31,468] telethon.client.uploads: Uploading file of 12632 bytes in 1 chunks of 131072
+2021-07-01T05:20:18.040835+00:00 app[ultroid.1]: [ INFO/2021-07-01 10:50:18,040] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
