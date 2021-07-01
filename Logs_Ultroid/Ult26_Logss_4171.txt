@@ -1,0 +1,100 @@
+2021-07-01T12:44:41.577636+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/utils.py", line 346, in get_input_document
+2021-07-01T12:44:41.577637+00:00 app[ultroid.1]:     _raise_cast_fail(document, 'InputDocument')
+2021-07-01T12:44:41.577637+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/utils.py", line 138, in _raise_cast_fail
+2021-07-01T12:44:41.577637+00:00 app[ultroid.1]:     raise TypeError('Cannot cast {} to any kind of {}.'.format(
+2021-07-01T12:44:41.577638+00:00 app[ultroid.1]: TypeError: Cannot cast MessageMediaPhoto to any kind of InputDocument.
+2021-07-01T12:44:41.577639+00:00 app[ultroid.1]: 
+2021-07-01T12:44:41.577639+00:00 app[ultroid.1]: During handling of the above exception, another exception occurred:
+2021-07-01T12:44:41.577639+00:00 app[ultroid.1]: 
+2021-07-01T12:44:41.577639+00:00 app[ultroid.1]: Traceback (most recent call last):
+2021-07-01T12:44:41.577640+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 454, in _dispatch_update
+2021-07-01T12:44:41.577640+00:00 app[ultroid.1]:     await callback(event)
+2021-07-01T12:44:41.577641+00:00 app[ultroid.1]:   File "/root/TeamUltroid/addons/btnsss.py", line 113, in query_ibutton
+2021-07-01T12:44:41.577641+00:00 app[ultroid.1]:     await event.answer([result] if result else None)
+2021-07-01T12:44:41.577641+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/events/inlinequery.py", line 221, in answer
+2021-07-01T12:44:41.577641+00:00 app[ultroid.1]:     results = [x.result() for x in futures]
+2021-07-01T12:44:41.577641+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/events/inlinequery.py", line 221, in <listcomp>
+2021-07-01T12:44:41.577642+00:00 app[ultroid.1]:     results = [x.result() for x in futures]
+2021-07-01T12:44:41.577642+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/tl/custom/inlinebuilder.py", line 314, in document
+2021-07-01T12:44:41.577642+00:00 app[ultroid.1]:     r = await self._client(functions.messages.UploadMediaRequest(
+2021-07-01T12:44:41.577642+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/client/users.py", line 79, in _call
+2021-07-01T12:44:41.577643+00:00 app[ultroid.1]:     result = await future
+2021-07-01T12:44:41.577643+00:00 app[ultroid.1]: telethon.errors.rpcerrorlist.MediaInvalidError: Media invalid (caused by UploadMediaRequest)
+2021-07-01T12:44:50.299964+00:00 app[ultroid.1]: [WARNING/2021-07-01 18:14:50,299] py.warnings: /usr/local/lib/python3.9/site-packages/urllib3/connectionpool.py:1013: InsecureRequestWarning: Unverified HTTPS request is being made to host 'virginia.sessions.logs.heroku.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+2021-07-01T12:44:50.299981+00:00 app[ultroid.1]:   warnings.warn(
+2021-07-01T12:44:50.299983+00:00 app[ultroid.1]: 
+2021-07-01T12:44:50.373964+00:00 app[ultroid.1]: [ INFO/2021-07-01 18:14:50,373] telethon.client.uploads: Uploading file of 12757 bytes in 1 chunks of 131072
+2021-07-01T13:44:25.642852+00:00 app[ultroid.1]: [ERROR/2021-07-01 19:14:25,642] telethon.client.updates: Unhandled exception on query_ibutton
+2021-07-01T13:44:25.642864+00:00 app[ultroid.1]: Traceback (most recent call last):
+2021-07-01T13:44:25.642865+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 454, in _dispatch_update
+2021-07-01T13:44:25.642866+00:00 app[ultroid.1]:     await callback(event)
+2021-07-01T13:44:25.642866+00:00 app[ultroid.1]:   File "<string>", line 11, in query_ibutton
+2021-07-01T13:44:25.642867+00:00 app[ultroid.1]: NameError: name 'query' is not defined
+2021-07-01T13:44:35.891763+00:00 app[ultroid.1]: [ERROR/2021-07-01 19:14:35,891] telethon.client.updates: Unhandled exception on query_ibutton
+2021-07-01T13:44:35.891773+00:00 app[ultroid.1]: Traceback (most recent call last):
+2021-07-01T13:44:35.891800+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 454, in _dispatch_update
+2021-07-01T13:44:35.891801+00:00 app[ultroid.1]:     await callback(event)
+2021-07-01T13:44:35.891802+00:00 app[ultroid.1]:   File "<string>", line 11, in query_ibutton
+2021-07-01T13:44:35.891802+00:00 app[ultroid.1]: NameError: name 'query' is not defined
+2021-07-01T13:44:37.307727+00:00 app[ultroid.1]: [ERROR/2021-07-01 19:14:37,307] telethon.client.updates: Unhandled exception on query_ibutton
+2021-07-01T13:44:37.307742+00:00 app[ultroid.1]: Traceback (most recent call last):
+2021-07-01T13:44:37.307760+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 454, in _dispatch_update
+2021-07-01T13:44:37.307761+00:00 app[ultroid.1]:     await callback(event)
+2021-07-01T13:44:37.307761+00:00 app[ultroid.1]:   File "<string>", line 11, in query_ibutton
+2021-07-01T13:44:37.307761+00:00 app[ultroid.1]: NameError: name 'query' is not defined
+2021-07-01T13:44:38.778855+00:00 app[ultroid.1]: [ERROR/2021-07-01 19:14:38,778] telethon.client.updates: Unhandled exception on query_ibutton
+2021-07-01T13:44:38.778871+00:00 app[ultroid.1]: Traceback (most recent call last):
+2021-07-01T13:44:38.778872+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 454, in _dispatch_update
+2021-07-01T13:44:38.778872+00:00 app[ultroid.1]:     await callback(event)
+2021-07-01T13:44:38.778873+00:00 app[ultroid.1]:   File "<string>", line 11, in query_ibutton
+2021-07-01T13:44:38.778873+00:00 app[ultroid.1]: NameError: name 'query' is not defined
+2021-07-01T13:44:42.242190+00:00 app[ultroid.1]: [ERROR/2021-07-01 19:14:42,241] telethon.client.updates: Unhandled exception on query_ibutton
+2021-07-01T13:44:42.242202+00:00 app[ultroid.1]: Traceback (most recent call last):
+2021-07-01T13:44:42.242203+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 454, in _dispatch_update
+2021-07-01T13:44:42.242204+00:00 app[ultroid.1]:     await callback(event)
+2021-07-01T13:44:42.242205+00:00 app[ultroid.1]:   File "<string>", line 11, in query_ibutton
+2021-07-01T13:44:42.242205+00:00 app[ultroid.1]: NameError: name 'query' is not defined
+2021-07-01T13:44:45.402953+00:00 app[ultroid.1]: [ERROR/2021-07-01 19:14:45,402] telethon.client.updates: Unhandled exception on query_ibutton
+2021-07-01T13:44:45.402962+00:00 app[ultroid.1]: Traceback (most recent call last):
+2021-07-01T13:44:45.402963+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 454, in _dispatch_update
+2021-07-01T13:44:45.402964+00:00 app[ultroid.1]:     await callback(event)
+2021-07-01T13:44:45.402964+00:00 app[ultroid.1]:   File "<string>", line 11, in query_ibutton
+2021-07-01T13:44:45.402965+00:00 app[ultroid.1]: NameError: name 'query' is not defined
+2021-07-01T13:46:21.864111+00:00 app[ultroid.1]: [ERROR/2021-07-01 19:16:21,863] telethon.client.updates: Unhandled exception on query_ibutton
+2021-07-01T13:46:21.864129+00:00 app[ultroid.1]: Traceback (most recent call last):
+2021-07-01T13:46:21.864130+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 454, in _dispatch_update
+2021-07-01T13:46:21.864132+00:00 app[ultroid.1]:     await callback(event)
+2021-07-01T13:46:21.864132+00:00 app[ultroid.1]:   File "<string>", line 11, in query_ibutton
+2021-07-01T13:46:21.864132+00:00 app[ultroid.1]: NameError: name 'query' is not defined
+2021-07-01T13:54:18.981989+00:00 app[ultroid.1]: [ERROR/2021-07-01 19:24:18,981] telethon.client.updates: Unhandled exception on query_ibutton
+2021-07-01T13:54:18.982006+00:00 app[ultroid.1]: Traceback (most recent call last):
+2021-07-01T13:54:18.982018+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 454, in _dispatch_update
+2021-07-01T13:54:18.982019+00:00 app[ultroid.1]:     await callback(event)
+2021-07-01T13:54:18.982019+00:00 app[ultroid.1]:   File "<string>", line 9, in query_ibutton
+2021-07-01T13:54:18.982021+00:00 app[ultroid.1]: TypeError: photo() got an unexpected keyword argument 'description'
+2021-07-01T13:54:25.384711+00:00 app[ultroid.1]: [WARNING/2021-07-01 19:24:25,384] py.warnings: /usr/local/lib/python3.9/site-packages/urllib3/connectionpool.py:1013: InsecureRequestWarning: Unverified HTTPS request is being made to host 'virginia.sessions.logs.heroku.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+2021-07-01T13:54:25.384751+00:00 app[ultroid.1]:   warnings.warn(
+2021-07-01T13:54:25.384751+00:00 app[ultroid.1]: 
+2021-07-01T13:54:25.455895+00:00 app[ultroid.1]: [ INFO/2021-07-01 19:24:25,455] telethon.client.uploads: Uploading file of 12332 bytes in 1 chunks of 131072
+2021-07-01T13:55:25.566675+00:00 app[ultroid.1]: [ERROR/2021-07-01 19:25:25,566] telethon.client.updates: Unhandled exception on query_ibutton
+2021-07-01T13:55:25.566721+00:00 app[ultroid.1]: Traceback (most recent call last):
+2021-07-01T13:55:25.566722+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 454, in _dispatch_update
+2021-07-01T13:55:25.566723+00:00 app[ultroid.1]:     await callback(event)
+2021-07-01T13:55:25.566723+00:00 app[ultroid.1]:   File "<string>", line 9, in query_ibutton
+2021-07-01T13:55:25.566724+00:00 app[ultroid.1]: TypeError: photo() got an unexpected keyword argument 'title'
+2021-07-01T13:55:34.192094+00:00 app[ultroid.1]: [WARNING/2021-07-01 19:25:34,191] py.warnings: /usr/local/lib/python3.9/site-packages/urllib3/connectionpool.py:1013: InsecureRequestWarning: Unverified HTTPS request is being made to host 'virginia.sessions.logs.heroku.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+2021-07-01T13:55:34.192130+00:00 app[ultroid.1]:   warnings.warn(
+2021-07-01T13:55:34.192132+00:00 app[ultroid.1]: 
+2021-07-01T13:55:34.278530+00:00 app[ultroid.1]: [ INFO/2021-07-01 19:25:34,278] telethon.client.uploads: Uploading file of 12048 bytes in 1 chunks of 131072
+2021-07-01T13:56:17.910546+00:00 app[ultroid.1]: [ERROR/2021-07-01 19:26:17,909] telethon.client.updates: Unhandled exception on query_ibutton
+2021-07-01T13:56:17.910565+00:00 app[ultroid.1]: Traceback (most recent call last):
+2021-07-01T13:56:17.910565+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 454, in _dispatch_update
+2021-07-01T13:56:17.910566+00:00 app[ultroid.1]:     await callback(event)
+2021-07-01T13:56:17.910566+00:00 app[ultroid.1]:   File "<string>", line 9, in query_ibutton
+2021-07-01T13:56:17.910568+00:00 app[ultroid.1]: TypeError: photo() got an unexpected keyword argument 'url'
+2021-07-01T13:56:52.551305+00:00 app[ultroid.1]: [ERROR/2021-07-01 19:26:52,550] telethon.client.updates: Unhandled exception on query_ibutton
+2021-07-01T13:56:52.551316+00:00 app[ultroid.1]: Traceback (most recent call last):
+2021-07-01T13:56:52.551325+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 454, in _dispatch_update
+2021-07-01T13:56:52.551327+00:00 app[ultroid.1]:     await callback(event)
+2021-07-01T13:56:52.551327+00:00 app[ultroid.1]:   File "<string>", line 9, in query_ibutton
+2021-07-01T13:56:52.551328+00:00 app[ultroid.1]: TypeError: photo() got an unexpected keyword argument 'url'
