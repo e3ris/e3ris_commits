@@ -1,0 +1,100 @@
+2021-07-02T03:28:21.492342+00:00 app[ultroid.1]:     results = [x.result() for x in futures]
+2021-07-02T03:28:21.492342+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/events/inlinequery.py", line 221, in <listcomp>
+2021-07-02T03:28:21.492343+00:00 app[ultroid.1]:     results = [x.result() for x in futures]
+2021-07-02T03:28:21.492343+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/tl/custom/inlinebuilder.py", line 314, in document
+2021-07-02T03:28:21.492344+00:00 app[ultroid.1]:     r = await self._client(functions.messages.UploadMediaRequest(
+2021-07-02T03:28:21.492344+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/client/users.py", line 79, in _call
+2021-07-02T03:28:21.492344+00:00 app[ultroid.1]:     result = await future
+2021-07-02T03:28:21.492345+00:00 app[ultroid.1]: telethon.errors.rpcerrorlist.MediaInvalidError: Media invalid (caused by UploadMediaRequest)
+2021-07-02T03:28:21.608308+00:00 app[ultroid.1]: [ERROR/2021-07-02 08:58:21,607] telethon.client.updates: Unhandled exception on query_ibutton
+2021-07-02T03:28:21.608310+00:00 app[ultroid.1]: Traceback (most recent call last):
+2021-07-02T03:28:21.608311+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 454, in _dispatch_update
+2021-07-02T03:28:21.608311+00:00 app[ultroid.1]:     await callback(event)
+2021-07-02T03:28:21.608312+00:00 app[ultroid.1]:   File "/root/TeamUltroid/addons/btnsss.py", line 78, in query_ibutton
+2021-07-02T03:28:21.608312+00:00 app[ultroid.1]:     if type == None:
+2021-07-02T03:28:21.608313+00:00 app[ultroid.1]: TypeError: article() missing 1 required positional argument: 'title'
+2021-07-02T03:28:21.899492+00:00 app[ultroid.1]: [ERROR/2021-07-02 08:58:21,898] telethon.client.updates: Unhandled exception on query_ibutton
+2021-07-02T03:28:21.899504+00:00 app[ultroid.1]: Traceback (most recent call last):
+2021-07-02T03:28:21.899505+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 454, in _dispatch_update
+2021-07-02T03:28:21.899505+00:00 app[ultroid.1]:     await callback(event)
+2021-07-02T03:28:21.899506+00:00 app[ultroid.1]:   File "/root/TeamUltroid/addons/btnsss.py", line 70, in query_ibutton
+2021-07-02T03:28:21.899507+00:00 app[ultroid.1]:     else:
+2021-07-02T03:28:21.899507+00:00 app[ultroid.1]:   File "/root/TeamUltroid/addons/btnsss.py", line 266, in ibuild_keyboard
+2021-07-02T03:28:21.899508+00:00 app[ultroid.1]:     return keyb
+2021-07-02T03:28:21.899508+00:00 app[ultroid.1]: IndexError: list index out of range
+2021-07-02T03:28:21.985039+00:00 app[ultroid.1]: [ERROR/2021-07-02 08:58:21,984] telethon.client.updates: Unhandled exception on query_ibutton
+2021-07-02T03:28:21.985042+00:00 app[ultroid.1]: Traceback (most recent call last):
+2021-07-02T03:28:21.985043+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/tl/custom/inlinebuilder.py", line 300, in document
+2021-07-02T03:28:21.985043+00:00 app[ultroid.1]:     fh = utils.get_input_document(file)
+2021-07-02T03:28:21.985043+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/utils.py", line 344, in get_input_document
+2021-07-02T03:28:21.985044+00:00 app[ultroid.1]:     return get_input_document(document.media)
+2021-07-02T03:28:21.985044+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/utils.py", line 346, in get_input_document
+2021-07-02T03:28:21.985045+00:00 app[ultroid.1]:     _raise_cast_fail(document, 'InputDocument')
+2021-07-02T03:28:21.985045+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/utils.py", line 138, in _raise_cast_fail
+2021-07-02T03:28:21.985046+00:00 app[ultroid.1]:     raise TypeError('Cannot cast {} to any kind of {}.'.format(
+2021-07-02T03:28:21.985047+00:00 app[ultroid.1]: TypeError: Cannot cast MessageMediaPhoto to any kind of InputDocument.
+2021-07-02T03:28:21.985047+00:00 app[ultroid.1]: 
+2021-07-02T03:28:21.985048+00:00 app[ultroid.1]: During handling of the above exception, another exception occurred:
+2021-07-02T03:28:21.985048+00:00 app[ultroid.1]: 
+2021-07-02T03:28:21.985048+00:00 app[ultroid.1]: Traceback (most recent call last):
+2021-07-02T03:28:21.985049+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 454, in _dispatch_update
+2021-07-02T03:28:21.985049+00:00 app[ultroid.1]:     await callback(event)
+2021-07-02T03:28:21.985050+00:00 app[ultroid.1]:   File "/root/TeamUltroid/addons/btnsss.py", line 113, in query_ibutton
+2021-07-02T03:28:21.985050+00:00 app[ultroid.1]:     eris = await e.reply(">>>")
+2021-07-02T03:28:21.985050+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/events/inlinequery.py", line 221, in answer
+2021-07-02T03:28:21.985051+00:00 app[ultroid.1]:     results = [x.result() for x in futures]
+2021-07-02T03:28:21.985065+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/events/inlinequery.py", line 221, in <listcomp>
+2021-07-02T03:28:21.985065+00:00 app[ultroid.1]:     results = [x.result() for x in futures]
+2021-07-02T03:28:21.985065+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/tl/custom/inlinebuilder.py", line 314, in document
+2021-07-02T03:28:21.985066+00:00 app[ultroid.1]:     r = await self._client(functions.messages.UploadMediaRequest(
+2021-07-02T03:28:21.985066+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/client/users.py", line 79, in _call
+2021-07-02T03:28:21.985067+00:00 app[ultroid.1]:     result = await future
+2021-07-02T03:28:21.985067+00:00 app[ultroid.1]: telethon.errors.rpcerrorlist.MediaInvalidError: Media invalid (caused by UploadMediaRequest)
+2021-07-02T03:28:22.019674+00:00 app[ultroid.1]: [ERROR/2021-07-02 08:58:22,019] telethon.client.updates: Unhandled exception on query_ibutton
+2021-07-02T03:28:22.019676+00:00 app[ultroid.1]: Traceback (most recent call last):
+2021-07-02T03:28:22.019677+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 454, in _dispatch_update
+2021-07-02T03:28:22.019678+00:00 app[ultroid.1]:     await callback(event)
+2021-07-02T03:28:22.019678+00:00 app[ultroid.1]:   File "/root/TeamUltroid/addons/btnsss.py", line 70, in query_ibutton
+2021-07-02T03:28:22.019679+00:00 app[ultroid.1]:     else:
+2021-07-02T03:28:22.019680+00:00 app[ultroid.1]:   File "/root/TeamUltroid/addons/btnsss.py", line 266, in ibuild_keyboard
+2021-07-02T03:28:22.019680+00:00 app[ultroid.1]:     return keyb
+2021-07-02T03:28:22.019680+00:00 app[ultroid.1]: IndexError: list index out of range
+2021-07-02T03:28:22.098324+00:00 app[ultroid.1]: [ERROR/2021-07-02 08:58:22,097] telethon.client.updates: Unhandled exception on query_ibutton
+2021-07-02T03:28:22.098327+00:00 app[ultroid.1]: Traceback (most recent call last):
+2021-07-02T03:28:22.098327+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 454, in _dispatch_update
+2021-07-02T03:28:22.098328+00:00 app[ultroid.1]:     await callback(event)
+2021-07-02T03:28:22.098329+00:00 app[ultroid.1]:   File "/root/TeamUltroid/addons/btnsss.py", line 78, in query_ibutton
+2021-07-02T03:28:22.098330+00:00 app[ultroid.1]:     if type == None:
+2021-07-02T03:28:22.098331+00:00 app[ultroid.1]: TypeError: article() missing 1 required positional argument: 'title'
+2021-07-02T03:28:22.164947+00:00 app[ultroid.1]: [ERROR/2021-07-02 08:58:22,164] telethon.client.updates: Unhandled exception on query_ibutton
+2021-07-02T03:28:22.164957+00:00 app[ultroid.1]: Traceback (most recent call last):
+2021-07-02T03:28:22.164969+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 454, in _dispatch_update
+2021-07-02T03:28:22.164970+00:00 app[ultroid.1]:     await callback(event)
+2021-07-02T03:28:22.164970+00:00 app[ultroid.1]:   File "/root/TeamUltroid/addons/btnsss.py", line 102, in query_ibutton
+2021-07-02T03:28:22.164971+00:00 app[ultroid.1]:     await event.answer([result] if result else None)
+2021-07-02T03:28:22.164971+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/events/inlinequery.py", line 228, in answer
+2021-07-02T03:28:22.164972+00:00 app[ultroid.1]:     return await self._client(
+2021-07-02T03:28:22.164972+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+2021-07-02T03:28:22.164972+00:00 app[ultroid.1]:     return await self._call(self._sender, request, ordered=ordered)
+2021-07-02T03:28:22.164972+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/client/users.py", line 79, in _call
+2021-07-02T03:28:22.164973+00:00 app[ultroid.1]:     result = await future
+2021-07-02T03:28:22.164973+00:00 app[ultroid.1]: telethon.errors.rpcerrorlist.MessageEmptyError: Empty or invalid UTF-8 message was sent (caused by SetInlineBotResultsRequest)
+2021-07-02T03:28:22.353815+00:00 app[ultroid.1]: [ERROR/2021-07-02 08:58:22,353] telethon.client.updates: Unhandled exception on query_ibutton
+2021-07-02T03:28:22.353818+00:00 app[ultroid.1]: Traceback (most recent call last):
+2021-07-02T03:28:22.353819+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 454, in _dispatch_update
+2021-07-02T03:28:22.353819+00:00 app[ultroid.1]:     await callback(event)
+2021-07-02T03:28:22.353825+00:00 app[ultroid.1]:   File "/root/TeamUltroid/addons/btnsss.py", line 70, in query_ibutton
+2021-07-02T03:28:22.353826+00:00 app[ultroid.1]:     else:
+2021-07-02T03:28:22.353826+00:00 app[ultroid.1]:   File "/root/TeamUltroid/addons/btnsss.py", line 266, in ibuild_keyboard
+2021-07-02T03:28:22.353826+00:00 app[ultroid.1]:     return keyb
+2021-07-02T03:28:22.353827+00:00 app[ultroid.1]: IndexError: list index out of range
+2021-07-02T03:28:22.436777+00:00 app[ultroid.1]: [ERROR/2021-07-02 08:58:22,436] telethon.client.updates: Unhandled exception on query_ibutton
+2021-07-02T03:28:22.436794+00:00 app[ultroid.1]: Traceback (most recent call last):
+2021-07-02T03:28:22.436795+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 454, in _dispatch_update
+2021-07-02T03:28:22.436796+00:00 app[ultroid.1]:     await callback(event)
+2021-07-02T03:28:22.436796+00:00 app[ultroid.1]:   File "/root/TeamUltroid/addons/btnsss.py", line 70, in query_ibutton
+2021-07-02T03:28:22.436797+00:00 app[ultroid.1]:     else:
+2021-07-02T03:28:22.436797+00:00 app[ultroid.1]:   File "/root/TeamUltroid/addons/btnsss.py", line 266, in ibuild_keyboard
+2021-07-02T03:28:22.436798+00:00 app[ultroid.1]:     return keyb
+2021-07-02T03:28:22.436798+00:00 app[ultroid.1]: IndexError: list index out of range
+2021-07-02T03:30:24.494577+00:00 app[ultroid.1]: [ INFO/2021-07-02 09:00:24,494] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
