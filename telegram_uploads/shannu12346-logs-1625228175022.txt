@@ -1,0 +1,55 @@
+2021-07-02T12:15:14.322316+00:00 app[worker.1]: [INFO- 17:45:14]- filelock- Lock 140311630966256 acquired on /app/.heroku/python/lib/python3.9/site-packages/urlextract/data/tlds-alpha-by-domain.txt.lock
+2021-07-02T12:15:14.410951+00:00 app[worker.1]: [INFO- 17:45:14]- filelock- Lock 140311630966256 released on /app/.heroku/python/lib/python3.9/site-packages/urlextract/data/tlds-alpha-by-domain.txt.lock
+2021-07-02T12:15:17.526939+00:00 app[worker.1]: [INFO- 17:45:17]- telethon.network.mtprotosender- Connecting to 149.154.167.51:443/TcpAbridged...
+2021-07-02T12:15:19.064203+00:00 app[worker.1]: [INFO- 17:45:19]- telethon.network.mtprotosender- Connection to 149.154.167.51:443/TcpAbridged complete!
+2021-07-02T12:15:19.822522+00:00 app[worker.1]: [INFO- 17:45:19]- telethon.client.users- Phone migrated to 5
+2021-07-02T12:15:19.822676+00:00 app[worker.1]: [INFO- 17:45:19]- telethon.client.telegrambaseclient- Reconnecting to new data center 5
+2021-07-02T12:15:20.298959+00:00 app[worker.1]: [INFO- 17:45:20]- telethon.network.mtprotosender- Disconnecting from 149.154.167.51:443/TcpAbridged...
+2021-07-02T12:15:20.299938+00:00 app[worker.1]: [INFO- 17:45:20]- telethon.network.mtprotosender- Disconnection from 149.154.167.51:443/TcpAbridged complete!
+2021-07-02T12:15:20.300390+00:00 app[worker.1]: [INFO- 17:45:20]- telethon.network.mtprotosender- Connecting to 91.108.56.199:443/TcpAbridged...
+2021-07-02T12:15:21.998572+00:00 app[worker.1]: [INFO- 17:45:21]- telethon.network.mtprotosender- Connection to 91.108.56.199:443/TcpAbridged complete!
+2021-07-02T12:15:23.023053+00:00 app[worker.1]: CatUserBot Copyright (C) 2020 - 2021  CatUserBot <https://github.com/Jisan09/catuserbot>
+2021-07-02T12:15:23.023086+00:00 app[worker.1]: Licensed under the terms of the GNU Affero General Public License v3.0
+2021-07-02T12:15:23.023251+00:00 app[worker.1]: [INFO- 17:45:23]- CatUserbot- Starting Userbot
+2021-07-02T12:15:23.023741+00:00 app[worker.1]: [INFO- 17:45:23]- telethon.network.mtprotosender- Connecting to 91.108.56.138:443/TcpAbridged...
+2021-07-02T12:15:23.270005+00:00 app[worker.1]: [INFO- 17:45:23]- telethon.network.mtprotosender- Connection to 91.108.56.138:443/TcpAbridged complete!
+2021-07-02T12:15:24.551022+00:00 app[worker.1]: [INFO- 17:45:24]- CatUserbot- TG Bot Startup Completed
+2021-07-02T12:15:24.619598+00:00 app[worker.1]: [INFO- 17:45:24]- CatUserbot- Ip Change detected
+2021-07-02T12:15:24.619787+00:00 app[worker.1]: [INFO- 17:45:24]- telethon.network.mtprotosender- Disconnecting from 91.108.56.138:443/TcpAbridged...
+2021-07-02T12:15:24.622604+00:00 app[worker.1]: [INFO- 17:45:24]- telethon.network.mtprotosender- Disconnection from 91.108.56.138:443/TcpAbridged complete!
+2021-07-02T12:15:24.806738+00:00 app[worker.1]: [ERROR- 17:45:24]- asyncio- Unclosed client session
+2021-07-02T12:15:24.806750+00:00 app[worker.1]: client_session: <aiohttp.client.ClientSession object at 0x7f9cda16da00>
+2021-07-02T12:15:25.135719+00:00 heroku[worker.1]: Process exited with status 0
+2021-07-02T12:15:25.225544+00:00 heroku[worker.1]: State changed from up to crashed
+2021-07-02T12:15:25.270076+00:00 heroku[worker.1]: State changed from crashed to starting
+2021-07-02T12:16:00.080200+00:00 heroku[worker.1]: Starting process with command `bash start`
+2021-07-02T12:16:00.735034+00:00 heroku[worker.1]: State changed from starting to up
+2021-07-02T12:16:02.719534+00:00 app[worker.1]:   Downloading source code ...
+2021-07-02T12:16:02.802981+00:00 app[worker.1]:   Unpacking Data ...
+2021-07-02T12:16:02.868722+00:00 app[worker.1]: Done
+2021-07-02T12:16:02.868726+00:00 app[worker.1]:   Cleaning ...
+2021-07-02T12:16:08.152669+00:00 app[worker.1]: Succesfully installed fake_useragent
+2021-07-02T12:16:08.171544+00:00 app[worker.1]:     Starting CatUserBot    
+2021-07-02T12:16:08.171689+00:00 app[worker.1]: 
+2021-07-02T12:16:08.171691+00:00 app[worker.1]:                         :'######:::::'###::::'########::::
+2021-07-02T12:16:08.171692+00:00 app[worker.1]:                         '##... ##:::'## ##:::... ##..:::::
+2021-07-02T12:16:08.171693+00:00 app[worker.1]:                          ##:::..:::'##:. ##::::: ##:::::::
+2021-07-02T12:16:08.171693+00:00 app[worker.1]:                          ##:::::::'##:::. ##:::: ##:::::::
+2021-07-02T12:16:08.171693+00:00 app[worker.1]:                          ##::::::: #########:::: ##:::::::
+2021-07-02T12:16:08.171694+00:00 app[worker.1]:                          ##::: ##: ##.... ##:::: ##:::::::
+2021-07-02T12:16:08.171694+00:00 app[worker.1]:                         . ######:: ##:::: ##:::: ##:::::::
+2021-07-02T12:16:08.171695+00:00 app[worker.1]:                         :......:::..:::::..:::::..::::::::
+2021-07-02T12:16:08.171734+00:00 app[worker.1]:     
+2021-07-02T12:16:08.171868+00:00 app[worker.1]: 
+2021-07-02T12:16:08.171870+00:00 app[worker.1]:     '##::::'##::'######::'########:'########::'########:::'#######::'########:
+2021-07-02T12:16:08.171871+00:00 app[worker.1]:      ##:::: ##:'##... ##: ##.....:: ##.... ##: ##.... ##:'##.... ##:... ##..::
+2021-07-02T12:16:08.171871+00:00 app[worker.1]:      ##:::: ##: ##:::..:: ##::::::: ##:::: ##: ##:::: ##: ##:::: ##:::: ##::::
+2021-07-02T12:16:08.171872+00:00 app[worker.1]:      ##:::: ##:. ######:: ######::: ########:: ########:: ##:::: ##:::: ##::::
+2021-07-02T12:16:08.171872+00:00 app[worker.1]:      ##:::: ##::..... ##: ##...:::: ##.. ##::: ##.... ##: ##:::: ##:::: ##::::
+2021-07-02T12:16:08.171873+00:00 app[worker.1]:      ##:::: ##:'##::: ##: ##::::::: ##::. ##:: ##:::: ##: ##:::: ##:::: ##::::
+2021-07-02T12:16:08.171873+00:00 app[worker.1]:     . #######::. ######:: ########: ##:::. ##: ########::. #######::::: ##::::
+2021-07-02T12:16:08.171873+00:00 app[worker.1]:     :.......::::......:::........::..:::::..::........::::.......::::::..:::::
+2021-07-02T12:16:08.171893+00:00 app[worker.1]:     
+2021-07-02T12:16:09.842623+00:00 app[worker.1]: 2021-07-02 17:46:09,842 INFO [imdbpy.parser.http.piculet] /app/.heroku/python/lib/python3.9/site-packages/imdb/parser/http/piculet.py:262: using lxml
+2021-07-02T12:16:09.842652+00:00 app[worker.1]: [INFO- 17:46:09]- imdbpy.parser.http.piculet- using lxml
+2021-07-02T12:16:10.543341+00:00 app[worker.1]: [INFO- 17:46:10]- userbot.core.pool- <<<!  ||||  Started Pool : 40 Workers  ||||  !>>>
