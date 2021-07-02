@@ -1,0 +1,299 @@
+[ INFO/2021-07-02 09:53:48,139] pyUltroid: 
+                -----------------------------------
+                        Starting Deployment
+                -----------------------------------
+
+[ INFO/2021-07-02 09:53:56,147] pyUltroid: Initialising...
+[ INFO/2021-07-02 09:53:56,147] pyUltroid: py-Ultroid Version - 2021.6.18.1
+[ INFO/2021-07-02 09:53:56,147] pyUltroid: Telethon Version - 1.21.2
+[ INFO/2021-07-02 09:53:56,147] pyUltroid: Ultroid Version - 0.0.8.1
+[ INFO/2021-07-02 09:53:56,148] pyUltroid: Starting Ultroid...
+[ INFO/2021-07-02 09:53:56,193] telethon.network.mtprotosender: Connecting to 149.154.167.51:443/TcpFull...
+[ INFO/2021-07-02 09:53:57,135] telethon.network.mtprotosender: Connection to 149.154.167.51:443/TcpFull complete!
+[ INFO/2021-07-02 09:53:57,626] telethon.client.users: Phone migrated to 1
+[ INFO/2021-07-02 09:53:57,626] telethon.client.telegrambaseclient: Reconnecting to new data center 1
+[ INFO/2021-07-02 09:53:57,723] telethon.network.mtprotosender: Disconnecting from 149.154.167.51:443/TcpFull...
+[ INFO/2021-07-02 09:53:57,725] telethon.network.mtprotosender: Disconnection from 149.154.167.51:443/TcpFull complete!
+[ INFO/2021-07-02 09:53:57,725] telethon.network.mtprotosender: Connecting to 149.154.175.55:443/TcpFull...
+[ INFO/2021-07-02 09:53:58,300] telethon.network.mtprotosender: Connection to 149.154.175.55:443/TcpFull complete!
+[ INFO/2021-07-02 09:53:58,451] telethon.network.mtprotosender: Connecting to 149.154.175.55:443/TcpFull...
+[ INFO/2021-07-02 09:53:58,481] telethon.network.mtprotosender: Connection to 149.154.175.55:443/TcpFull complete!
+[ INFO/2021-07-02 09:53:58,898] pyUltroid: Done, startup completed
+[ INFO/2021-07-02 09:53:58,898] pyUltroid: UserBot - Started
+[ INFO/2021-07-02 09:54:01,282] pyUltroid: Ultroid - Official -  Installed - __init__.py
+[ INFO/2021-07-02 09:54:02,342] pyUltroid: Ultroid - Official -  Installed - _help.py
+[ INFO/2021-07-02 09:54:02,351] pyUltroid: Ultroid - Official -  Installed - _inline.py
+[ INFO/2021-07-02 09:54:02,366] pyUltroid: Ultroid - Official -  Installed - _ultroid.py
+[ INFO/2021-07-02 09:54:02,371] pyUltroid: Ultroid - Official -  Installed - _userlogs.py
+[ INFO/2021-07-02 09:54:02,393] pyUltroid: Ultroid - Official -  Installed - _wspr.py
+[ INFO/2021-07-02 09:54:02,612] pyUltroid: Ultroid - Official -  Installed - admintools.py
+[ INFO/2021-07-02 09:54:02,636] pyUltroid: Ultroid - Official -  Installed - afk.py
+[ INFO/2021-07-02 09:54:02,697] pyUltroid: Ultroid - Official -  Installed - anime.py
+[ INFO/2021-07-02 09:54:02,741] pyUltroid: Ultroid - Official -  Installed - antiflood.py
+[ INFO/2021-07-02 09:54:02,792] pyUltroid: Ultroid - Official -  Installed - ascii.py
+[ INFO/2021-07-02 09:54:02,831] pyUltroid: Ultroid - Official -  Installed - asst_cmd.py
+[ INFO/2021-07-02 09:54:03,025] pyUltroid: Ultroid - Official -  Installed - autocorrect.py
+[ INFO/2021-07-02 09:54:03,049] pyUltroid: Ultroid - Official -  Installed - autopic.py
+[ INFO/2021-07-02 09:54:03,093] pyUltroid: Ultroid - Official -  Installed - blacklist.py
+[ INFO/2021-07-02 09:54:03,163] pyUltroid: Ultroid - Official -  Installed - bot.py
+[ INFO/2021-07-02 09:54:03,239] pyUltroid: Ultroid - Official -  Installed - broadcast.py
+[ INFO/2021-07-02 09:54:03,253] pyUltroid: Ultroid - Official -  Installed - calculator.py
+[ INFO/2021-07-02 09:54:03,277] pyUltroid: Ultroid - Official -  Installed - carbon.py
+[ INFO/2021-07-02 09:54:03,361] pyUltroid: Ultroid - Official -  Installed - channelhacks.py
+[ INFO/2021-07-02 09:54:03,405] pyUltroid: Ultroid - Official -  Installed - chats.py
+[ INFO/2021-07-02 09:54:03,445] pyUltroid: Ultroid - Official -  Installed - clean_action.py
+[ INFO/2021-07-02 09:54:03,462] pyUltroid: Ultroid - Official -  Installed - compressor.py
+[ INFO/2021-07-02 09:54:03,726] pyUltroid: Ultroid - Official -  Installed - converter.py
+[ INFO/2021-07-02 09:54:03,792] pyUltroid: Ultroid - Official -  Installed - core.py
+[ INFO/2021-07-02 09:54:03,805] pyUltroid: Ultroid - Official -  Installed - dayevents.py
+[ INFO/2021-07-02 09:54:03,824] pyUltroid: Ultroid - Official -  Installed - deezer.py
+[ INFO/2021-07-02 09:54:03,863] pyUltroid: Ultroid - Official -  Installed - devtools.py
+[ INFO/2021-07-02 09:54:03,876] pyUltroid: Ultroid - Official -  Installed - dm.py
+[ INFO/2021-07-02 09:54:03,902] pyUltroid: Ultroid - Official -  Installed - download_upload.py
+[ INFO/2021-07-02 09:54:03,947] pyUltroid: Ultroid - Official -  Installed - echo.py
+[ INFO/2021-07-02 09:54:03,960] pyUltroid: Ultroid - Official -  Installed - evaljs.py
+[ INFO/2021-07-02 09:54:04,009] pyUltroid: Ultroid - Official -  Installed - extra.py
+[ INFO/2021-07-02 09:54:04,060] pyUltroid: Ultroid - Official -  Installed - fakeaction.py
+[ INFO/2021-07-02 09:54:04,115] pyUltroid: Ultroid - Official -  Installed - fedutils.py
+[ INFO/2021-07-02 09:54:04,151] pyUltroid: Ultroid - Official -  Installed - filter.py
+[ INFO/2021-07-02 09:54:04,163] pyUltroid: Ultroid - Official -  Installed - fontgen.py
+[ INFO/2021-07-02 09:54:04,212] pyUltroid: Ultroid - Official -  Installed - forcesubscribe.py
+[ INFO/2021-07-02 09:54:04,229] pyUltroid: Ultroid - Official -  Installed - gadgets.py
+[ INFO/2021-07-02 09:54:04,291] pyUltroid: Ultroid - Official -  Installed - gdrive.py
+[ INFO/2021-07-02 09:54:04,304] pyUltroid: Ultroid - Official -  Installed - get_addons.py
+[ INFO/2021-07-02 09:54:04,350] pyUltroid: Ultroid - Official -  Installed - giftools.py
+[ INFO/2021-07-02 09:54:04,362] pyUltroid: Ultroid - Official -  Installed - github.py
+[ INFO/2021-07-02 09:54:04,375] pyUltroid: Ultroid - Official -  Installed - glitch.py
+[ INFO/2021-07-02 09:54:04,512] pyUltroid: Ultroid - Official -  Installed - globaltools.py
+[ INFO/2021-07-02 09:54:04,569] pyUltroid: Ultroid - Official -  Installed - google.py
+[ INFO/2021-07-02 09:54:04,679] pyUltroid: Ultroid - Official -  Installed - greetings.py
+[ INFO/2021-07-02 09:54:04,720] pyUltroid: Ultroid - Official -  Installed - groups.py
+[ INFO/2021-07-02 09:54:04,984] pyUltroid: Ultroid - Official -  Installed - imagetools.py
+[ INFO/2021-07-02 09:54:05,010] pyUltroid: Ultroid - Official -  Installed - locks.py
+[ INFO/2021-07-02 09:54:05,024] pyUltroid: Ultroid - Official -  Installed - logo.py
+[ INFO/2021-07-02 09:54:05,038] pyUltroid: Ultroid - Official -  Installed - mediainfo.py
+[ INFO/2021-07-02 09:54:05,052] pyUltroid: Ultroid - Official -  Installed - megadl.py
+[ INFO/2021-07-02 09:54:05,131] pyUltroid: Ultroid - Official -  Installed - mute.py
+[ INFO/2021-07-02 09:54:05,169] pyUltroid: Ultroid - Official -  Installed - notes.py
+[ INFO/2021-07-02 09:54:05,201] pyUltroid: Ultroid - Official -  Installed - nsfw_filter.py
+[ INFO/2021-07-02 09:54:06,077] pyUltroid: Ultroid - Official -  Installed - pdftools.py
+[ INFO/2021-07-02 09:54:06,096] pyUltroid: Ultroid - Official -  Installed - pinterest.py
+[ INFO/2021-07-02 09:54:06,273] pyUltroid: Ultroid - Official -  Installed - pmpermit.py
+[ INFO/2021-07-02 09:54:06,288] pyUltroid: Ultroid - Official -  Installed - polls.py
+[ INFO/2021-07-02 09:54:06,319] pyUltroid: Ultroid - Official -  Installed - profanity_filter.py
+[ INFO/2021-07-02 09:54:06,390] pyUltroid: Ultroid - Official -  Installed - profile.py
+[ INFO/2021-07-02 09:54:06,469] pyUltroid: Ultroid - Official -  Installed - qrcode.py
+[ INFO/2021-07-02 09:54:06,495] pyUltroid: Ultroid - Official -  Installed - randomuser.py
+[ INFO/2021-07-02 09:54:06,573] pyUltroid: Ultroid - Official -  Installed - redis.py
+[ INFO/2021-07-02 09:54:06,606] pyUltroid: Ultroid - Official -  Installed - resize.py
+[ INFO/2021-07-02 09:54:06,622] pyUltroid: Ultroid - Official -  Installed - saavn.py
+[ INFO/2021-07-02 09:54:06,652] pyUltroid: Ultroid - Official -  Installed - save.py
+[ INFO/2021-07-02 09:54:06,668] pyUltroid: Ultroid - Official -  Installed - schedule_msg.py
+[ INFO/2021-07-02 09:54:06,715] pyUltroid: Ultroid - Official -  Installed - snips.py
+[ INFO/2021-07-02 09:54:07,699] matplotlib.font_manager: generated new fontManager
+[ INFO/2021-07-02 09:54:08,027] pyUltroid: Ultroid - Official -  Installed - specialtools.py
+[ INFO/2021-07-02 09:54:08,173] pyUltroid: Ultroid - Official -  Installed - stickertools.py
+[ INFO/2021-07-02 09:54:08,246] pyUltroid: Ultroid - Official -  Installed - sudo.py
+[ INFO/2021-07-02 09:54:08,273] pyUltroid: Ultroid - Official -  Installed - tag.py
+[ INFO/2021-07-02 09:54:08,453] pyUltroid: Ultroid - Official -  Installed - tools.py
+[ INFO/2021-07-02 09:54:08,481] pyUltroid: Ultroid - Official -  Installed - unsplash.py
+[ INFO/2021-07-02 09:54:08,510] pyUltroid: Ultroid - Official -  Installed - updater.py
+[ INFO/2021-07-02 09:54:08,683] pyUltroid: Ultroid - Official -  Installed - usage.py
+[ INFO/2021-07-02 09:54:09,376] pyUltroid: Ultroid - Official -  Installed - utilities.py
+[ INFO/2021-07-02 09:54:09,396] pyUltroid: Ultroid - Official -  Installed - variables.py
+[ INFO/2021-07-02 09:54:09,573] pyUltroid: Ultroid - Official -  Installed - vcplugin.py
+[ INFO/2021-07-02 09:54:09,655] pyUltroid: Ultroid - Official -  Installed - warn.py
+[ INFO/2021-07-02 09:54:09,796] pyUltroid: Ultroid - Official -  Installed - webshot.py
+[ INFO/2021-07-02 09:54:09,824] pyUltroid: Ultroid - Official -  Installed - webupload.py
+[ INFO/2021-07-02 09:54:09,912] pyUltroid: Ultroid - Official -  Installed - whichsong.py
+[ INFO/2021-07-02 09:54:10,018] pyUltroid: Ultroid - Official -  Installed - words.py
+[ INFO/2021-07-02 09:54:10,051] pyUltroid: Ultroid - Official -  Installed - youtube.py
+[ INFO/2021-07-02 09:54:10,138] pyUltroid: Ultroid - Official -  Installed - ziptools.py
+[ INFO/2021-07-02 09:54:10,139] pyUltroid: Ultroid - Assistant -  Installed - __init__.py
+[ INFO/2021-07-02 09:54:10,143] pyUltroid: Ultroid - Assistant -  Installed - api_setter.py
+[ INFO/2021-07-02 09:54:10,395] pyUltroid: Ultroid - Assistant -  Installed - inlinestuff.py
+[ INFO/2021-07-02 09:54:10,396] pyUltroid: Ultroid - Assistant -  Installed - localization.py
+[ INFO/2021-07-02 09:54:10,712] pyUltroid: Ultroid - Assistant -  Installed - othervars.py
+[ INFO/2021-07-02 09:54:10,718] pyUltroid: Ultroid - Assistant -  Installed - ping.py
+[ INFO/2021-07-02 09:54:10,724] pyUltroid: Ultroid - Assistant -  Installed - start.py
+[ INFO/2021-07-02 09:54:10,730] pyUltroid: Ultroid - Assistant -  Installed - ytdl.py
+[ INFO/2021-07-02 09:54:11,119] pyUltroid: Installing packages for addons
+[ INFO/2021-07-02 09:54:30,821] pyUltroid: Ultroid - Addons -  Installed - __init__.py
+[ INFO/2021-07-02 09:54:30,920] pyUltroid: Ultroid - Addons -  Installed - animations.py
+[ INFO/2021-07-02 09:54:30,940] pyUltroid: Ultroid - Addons -  Installed - animechan.py
+[ INFO/2021-07-02 09:54:30,960] pyUltroid: Ultroid - Addons -  Installed - animedb.py
+[ INFO/2021-07-02 09:54:31,004] pyUltroid: Ultroid - Addons -  Installed - autoprofile.py
+[ INFO/2021-07-02 09:54:31,042] pyUltroid: Ultroid - Addons -  Installed - clone.py
+[ INFO/2021-07-02 09:54:31,072] pyUltroid: Ultroid - Addons -  Installed - covid.py
+[ INFO/2021-07-02 09:54:31,109] pyUltroid: Ultroid - Addons -  Installed - encode_decode.py
+[ INFO/2021-07-02 09:54:31,132] pyUltroid: Ultroid - Addons -  Installed - figlet.py
+[ INFO/2021-07-02 09:54:31,152] pyUltroid: Ultroid - Addons -  Installed - findsong.py
+[ INFO/2021-07-02 09:54:31,183] pyUltroid: Ultroid - Addons -  Installed - flaticon.py
+[ INFO/2021-07-02 09:54:31,382] pyUltroid: Ultroid - Addons -  Installed - fun.py
+[ INFO/2021-07-02 09:54:31,434] pyUltroid: Ultroid - Addons -  Installed - googleutility.py
+[ INFO/2021-07-02 09:54:31,453] pyUltroid: Ultroid - Addons -  Installed - hack.py
+[ INFO/2021-07-02 09:54:31,472] pyUltroid: Ultroid - Addons -  Installed - how_google.py
+[ INFO/2021-07-02 09:54:31,499] pyUltroid: Ultroid - Addons -  Installed - imdb.py
+[ INFO/2021-07-02 09:54:31,595] pyUltroid: Ultroid - Addons -  Installed - inlinefun.py
+[ INFO/2021-07-02 09:54:31,626] pyUltroid: Ultroid - Addons -  Installed - limited.py
+[ INFO/2021-07-02 09:54:31,690] pyUltroid: Ultroid - Addons -  Installed - memify.py
+[ INFO/2021-07-02 09:54:31,717] pyUltroid: Ultroid - Addons -  Installed - ocr.py
+[ INFO/2021-07-02 09:54:31,765] pyUltroid: Ultroid - Addons -  Installed - pokedex.py
+[ INFO/2021-07-02 09:54:31,796] pyUltroid: Ultroid - Addons -  Installed - prankpromote.py
+[ INFO/2021-07-02 09:54:31,827] pyUltroid: Ultroid - Addons -  Installed - quotefancy.py
+[ INFO/2021-07-02 09:54:31,897] pyUltroid: Ultroid - Addons -  Installed - quotly.py
+[ INFO/2021-07-02 09:54:31,916] pyUltroid: Ultroid - Addons -  Installed - shorturl.py
+[ INFO/2021-07-02 09:54:32,001] pyUltroid: Ultroid - Addons -  Installed - song.py
+[ INFO/2021-07-02 09:54:32,131] pyUltroid: Ultroid - Addons -  Installed - spam.py
+[ INFO/2021-07-02 09:54:32,173] pyUltroid: Ultroid - Addons -  Installed - speechtool.py
+[ INFO/2021-07-02 09:54:32,201] pyUltroid: Ultroid - Addons -  Installed - stickerspam.py
+[ INFO/2021-07-02 09:54:32,219] pyUltroid: Ultroid - Addons -  Installed - sticklet.py
+[ INFO/2021-07-02 09:54:32,255] pyUltroid: Ultroid - Addons -  Installed - test.py
+[ INFO/2021-07-02 09:54:32,282] pyUltroid: Ultroid - Addons -  Installed - totalmsgs.py
+[ INFO/2021-07-02 09:54:32,326] pyUltroid: Ultroid - Addons -  Installed - truthdare.py
+[ INFO/2021-07-02 09:54:32,354] pyUltroid: Ultroid - Addons -  Installed - tscan.py
+[ INFO/2021-07-02 09:54:32,382] pyUltroid: Ultroid - Addons -  Installed - typing.py
+[ INFO/2021-07-02 09:54:32,403] pyUltroid: Ultroid - Addons -  Installed - wikipedia.py
+[ INFO/2021-07-02 09:54:32,422] pyUltroid: Ultroid - Addons -  Installed - zombies.py
+[ INFO/2021-07-02 09:54:32,428] pyUltroid: Ultroid - PM Bot Message Forwards - Enabled.
+[ INFO/2021-07-02 09:54:35,722] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+[ INFO/2021-07-02 09:54:35,872] pyUltroid: Ultroid - PLUGIN_CHANNEL - Installed - ibutton
+[ INFO/2021-07-02 09:54:36,475] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+[ INFO/2021-07-02 09:54:44,227] pyUltroid: Ultroid - PLUGIN_CHANNEL - Installed - eris_git
+[ INFO/2021-07-02 09:54:44,828] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+[ INFO/2021-07-02 09:54:44,905] pyUltroid: Ultroid - PLUGIN_CHANNEL - Installed - lomgs
+[ INFO/2021-07-02 09:54:45,509] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+[ INFO/2021-07-02 09:54:45,697] pyUltroid: Ultroid - PLUGIN_CHANNEL - Installed - get_movie
+[ INFO/2021-07-02 09:54:46,298] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+[ INFO/2021-07-02 09:54:46,349] pyUltroid: Ultroid - PLUGIN_CHANNEL - Installed - mov_fwd
+[ INFO/2021-07-02 09:54:46,950] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+[ INFO/2021-07-02 09:54:47,058] pyUltroid: Ultroid - PLUGIN_CHANNEL - Installed - voice
+[ INFO/2021-07-02 09:54:47,660] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+[ INFO/2021-07-02 09:54:47,725] pyUltroid: Ultroid - PLUGIN_CHANNEL - Installed - xDeezer
+[ INFO/2021-07-02 09:54:48,327] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+[ INFO/2021-07-02 09:54:48,419] pyUltroid: Ultroid - PLUGIN_CHANNEL - Installed - deldog
+[ INFO/2021-07-02 09:54:49,024] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+[ INFO/2021-07-02 09:54:49,116] pyUltroid: Ultroid - PLUGIN_CHANNEL - Installed - shitpost
+[ INFO/2021-07-02 09:54:49,718] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+[ INFO/2021-07-02 09:54:49,946] pyUltroid: Ultroid - PLUGIN_CHANNEL - Installed - e3memes
+[ INFO/2021-07-02 09:54:50,549] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+[ INFO/2021-07-02 09:54:50,658] pyUltroid: Ultroid - PLUGIN_CHANNEL - Installed - picstick
+[ INFO/2021-07-02 09:54:51,260] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+[ INFO/2021-07-02 09:54:51,359] pyUltroid: Ultroid - PLUGIN_CHANNEL - Installed - glex
+[ INFO/2021-07-02 09:54:51,960] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+[ INFO/2021-07-02 09:54:52,030] pyUltroid: Ultroid - PLUGIN_CHANNEL - Installed - domge
+[ INFO/2021-07-02 09:54:52,633] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+[ INFO/2021-07-02 09:54:52,742] pyUltroid: Ultroid - PLUGIN_CHANNEL - Installed - frwd
+[ INFO/2021-07-02 09:54:53,344] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+[ INFO/2021-07-02 09:54:53,548] pyUltroid: Ultroid - PLUGIN_CHANNEL - Installed - prank
+[ INFO/2021-07-02 09:54:54,153] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+[ INFO/2021-07-02 09:54:54,307] pyUltroid: Ultroid - PLUGIN_CHANNEL - Installed - spin
+[ INFO/2021-07-02 09:54:54,910] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+[ INFO/2021-07-02 09:54:55,058] pyUltroid: Ultroid - PLUGIN_CHANNEL - Installed - mobi
+[ INFO/2021-07-02 09:54:55,669] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+[ INFO/2021-07-02 09:54:55,769] pyUltroid: Ultroid - PLUGIN_CHANNEL - Installed - stickerizer
+[ INFO/2021-07-02 09:54:56,373] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+[ INFO/2021-07-02 09:54:56,537] pyUltroid: Ultroid - PLUGIN_CHANNEL - Installed - spotify
+[ INFO/2021-07-02 09:54:57,139] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+[ INFO/2021-07-02 09:54:57,251] pyUltroid: Ultroid - PLUGIN_CHANNEL - Installed - weather
+[ INFO/2021-07-02 09:54:57,853] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+[ INFO/2021-07-02 09:54:57,925] pyUltroid: Ultroid - PLUGIN_CHANNEL - Installed - mask
+[ INFO/2021-07-02 09:54:58,529] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+[ INFO/2021-07-02 09:54:58,642] pyUltroid: Ultroid - PLUGIN_CHANNEL - Installed - F'sinChat
+[ INFO/2021-07-02 09:54:59,247] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+[ INFO/2021-07-02 09:54:59,445] pyUltroid: Ultroid - PLUGIN_CHANNEL - Installed - frybot
+[ INFO/2021-07-02 09:55:00,049] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+[ INFO/2021-07-02 09:55:00,109] telethon.client.downloads: File lives in another DC
+[ INFO/2021-07-02 09:55:00,111] telethon.network.mtprotosender: Connecting to 91.108.56.180:443/TcpFull...
+[ INFO/2021-07-02 09:55:01,518] telethon.network.mtprotosender: Connection to 91.108.56.180:443/TcpFull complete!
+[ INFO/2021-07-02 09:55:01,518] telethon.client.telegrambaseclient: Exporting auth for new borrowed sender in DcOption(id=5, ip_address='91.108.56.180', port=443, ipv6=False, media_only=False, tcpo_only=False, cdn=False, static=False, secret=None)
+[ INFO/2021-07-02 09:55:02,594] pyUltroid: Ultroid - PLUGIN_CHANNEL - Installed - recognise
+[ INFO/2021-07-02 09:55:03,197] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+[ INFO/2021-07-02 09:55:03,394] pyUltroid: Ultroid - PLUGIN_CHANNEL - Installed - thanos
+[ INFO/2021-07-02 09:55:03,997] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+[ INFO/2021-07-02 09:55:04,047] telethon.client.downloads: File lives in another DC
+[ INFO/2021-07-02 09:55:04,386] pyUltroid: Ultroid - PLUGIN_CHANNEL - Installed - unparse
+[ INFO/2021-07-02 09:55:04,988] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+[ INFO/2021-07-02 09:55:05,129] pyUltroid: Ultroid - PLUGIN_CHANNEL - Installed - tanimator
+[ INFO/2021-07-02 09:55:05,731] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+[ INFO/2021-07-02 09:55:05,769] telethon.client.downloads: File lives in another DC
+[ INFO/2021-07-02 09:55:08,165] pyUltroid: Ultroid - PLUGIN_CHANNEL - Installed - allanimations
+[ INFO/2021-07-02 09:55:08,768] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+[ INFO/2021-07-02 09:55:08,859] pyUltroid: Ultroid - PLUGIN_CHANNEL - Installed - thumbnail
+[ INFO/2021-07-02 09:55:09,463] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+[ INFO/2021-07-02 09:55:09,589] pyUltroid: Ultroid - PLUGIN_CHANNEL - Installed - me_admin
+[ INFO/2021-07-02 09:55:10,191] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+[ INFO/2021-07-02 09:55:10,302] pyUltroid: Ultroid - PLUGIN_CHANNEL - Installed - padmin
+[ INFO/2021-07-02 09:55:10,905] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+[ INFO/2021-07-02 09:55:10,979] pyUltroid: Ultroid - PLUGIN_CHANNEL - Installed - gana
+[ INFO/2021-07-02 09:55:11,581] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+[ INFO/2021-07-02 09:55:11,674] pyUltroid: Ultroid - PLUGIN_CHANNEL - Installed - userlist
+[ INFO/2021-07-02 09:55:12,285] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+[ INFO/2021-07-02 09:55:12,415] pyUltroid: Ultroid - PLUGIN_CHANNEL - Installed - autodp
+[ INFO/2021-07-02 09:55:13,017] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+[ INFO/2021-07-02 09:55:13,073] telethon.client.downloads: File lives in another DC
+[ INFO/2021-07-02 09:55:13,355] pyUltroid: Ultroid - PLUGIN_CHANNEL - Installed - animation11
+[ INFO/2021-07-02 09:55:13,957] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+[ INFO/2021-07-02 09:55:14,076] telethon.client.downloads: File lives in another DC
+[ INFO/2021-07-02 09:55:14,446] pyUltroid: Ultroid - PLUGIN_CHANNEL - Installed - iwarn
+[ INFO/2021-07-02 09:55:15,053] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+[ INFO/2021-07-02 09:55:15,108] telethon.client.downloads: File lives in another DC
+[ INFO/2021-07-02 09:55:15,405] pyUltroid: Ultroid - PLUGIN_CHANNEL - Installed - me_total
+[ INFO/2021-07-02 09:55:16,006] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+[ INFO/2021-07-02 09:55:16,054] telethon.client.downloads: File lives in another DC
+[ INFO/2021-07-02 09:55:16,350] pyUltroid: Ultroid - PLUGIN_CHANNEL - Installed - hquote
+[ INFO/2021-07-02 09:55:16,953] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+[ INFO/2021-07-02 09:55:17,142] pyUltroid: Ultroid - PLUGIN_CHANNEL - Installed - insult
+[ INFO/2021-07-02 09:55:17,744] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+[ INFO/2021-07-02 09:55:17,852] pyUltroid: Ultroid - PLUGIN_CHANNEL - Installed - snap
+[ INFO/2021-07-02 09:55:18,454] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+[ INFO/2021-07-02 09:55:18,616] pyUltroid: Ultroid - PLUGIN_CHANNEL - Installed - iwish
+[ INFO/2021-07-02 09:55:19,218] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+[ INFO/2021-07-02 09:55:19,305] pyUltroid: Ultroid - PLUGIN_CHANNEL - Installed - sd
+[ INFO/2021-07-02 09:55:19,908] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+[ INFO/2021-07-02 09:55:20,018] pyUltroid: Ultroid - PLUGIN_CHANNEL - Installed - musik
+[ INFO/2021-07-02 09:55:20,620] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+[ INFO/2021-07-02 09:55:20,826] pyUltroid: Ultroid - PLUGIN_CHANNEL - Installed - emojigames
+[ INFO/2021-07-02 09:55:21,428] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+[ INFO/2021-07-02 09:55:21,531] pyUltroid: Ultroid - PLUGIN_CHANNEL - Installed - lenk
+[ INFO/2021-07-02 09:55:22,133] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+[ INFO/2021-07-02 09:55:22,259] pyUltroid: Ultroid - PLUGIN_CHANNEL - Installed - bio_auto
+[ INFO/2021-07-02 09:55:22,861] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+[ INFO/2021-07-02 09:55:22,963] pyUltroid: Ultroid - PLUGIN_CHANNEL - Installed - dspem
+[ INFO/2021-07-02 09:55:23,565] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+[ INFO/2021-07-02 09:55:23,604] telethon.client.downloads: File lives in another DC
+[ INFO/2021-07-02 09:55:23,906] pyUltroid: Ultroid - PLUGIN_CHANNEL - Installed - cricker_score
+[ INFO/2021-07-02 09:55:24,508] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+[ INFO/2021-07-02 09:55:24,653] pyUltroid: Ultroid - PLUGIN_CHANNEL - Installed - cringe
+[ INFO/2021-07-02 09:55:25,257] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+[ INFO/2021-07-02 09:55:25,346] pyUltroid: Ultroid - PLUGIN_CHANNEL - Installed - ttyp
+[ INFO/2021-07-02 09:55:25,948] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+[ INFO/2021-07-02 09:55:26,005] pyUltroid: Ultroid - PLUGIN_CHANNEL - Installed - off_bio
+[ INFO/2021-07-02 09:55:26,607] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+[ INFO/2021-07-02 09:55:26,721] pyUltroid: Ultroid - PLUGIN_CHANNEL - Installed - FLAC
+[ INFO/2021-07-02 09:55:27,501] pyUltroid: 
+                ----------------------------------------------------------------------
+                    Ultroid has been deployed! Visit @TheUltroid for updates!!
+                ----------------------------------------------------------------------
+
+[ INFO/2021-07-02 09:56:59,009] telethon.client.telegrambaseclient: Disconnecting borrowed sender for DC 5
+[ INFO/2021-07-02 09:56:59,010] telethon.network.mtprotosender: Disconnecting from 91.108.56.180:443/TcpFull...
+[ INFO/2021-07-02 09:56:59,015] telethon.network.mtprotosender: Disconnection from 91.108.56.180:443/TcpFull complete!
+[ INFO/2021-07-02 09:57:24,202] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+[ERROR/2021-07-02 09:57:28,746] pyUltroid: Content of the message was not modified (caused by EditMessageRequest)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/pyUltroid/misc/_decorators.py", line 99, in wrapper
+    await func(ult)
+  File "/root/TeamUltroid/addons/lomgs.py", line 23, in lomgs
+    eris = await eor(e, "`...`")
+  File "/usr/local/lib/python3.9/site-packages/pyUltroid/misc/_wrappers.py", line 67, in eor
+    ok = await event.edit(text, link_preview=link_preview, parse_mode=parse_mode)
+  File "/usr/local/lib/python3.9/site-packages/telethon/tl/custom/message.py", line 805, in edit
+    return await self._client.edit_message(
+  File "/usr/local/lib/python3.9/site-packages/telethon/client/messages.py", line 1165, in edit_message
+    msg = self._get_response_message(request, await self(request), entity)
+  File "/usr/local/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/usr/local/lib/python3.9/site-packages/telethon/client/users.py", line 79, in _call
+    result = await future
+telethon.errors.rpcerrorlist.MessageNotModifiedError: Content of the message was not modified (caused by EditMessageRequest)
