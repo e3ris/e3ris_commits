@@ -1,0 +1,100 @@
+2021-07-03T05:05:35.742395+00:00 app[ultroid.1]: [ INFO/2021-07-03 10:35:35,742] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2021-07-03T05:05:35.931804+00:00 app[ultroid.1]: [ INFO/2021-07-03 10:35:35,931] pyUltroid: Ultroid - PLUGIN_CHANNEL - Installed - weather
+2021-07-03T05:05:36.533507+00:00 app[ultroid.1]: [ INFO/2021-07-03 10:35:36,533] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2021-07-03T05:05:36.663907+00:00 app[ultroid.1]: [ INFO/2021-07-03 10:35:36,663] pyUltroid: Ultroid - PLUGIN_CHANNEL - Installed - mask
+2021-07-03T05:05:37.266410+00:00 app[ultroid.1]: [ INFO/2021-07-03 10:35:37,266] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2021-07-03T05:05:37.339071+00:00 app[ultroid.1]: [ INFO/2021-07-03 10:35:37,338] pyUltroid: Ultroid - PLUGIN_CHANNEL - Installed - F'sinChat
+2021-07-03T05:05:37.941107+00:00 app[ultroid.1]: [ INFO/2021-07-03 10:35:37,940] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2021-07-03T05:05:38.029355+00:00 app[ultroid.1]: [ INFO/2021-07-03 10:35:38,029] pyUltroid: Ultroid - PLUGIN_CHANNEL - Installed - frybot
+2021-07-03T05:05:38.631760+00:00 app[ultroid.1]: [ INFO/2021-07-03 10:35:38,631] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2021-07-03T05:05:38.680799+00:00 app[ultroid.1]: [ INFO/2021-07-03 10:35:38,680] telethon.client.downloads: File lives in another DC
+2021-07-03T05:05:38.681645+00:00 app[ultroid.1]: [ INFO/2021-07-03 10:35:38,681] telethon.network.mtprotosender: Connecting to 91.108.56.190:443/TcpFull...
+2021-07-03T05:05:40.230380+00:00 app[ultroid.1]: [ INFO/2021-07-03 10:35:40,230] telethon.network.mtprotosender: Connection to 91.108.56.190:443/TcpFull complete!
+2021-07-03T05:05:40.230904+00:00 app[ultroid.1]: [ INFO/2021-07-03 10:35:40,230] telethon.client.telegrambaseclient: Exporting auth for new borrowed sender in DcOption(id=5, ip_address='91.108.56.190', port=443, ipv6=False, media_only=False, tcpo_only=False, cdn=False, static=False, secret=None)
+2021-07-03T05:05:41.460617+00:00 app[ultroid.1]: [ INFO/2021-07-03 10:35:41,460] pyUltroid: Ultroid - PLUGIN_CHANNEL - Installed - recognise
+2021-07-03T05:05:42.063704+00:00 app[ultroid.1]: [ INFO/2021-07-03 10:35:42,063] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2021-07-03T05:05:42.195796+00:00 app[ultroid.1]: [ INFO/2021-07-03 10:35:42,195] pyUltroid: Ultroid - PLUGIN_CHANNEL - Installed - thanos
+2021-07-03T05:05:42.797822+00:00 app[ultroid.1]: [ INFO/2021-07-03 10:35:42,797] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2021-07-03T05:05:42.841512+00:00 app[ultroid.1]: [ INFO/2021-07-03 10:35:42,841] telethon.client.downloads: File lives in another DC
+2021-07-03T05:05:43.152836+00:00 app[ultroid.1]: [ INFO/2021-07-03 10:35:43,152] pyUltroid: Ultroid - PLUGIN_CHANNEL - Installed - unparse
+2021-07-03T05:05:43.755735+00:00 app[ultroid.1]: [ INFO/2021-07-03 10:35:43,755] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2021-07-03T05:05:43.918805+00:00 app[ultroid.1]: [ INFO/2021-07-03 10:35:43,918] pyUltroid: Ultroid - PLUGIN_CHANNEL - Installed - tanimator
+2021-07-03T05:05:44.521611+00:00 app[ultroid.1]: [ INFO/2021-07-03 10:35:44,521] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2021-07-03T05:05:44.562419+00:00 app[ultroid.1]: [ INFO/2021-07-03 10:35:44,562] telethon.client.downloads: File lives in another DC
+2021-07-03T05:05:48.817397+00:00 app[ultroid.1]: [ INFO/2021-07-03 10:35:48,817] pyUltroid: Ultroid - PLUGIN_CHANNEL - Installed - allanimations
+2021-07-03T05:05:49.419326+00:00 app[ultroid.1]: [ INFO/2021-07-03 10:35:49,418] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2021-07-03T05:05:49.540868+00:00 app[ultroid.1]: [ INFO/2021-07-03 10:35:49,540] pyUltroid: Ultroid - PLUGIN_CHANNEL - Installed - thumbnail
+2021-07-03T05:05:50.142884+00:00 app[ultroid.1]: [ INFO/2021-07-03 10:35:50,142] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2021-07-03T05:05:50.272353+00:00 app[ultroid.1]: [ INFO/2021-07-03 10:35:50,272] pyUltroid: Ultroid - PLUGIN_CHANNEL - Installed - me_admin
+2021-07-03T05:05:50.874427+00:00 app[ultroid.1]: [ INFO/2021-07-03 10:35:50,873] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2021-07-03T05:05:50.983296+00:00 app[ultroid.1]: [ INFO/2021-07-03 10:35:50,983] pyUltroid: Ultroid - PLUGIN_CHANNEL - Installed - padmin
+2021-07-03T05:05:51.587425+00:00 app[ultroid.1]: [ INFO/2021-07-03 10:35:51,587] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2021-07-03T05:05:51.741068+00:00 app[ultroid.1]: [ INFO/2021-07-03 10:35:51,740] pyUltroid: Ultroid - PLUGIN_CHANNEL - Installed - gana
+2021-07-03T05:05:52.343179+00:00 app[ultroid.1]: [ INFO/2021-07-03 10:35:52,342] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2021-07-03T05:05:52.464307+00:00 app[ultroid.1]: [ INFO/2021-07-03 10:35:52,463] pyUltroid: Ultroid - PLUGIN_CHANNEL - Installed - userlist
+2021-07-03T05:05:53.066550+00:00 app[ultroid.1]: [ INFO/2021-07-03 10:35:53,066] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2021-07-03T05:05:53.260105+00:00 app[ultroid.1]: [ INFO/2021-07-03 10:35:53,259] pyUltroid: Ultroid - PLUGIN_CHANNEL - Installed - autodp
+2021-07-03T05:05:53.863361+00:00 app[ultroid.1]: [ INFO/2021-07-03 10:35:53,863] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2021-07-03T05:05:53.911890+00:00 app[ultroid.1]: [ INFO/2021-07-03 10:35:53,911] telethon.client.downloads: File lives in another DC
+2021-07-03T05:05:54.205446+00:00 app[ultroid.1]: [ INFO/2021-07-03 10:35:54,205] pyUltroid: Ultroid - PLUGIN_CHANNEL - Installed - animation11
+2021-07-03T05:05:54.807287+00:00 app[ultroid.1]: [ INFO/2021-07-03 10:35:54,806] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2021-07-03T05:05:54.865173+00:00 app[ultroid.1]: [ INFO/2021-07-03 10:35:54,864] telethon.client.downloads: File lives in another DC
+2021-07-03T05:05:55.283100+00:00 app[ultroid.1]: [ INFO/2021-07-03 10:35:55,282] pyUltroid: Ultroid - PLUGIN_CHANNEL - Installed - iwarn
+2021-07-03T05:05:55.886086+00:00 app[ultroid.1]: [ INFO/2021-07-03 10:35:55,885] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2021-07-03T05:05:55.921674+00:00 app[ultroid.1]: [ INFO/2021-07-03 10:35:55,921] telethon.client.downloads: File lives in another DC
+2021-07-03T05:05:56.212482+00:00 app[ultroid.1]: [ INFO/2021-07-03 10:35:56,212] pyUltroid: Ultroid - PLUGIN_CHANNEL - Installed - me_total
+2021-07-03T05:05:56.814324+00:00 app[ultroid.1]: [ INFO/2021-07-03 10:35:56,814] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2021-07-03T05:05:56.857048+00:00 app[ultroid.1]: [ INFO/2021-07-03 10:35:56,856] telethon.client.downloads: File lives in another DC
+2021-07-03T05:05:57.152587+00:00 app[ultroid.1]: [ INFO/2021-07-03 10:35:57,152] pyUltroid: Ultroid - PLUGIN_CHANNEL - Installed - hquote
+2021-07-03T05:05:57.754226+00:00 app[ultroid.1]: [ INFO/2021-07-03 10:35:57,753] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2021-07-03T05:05:57.857611+00:00 app[ultroid.1]: [ INFO/2021-07-03 10:35:57,857] pyUltroid: Ultroid - PLUGIN_CHANNEL - Installed - insult
+2021-07-03T05:05:58.460036+00:00 app[ultroid.1]: [ INFO/2021-07-03 10:35:58,459] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2021-07-03T05:05:58.696333+00:00 app[ultroid.1]: [ INFO/2021-07-03 10:35:58,696] pyUltroid: Ultroid - PLUGIN_CHANNEL - Installed - snap
+2021-07-03T05:05:59.298634+00:00 app[ultroid.1]: [ INFO/2021-07-03 10:35:59,298] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2021-07-03T05:05:59.385920+00:00 app[ultroid.1]: [ INFO/2021-07-03 10:35:59,385] pyUltroid: Ultroid - PLUGIN_CHANNEL - Installed - iwish
+2021-07-03T05:05:59.988307+00:00 app[ultroid.1]: [ INFO/2021-07-03 10:35:59,987] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2021-07-03T05:06:00.105073+00:00 app[ultroid.1]: [ INFO/2021-07-03 10:36:00,104] pyUltroid: Ultroid - PLUGIN_CHANNEL - Installed - sd
+2021-07-03T05:06:00.706970+00:00 app[ultroid.1]: [ INFO/2021-07-03 10:36:00,706] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2021-07-03T05:06:00.799211+00:00 app[ultroid.1]: [ INFO/2021-07-03 10:36:00,798] pyUltroid: Ultroid - PLUGIN_CHANNEL - Installed - musik
+2021-07-03T05:06:01.401043+00:00 app[ultroid.1]: [ INFO/2021-07-03 10:36:01,400] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2021-07-03T05:06:01.606508+00:00 app[ultroid.1]: [ INFO/2021-07-03 10:36:01,606] pyUltroid: Ultroid - PLUGIN_CHANNEL - Installed - emojigames
+2021-07-03T05:06:02.210218+00:00 app[ultroid.1]: [ INFO/2021-07-03 10:36:02,209] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2021-07-03T05:06:02.300307+00:00 app[ultroid.1]: [ INFO/2021-07-03 10:36:02,300] pyUltroid: Ultroid - PLUGIN_CHANNEL - Installed - lenk
+2021-07-03T05:06:02.903028+00:00 app[ultroid.1]: [ INFO/2021-07-03 10:36:02,902] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2021-07-03T05:06:02.964297+00:00 app[ultroid.1]: [ INFO/2021-07-03 10:36:02,964] pyUltroid: Ultroid - PLUGIN_CHANNEL - Installed - bio_auto
+2021-07-03T05:06:03.565936+00:00 app[ultroid.1]: [ INFO/2021-07-03 10:36:03,565] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2021-07-03T05:06:03.671642+00:00 app[ultroid.1]: [ INFO/2021-07-03 10:36:03,671] pyUltroid: Ultroid - PLUGIN_CHANNEL - Installed - dspem
+2021-07-03T05:06:04.273597+00:00 app[ultroid.1]: [ INFO/2021-07-03 10:36:04,273] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2021-07-03T05:06:04.314500+00:00 app[ultroid.1]: [ INFO/2021-07-03 10:36:04,314] telethon.client.downloads: File lives in another DC
+2021-07-03T05:06:04.659221+00:00 app[ultroid.1]: [ INFO/2021-07-03 10:36:04,658] pyUltroid: Ultroid - PLUGIN_CHANNEL - Installed - cricker_score
+2021-07-03T05:06:05.261036+00:00 app[ultroid.1]: [ INFO/2021-07-03 10:36:05,260] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2021-07-03T05:06:05.398649+00:00 app[ultroid.1]: [ INFO/2021-07-03 10:36:05,398] pyUltroid: Ultroid - PLUGIN_CHANNEL - Installed - cringe
+2021-07-03T05:06:06.001120+00:00 app[ultroid.1]: [ INFO/2021-07-03 10:36:06,000] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2021-07-03T05:06:06.096581+00:00 app[ultroid.1]: [ INFO/2021-07-03 10:36:06,096] pyUltroid: Ultroid - PLUGIN_CHANNEL - Installed - ttyp
+2021-07-03T05:06:06.698977+00:00 app[ultroid.1]: [ INFO/2021-07-03 10:36:06,698] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2021-07-03T05:06:06.759476+00:00 app[ultroid.1]: [ INFO/2021-07-03 10:36:06,759] pyUltroid: Ultroid - PLUGIN_CHANNEL - Installed - off_bio
+2021-07-03T05:06:07.361143+00:00 app[ultroid.1]: [ INFO/2021-07-03 10:36:07,360] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2021-07-03T05:06:07.447854+00:00 app[ultroid.1]: [ INFO/2021-07-03 10:36:07,447] pyUltroid: Ultroid - PLUGIN_CHANNEL - Installed - FLAC
+2021-07-03T05:06:08.241284+00:00 app[ultroid.1]: [ INFO/2021-07-03 10:36:08,240] pyUltroid: 
+2021-07-03T05:06:08.241297+00:00 app[ultroid.1]:                 ----------------------------------------------------------------------
+2021-07-03T05:06:08.241298+00:00 app[ultroid.1]:                     Ultroid has been deployed! Visit @TheUltroid for updates!!
+2021-07-03T05:06:08.241299+00:00 app[ultroid.1]:                 ----------------------------------------------------------------------
+2021-07-03T05:06:08.241300+00:00 app[ultroid.1]: 
+2021-07-03T05:07:35.299621+00:00 app[ultroid.1]: [ INFO/2021-07-03 10:37:35,298] telethon.client.telegrambaseclient: Disconnecting borrowed sender for DC 5
+2021-07-03T05:07:35.299771+00:00 app[ultroid.1]: [ INFO/2021-07-03 10:37:35,299] telethon.network.mtprotosender: Disconnecting from 91.108.56.190:443/TcpFull...
+2021-07-03T05:07:35.301256+00:00 app[ultroid.1]: [ INFO/2021-07-03 10:37:35,301] telethon.network.mtprotosender: Disconnection from 91.108.56.190:443/TcpFull complete!
+2021-07-03T14:45:20.426597+00:00 app[ultroid.1]: [ INFO/2021-07-03 20:15:20,426] telethon.network.mtprotosender: Connecting to 91.108.56.190:443/TcpFull...
+2021-07-03T14:45:22.078955+00:00 app[ultroid.1]: [ INFO/2021-07-03 20:15:22,078] telethon.network.mtprotosender: Connection to 91.108.56.190:443/TcpFull complete!
+2021-07-03T14:45:22.079237+00:00 app[ultroid.1]: [ INFO/2021-07-03 20:15:22,078] telethon.client.telegrambaseclient: Exporting auth for new borrowed sender in DcOption(id=5, ip_address='91.108.56.190', port=443, ipv6=False, media_only=False, tcpo_only=False, cdn=False, static=False, secret=None)
+2021-07-03T14:47:11.346015+00:00 app[ultroid.1]: [ INFO/2021-07-03 20:17:11,345] telethon.client.telegrambaseclient: Disconnecting borrowed sender for DC 5
+2021-07-03T14:47:11.346249+00:00 app[ultroid.1]: [ INFO/2021-07-03 20:17:11,346] telethon.network.mtprotosender: Disconnecting from 91.108.56.190:443/TcpFull...
+2021-07-03T14:47:11.347096+00:00 app[ultroid.1]: [ INFO/2021-07-03 20:17:11,346] telethon.network.mtprotosender: Disconnection from 91.108.56.190:443/TcpFull complete!
+2021-07-03T15:07:49.214740+00:00 app[ultroid.1]: [ INFO/2021-07-03 20:37:49,214] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2021-07-03T15:07:49.254874+00:00 app[ultroid.1]: [ INFO/2021-07-03 20:37:49,254] telethon.client.downloads: File lives in another DC
+2021-07-03T15:07:49.255195+00:00 app[ultroid.1]: [ INFO/2021-07-03 20:37:49,255] telethon.network.mtprotosender: Connecting to 91.108.56.190:443/TcpFull...
+2021-07-03T15:07:49.499026+00:00 app[ultroid.1]: [ INFO/2021-07-03 20:37:49,498] telethon.network.mtprotosender: Connection to 91.108.56.190:443/TcpFull complete!
+2021-07-03T15:09:42.202974+00:00 app[ultroid.1]: [ INFO/2021-07-03 20:39:42,202] telethon.client.telegrambaseclient: Disconnecting borrowed sender for DC 5
+2021-07-03T15:09:42.203246+00:00 app[ultroid.1]: [ INFO/2021-07-03 20:39:42,203] telethon.network.mtprotosender: Disconnecting from 91.108.56.190:443/TcpFull...
+2021-07-03T15:09:42.204308+00:00 app[ultroid.1]: [ INFO/2021-07-03 20:39:42,204] telethon.network.mtprotosender: Disconnection from 91.108.56.190:443/TcpFull complete!
+2021-07-03T15:11:46.372212+00:00 app[ultroid.1]: [ INFO/2021-07-03 20:41:46,371] telethon.client.uploads: Uploading file of 22427 bytes in 1 chunks of 131072
+2021-07-03T15:11:46.408875+00:00 app[ultroid.1]: [ INFO/2021-07-03 20:41:46,408] telethon.client.uploads: Uploading file of 2860101 bytes in 22 chunks of 131072
