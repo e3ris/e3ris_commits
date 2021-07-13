@@ -1,0 +1,100 @@
+2021-07-12T15:33:06.550199+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/requests/sessions.py", line 542, in request
+2021-07-12T15:33:06.550200+00:00 app[ultroid.1]:     resp = self.send(prep, **send_kwargs)
+2021-07-12T15:33:06.550200+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/requests/sessions.py", line 655, in send
+2021-07-12T15:33:06.550201+00:00 app[ultroid.1]:     r = adapter.send(request, **kwargs)
+2021-07-12T15:33:06.550201+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/requests/adapters.py", line 516, in send
+2021-07-12T15:33:06.550201+00:00 app[ultroid.1]:     raise ConnectionError(e, request=request)
+2021-07-12T15:33:06.550202+00:00 app[ultroid.1]: requests.exceptions.ConnectionError: HTTPSConnectionPool(host='del.dog', port=443): Max retries exceeded with url: /documents (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f6a57546f70>: Failed to establish a new connection: [Errno 101] Network is unreachable'))
+2021-07-12T15:33:07.877928+00:00 app[ultroid.1]: [ERROR/2021-07-12 21:03:07,545] telethon.client.updates: Unhandled exception on wrapper
+2021-07-12T15:33:07.877937+00:00 app[ultroid.1]: Traceback (most recent call last):
+2021-07-12T15:33:07.877938+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/pyUltroid/functions/all.py", line 1596, in get_paste
+2021-07-12T15:33:07.877939+00:00 app[ultroid.1]:     requests.post("https://nekobin.com/api/documents", json={"content": data})
+2021-07-12T15:33:07.877939+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/requests/models.py", line 900, in json
+2021-07-12T15:33:07.877940+00:00 app[ultroid.1]:     return complexjson.loads(self.text, **kwargs)
+2021-07-12T15:33:07.877940+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/simplejson/__init__.py", line 525, in loads
+2021-07-12T15:33:07.877940+00:00 app[ultroid.1]:     return _default_decoder.decode(s)
+2021-07-12T15:33:07.877941+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/simplejson/decoder.py", line 370, in decode
+2021-07-12T15:33:07.877941+00:00 app[ultroid.1]:     obj, end = self.raw_decode(s)
+2021-07-12T15:33:07.877942+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/simplejson/decoder.py", line 400, in raw_decode
+2021-07-12T15:33:07.877942+00:00 app[ultroid.1]:     return self.scan_once(s, idx=_w(s, idx).end())
+2021-07-12T15:33:07.877942+00:00 app[ultroid.1]: simplejson.errors.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2021-07-12T15:33:07.877943+00:00 app[ultroid.1]: 
+2021-07-12T15:33:07.877943+00:00 app[ultroid.1]: During handling of the above exception, another exception occurred:
+2021-07-12T15:33:07.877944+00:00 app[ultroid.1]: 
+2021-07-12T15:33:07.877947+00:00 app[ultroid.1]: Traceback (most recent call last):
+2021-07-12T15:33:07.877948+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/urllib3/connection.py", line 169, in _new_conn
+2021-07-12T15:33:07.877948+00:00 app[ultroid.1]:     conn = connection.create_connection(
+2021-07-12T15:33:07.877948+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/urllib3/util/connection.py", line 96, in create_connection
+2021-07-12T15:33:07.877949+00:00 app[ultroid.1]:     raise err
+2021-07-12T15:33:07.877949+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/urllib3/util/connection.py", line 86, in create_connection
+2021-07-12T15:33:07.877950+00:00 app[ultroid.1]:     sock.connect(sa)
+2021-07-12T15:33:07.877950+00:00 app[ultroid.1]: OSError: [Errno 101] Network is unreachable
+2021-07-12T15:33:07.877951+00:00 app[ultroid.1]: 
+2021-07-12T15:33:07.877951+00:00 app[ultroid.1]: During handling of the above exception, another exception occurred:
+2021-07-12T15:33:07.877951+00:00 app[ultroid.1]: 
+2021-07-12T15:33:07.877952+00:00 app[ultroid.1]: Traceback (most recent call last):
+2021-07-12T15:33:07.877952+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/urllib3/connectionpool.py", line 699, in urlopen
+2021-07-12T15:33:07.877952+00:00 app[ultroid.1]:     httplib_response = self._make_request(
+2021-07-12T15:33:07.877953+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/urllib3/connectionpool.py", line 382, in _make_request
+2021-07-12T15:33:07.877953+00:00 app[ultroid.1]:     self._validate_conn(conn)
+2021-07-12T15:33:07.877954+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/urllib3/connectionpool.py", line 1010, in _validate_conn
+2021-07-12T15:33:07.877954+00:00 app[ultroid.1]:     conn.connect()
+2021-07-12T15:33:07.877955+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/urllib3/connection.py", line 353, in connect
+2021-07-12T15:33:07.877955+00:00 app[ultroid.1]:     conn = self._new_conn()
+2021-07-12T15:33:07.877955+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/urllib3/connection.py", line 181, in _new_conn
+2021-07-12T15:33:07.877956+00:00 app[ultroid.1]:     raise NewConnectionError(
+2021-07-12T15:33:07.877957+00:00 app[ultroid.1]: urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x7f6a57546f70>: Failed to establish a new connection: [Errno 101] Network is unreachable
+2021-07-12T15:33:07.877957+00:00 app[ultroid.1]: 
+2021-07-12T15:33:07.877957+00:00 app[ultroid.1]: During handling of the above exception, another exception occurred:
+2021-07-12T15:33:07.877957+00:00 app[ultroid.1]: 
+2021-07-12T15:33:07.877958+00:00 app[ultroid.1]: Traceback (most recent call last):
+2021-07-12T15:33:07.877958+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/requests/adapters.py", line 439, in send
+2021-07-12T15:33:07.877959+00:00 app[ultroid.1]:     resp = conn.urlopen(
+2021-07-12T15:33:07.877959+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/urllib3/connectionpool.py", line 755, in urlopen
+2021-07-12T15:33:07.877959+00:00 app[ultroid.1]:     retries = retries.increment(
+2021-07-12T15:33:07.877960+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/urllib3/util/retry.py", line 574, in increment
+2021-07-12T15:33:07.877960+00:00 app[ultroid.1]:     raise MaxRetryError(_pool, url, error or ResponseError(cause))
+2021-07-12T15:33:07.877961+00:00 app[ultroid.1]: urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='del.dog', port=443): Max retries exceeded with url: /documents (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f6a57546f70>: Failed to establish a new connection: [Errno 101] Network is unreachable'))
+2021-07-12T15:33:07.877961+00:00 app[ultroid.1]: 
+2021-07-12T15:33:07.877962+00:00 app[ultroid.1]: During handling of the above exception, another exception occurred:
+2021-07-12T15:33:07.877962+00:00 app[ultroid.1]: 
+2021-07-12T15:33:07.877962+00:00 app[ultroid.1]: Traceback (most recent call last):
+2021-07-12T15:33:07.877963+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/pyUltroid/misc/_decorators.py", line 99, in wrapper
+2021-07-12T15:33:07.877963+00:00 app[ultroid.1]:     await func(ult)
+2021-07-12T15:33:07.877964+00:00 app[ultroid.1]:   File "/root/TeamUltroid/plugins/utilities.py", line 264, in _
+2021-07-12T15:33:07.877964+00:00 app[ultroid.1]:     what, key = get_paste(message)
+2021-07-12T15:33:07.877964+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/pyUltroid/functions/all.py", line 1604, in get_paste
+2021-07-12T15:33:07.877965+00:00 app[ultroid.1]:     requests.post("https://del.dog/documents", data=data.encode("UTF-8"))
+2021-07-12T15:33:07.877965+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/requests/api.py", line 119, in post
+2021-07-12T15:33:07.877966+00:00 app[ultroid.1]:     return request('post', url, data=data, json=json, **kwargs)
+2021-07-12T15:33:07.877966+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/requests/api.py", line 61, in request
+2021-07-12T15:33:07.877966+00:00 app[ultroid.1]:     return session.request(method=method, url=url, **kwargs)
+2021-07-12T15:33:07.877967+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/requests/sessions.py", line 542, in request
+2021-07-12T15:33:07.877967+00:00 app[ultroid.1]:     resp = self.send(prep, **send_kwargs)
+2021-07-12T15:33:07.877975+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/requests/sessions.py", line 655, in send
+2021-07-12T15:33:07.877976+00:00 app[ultroid.1]:     r = adapter.send(request, **kwargs)
+2021-07-12T15:33:07.877976+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/requests/adapters.py", line 516, in send
+2021-07-12T15:33:07.877977+00:00 app[ultroid.1]:     raise ConnectionError(e, request=request)
+2021-07-12T15:33:07.877977+00:00 app[ultroid.1]: requests.exceptions.ConnectionError: HTTPSConnectionPool(host='del.dog', port=443): Max retries exceeded with url: /documents (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f6a57546f70>: Failed to establish a new connection: [Errno 101] Network is unreachable'))
+2021-07-12T15:33:07.877978+00:00 app[ultroid.1]: 
+2021-07-12T15:33:07.877978+00:00 app[ultroid.1]: During handling of the above exception, another exception occurred:
+2021-07-12T15:33:07.877979+00:00 app[ultroid.1]: 
+2021-07-12T15:33:07.877979+00:00 app[ultroid.1]: Traceback (most recent call last):
+2021-07-12T15:33:07.877980+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 454, in _dispatch_update
+2021-07-12T15:33:07.877980+00:00 app[ultroid.1]:     await callback(event)
+2021-07-12T15:33:07.877980+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/pyUltroid/misc/_decorators.py", line 145, in wrapper
+2021-07-12T15:33:07.877981+00:00 app[ultroid.1]:     await ultroid_bot.asst.send_message(
+2021-07-12T15:33:07.877981+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/client/users.py", line 79, in _call
+2021-07-12T15:33:07.877982+00:00 app[ultroid.1]:     result = await future
+2021-07-12T15:33:07.877985+00:00 app[ultroid.1]: telethon.errors.rpcerrorlist.MessageTooLongError: Message was too long. Current maximum length is 4096 UTF-8 characters (caused by SendMessageRequest)
+2021-07-12T15:33:12.860940+00:00 app[ultroid.1]: [ INFO/2021-07-12 21:03:12,860] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2021-07-12T23:53:11.423307+00:00 app[ultroid.1]: [ INFO/2021-07-13 05:23:11,423] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2021-07-12T23:53:11.465737+00:00 app[ultroid.1]: [ INFO/2021-07-13 05:23:11,465] telethon.client.downloads: File lives in another DC
+2021-07-12T23:53:11.468096+00:00 app[ultroid.1]: [ INFO/2021-07-13 05:23:11,467] telethon.network.mtprotosender: Connecting to 149.154.167.92:443/TcpFull...
+2021-07-12T23:53:12.606371+00:00 app[ultroid.1]: [ INFO/2021-07-13 05:23:12,606] telethon.network.mtprotosender: Connection to 149.154.167.92:443/TcpFull complete!
+2021-07-12T23:53:12.606654+00:00 app[ultroid.1]: [ INFO/2021-07-13 05:23:12,606] telethon.client.telegrambaseclient: Exporting auth for new borrowed sender in DcOption(id=4, ip_address='149.154.167.92', port=443, ipv6=False, media_only=False, tcpo_only=False, cdn=False, static=False, secret=None)
+2021-07-12T23:53:29.372051+00:00 app[ultroid.1]: [ INFO/2021-07-13 05:23:29,371] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2021-07-12T23:53:29.410173+00:00 app[ultroid.1]: [ INFO/2021-07-13 05:23:29,409] telethon.client.downloads: File lives in another DC
+2021-07-12T23:54:44.191268+00:00 app[ultroid.1]: [ INFO/2021-07-13 05:24:44,190] telethon.client.telegrambaseclient: Disconnecting borrowed sender for DC 4
+2021-07-12T23:54:44.191618+00:00 app[ultroid.1]: [ INFO/2021-07-13 05:24:44,191] telethon.network.mtprotosender: Disconnecting from 149.154.167.92:443/TcpFull...
+2021-07-12T23:54:44.192186+00:00 app[ultroid.1]: [ INFO/2021-07-13 05:24:44,192] telethon.network.mtprotosender: Disconnection from 149.154.167.92:443/TcpFull complete!
