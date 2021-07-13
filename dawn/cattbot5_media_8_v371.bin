@@ -1,0 +1,35 @@
+# made by eris. for catty bot.
+
+from userbot import catub
+from telethon import events
+from random import randint, choice
+
+from . import BOTLOG_CHATID
+
+chats = [-1001436155389, -1001451324102]
+
+@catub.on(events.ChatAction(chats=chats))
+async def wlcm_random(event):
+	if event.user_joined:
+		emoji = choice("🤗", "👋", "👋")
+		if emoji == "🤗":
+			off_set = None
+		else:
+			off_set = randint(0, 120)
+
+		query = await event.client.inline_query(
+			"sticker", 
+			emoji,
+			entity=event.chat_id,
+			offset=off_set,
+		)
+		try:
+			rand = randint(0, len(query))
+			await query[rand].click(
+				reply_to=event.action_message.id,
+				hide_via=True,
+			)
+		except Exception as ex:
+			return await event.client.tgbot.send_message(
+				BOTLOG_CHATID, f"Welcome Spam: \n{ex}",
+			)
