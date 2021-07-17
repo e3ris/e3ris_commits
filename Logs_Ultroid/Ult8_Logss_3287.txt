@@ -1,0 +1,100 @@
+2021-07-17T14:04:11.039496+00:00 app[ultroid.1]:     raise TypeError('Cannot cast {} to any kind of {}.'.format(
+2021-07-17T14:04:11.039496+00:00 app[ultroid.1]: TypeError: Cannot cast MessageMediaPhoto to any kind of InputDocument.
+2021-07-17T14:04:11.039497+00:00 app[ultroid.1]: 
+2021-07-17T14:04:11.039497+00:00 app[ultroid.1]: During handling of the above exception, another exception occurred:
+2021-07-17T14:04:11.039498+00:00 app[ultroid.1]: 
+2021-07-17T14:04:11.039498+00:00 app[ultroid.1]: Traceback (most recent call last):
+2021-07-17T14:04:11.039498+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 454, in _dispatch_update
+2021-07-17T14:04:11.039499+00:00 app[ultroid.1]:     await callback(event)
+2021-07-17T14:04:11.039500+00:00 app[ultroid.1]:   File "/root/TeamUltroid/addons/ibutton.py", line 102, in query_ibutton
+2021-07-17T14:04:11.039500+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/events/inlinequery.py", line 221, in answer
+2021-07-17T14:04:11.039501+00:00 app[ultroid.1]:     results = [x.result() for x in futures]
+2021-07-17T14:04:11.039501+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/events/inlinequery.py", line 221, in <listcomp>
+2021-07-17T14:04:11.039501+00:00 app[ultroid.1]:     results = [x.result() for x in futures]
+2021-07-17T14:04:11.039502+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/tl/custom/inlinebuilder.py", line 314, in document
+2021-07-17T14:04:11.039502+00:00 app[ultroid.1]:     r = await self._client(functions.messages.UploadMediaRequest(
+2021-07-17T14:04:11.039503+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/client/users.py", line 79, in _call
+2021-07-17T14:04:11.039503+00:00 app[ultroid.1]:     result = await future
+2021-07-17T14:04:11.039503+00:00 app[ultroid.1]: telethon.errors.rpcerrorlist.MediaInvalidError: Media invalid (caused by UploadMediaRequest)
+2021-07-17T14:04:11.166616+00:00 app[ultroid.1]: [ERROR/2021-07-17 19:34:11,165] telethon.client.updates: Unhandled exception on query_ibutton
+2021-07-17T14:04:11.166619+00:00 app[ultroid.1]: Traceback (most recent call last):
+2021-07-17T14:04:11.166621+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/tl/custom/inlinebuilder.py", line 300, in document
+2021-07-17T14:04:11.166621+00:00 app[ultroid.1]:     fh = utils.get_input_document(file)
+2021-07-17T14:04:11.166622+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/utils.py", line 344, in get_input_document
+2021-07-17T14:04:11.166622+00:00 app[ultroid.1]:     return get_input_document(document.media)
+2021-07-17T14:04:11.166622+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/utils.py", line 346, in get_input_document
+2021-07-17T14:04:11.166623+00:00 app[ultroid.1]:     _raise_cast_fail(document, 'InputDocument')
+2021-07-17T14:04:11.166623+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/utils.py", line 138, in _raise_cast_fail
+2021-07-17T14:04:11.166624+00:00 app[ultroid.1]:     raise TypeError('Cannot cast {} to any kind of {}.'.format(
+2021-07-17T14:04:11.166625+00:00 app[ultroid.1]: TypeError: Cannot cast MessageMediaPhoto to any kind of InputDocument.
+2021-07-17T14:04:11.166627+00:00 app[ultroid.1]: 
+2021-07-17T14:04:11.166627+00:00 app[ultroid.1]: During handling of the above exception, another exception occurred:
+2021-07-17T14:04:11.166627+00:00 app[ultroid.1]: 
+2021-07-17T14:04:11.166628+00:00 app[ultroid.1]: Traceback (most recent call last):
+2021-07-17T14:04:11.166628+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 454, in _dispatch_update
+2021-07-17T14:04:11.166629+00:00 app[ultroid.1]:     await callback(event)
+2021-07-17T14:04:11.166630+00:00 app[ultroid.1]:   File "/root/TeamUltroid/addons/ibutton.py", line 102, in query_ibutton
+2021-07-17T14:04:11.166630+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/events/inlinequery.py", line 221, in answer
+2021-07-17T14:04:11.166631+00:00 app[ultroid.1]:     results = [x.result() for x in futures]
+2021-07-17T14:04:11.166631+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/events/inlinequery.py", line 221, in <listcomp>
+2021-07-17T14:04:11.166631+00:00 app[ultroid.1]:     results = [x.result() for x in futures]
+2021-07-17T14:04:11.166632+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/tl/custom/inlinebuilder.py", line 314, in document
+2021-07-17T14:04:11.166632+00:00 app[ultroid.1]:     r = await self._client(functions.messages.UploadMediaRequest(
+2021-07-17T14:04:11.166633+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/client/users.py", line 79, in _call
+2021-07-17T14:04:11.166633+00:00 app[ultroid.1]:     result = await future
+2021-07-17T14:04:11.166633+00:00 app[ultroid.1]: telethon.errors.rpcerrorlist.MediaInvalidError: Media invalid (caused by UploadMediaRequest)
+2021-07-17T14:04:11.346592+00:00 app[ultroid.1]: [ERROR/2021-07-17 19:34:11,345] telethon.client.updates: Unhandled exception on query_ibutton
+2021-07-17T14:04:11.346608+00:00 app[ultroid.1]: Traceback (most recent call last):
+2021-07-17T14:04:11.346610+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/tl/custom/inlinebuilder.py", line 300, in document
+2021-07-17T14:04:11.346611+00:00 app[ultroid.1]:     fh = utils.get_input_document(file)
+2021-07-17T14:04:11.346611+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/utils.py", line 344, in get_input_document
+2021-07-17T14:04:11.346612+00:00 app[ultroid.1]:     return get_input_document(document.media)
+2021-07-17T14:04:11.346612+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/utils.py", line 346, in get_input_document
+2021-07-17T14:04:11.346613+00:00 app[ultroid.1]:     _raise_cast_fail(document, 'InputDocument')
+2021-07-17T14:04:11.346613+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/utils.py", line 138, in _raise_cast_fail
+2021-07-17T14:04:11.346614+00:00 app[ultroid.1]:     raise TypeError('Cannot cast {} to any kind of {}.'.format(
+2021-07-17T14:04:11.346614+00:00 app[ultroid.1]: TypeError: Cannot cast MessageMediaPhoto to any kind of InputDocument.
+2021-07-17T14:04:11.346615+00:00 app[ultroid.1]: 
+2021-07-17T14:04:11.346615+00:00 app[ultroid.1]: During handling of the above exception, another exception occurred:
+2021-07-17T14:04:11.346616+00:00 app[ultroid.1]: 
+2021-07-17T14:04:11.346616+00:00 app[ultroid.1]: Traceback (most recent call last):
+2021-07-17T14:04:11.346616+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 454, in _dispatch_update
+2021-07-17T14:04:11.346617+00:00 app[ultroid.1]:     await callback(event)
+2021-07-17T14:04:11.346618+00:00 app[ultroid.1]:   File "/root/TeamUltroid/addons/button.py", line 127, in query_ibutton
+2021-07-17T14:04:11.346618+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/events/inlinequery.py", line 221, in answer
+2021-07-17T14:04:11.346619+00:00 app[ultroid.1]:     results = [x.result() for x in futures]
+2021-07-17T14:04:11.346619+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/events/inlinequery.py", line 221, in <listcomp>
+2021-07-17T14:04:11.346619+00:00 app[ultroid.1]:     results = [x.result() for x in futures]
+2021-07-17T14:04:11.346620+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/tl/custom/inlinebuilder.py", line 314, in document
+2021-07-17T14:04:11.346620+00:00 app[ultroid.1]:     r = await self._client(functions.messages.UploadMediaRequest(
+2021-07-17T14:04:11.346620+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/client/users.py", line 79, in _call
+2021-07-17T14:04:11.346621+00:00 app[ultroid.1]:     result = await future
+2021-07-17T14:04:11.346621+00:00 app[ultroid.1]: telethon.errors.rpcerrorlist.MediaInvalidError: Media invalid (caused by UploadMediaRequest)
+2021-07-17T14:04:11.491539+00:00 app[ultroid.1]: [ERROR/2021-07-17 19:34:11,490] telethon.client.updates: Unhandled exception on query_ibutton
+2021-07-17T14:04:11.491542+00:00 app[ultroid.1]: Traceback (most recent call last):
+2021-07-17T14:04:11.491542+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/tl/custom/inlinebuilder.py", line 300, in document
+2021-07-17T14:04:11.491543+00:00 app[ultroid.1]:     fh = utils.get_input_document(file)
+2021-07-17T14:04:11.491543+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/utils.py", line 344, in get_input_document
+2021-07-17T14:04:11.491546+00:00 app[ultroid.1]:     return get_input_document(document.media)
+2021-07-17T14:04:11.491546+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/utils.py", line 346, in get_input_document
+2021-07-17T14:04:11.491547+00:00 app[ultroid.1]:     _raise_cast_fail(document, 'InputDocument')
+2021-07-17T14:04:11.491547+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/utils.py", line 138, in _raise_cast_fail
+2021-07-17T14:04:11.491548+00:00 app[ultroid.1]:     raise TypeError('Cannot cast {} to any kind of {}.'.format(
+2021-07-17T14:04:11.491548+00:00 app[ultroid.1]: TypeError: Cannot cast MessageMediaPhoto to any kind of InputDocument.
+2021-07-17T14:04:11.491549+00:00 app[ultroid.1]: 
+2021-07-17T14:04:11.491549+00:00 app[ultroid.1]: During handling of the above exception, another exception occurred:
+2021-07-17T14:04:11.491550+00:00 app[ultroid.1]: 
+2021-07-17T14:04:11.491550+00:00 app[ultroid.1]: Traceback (most recent call last):
+2021-07-17T14:04:11.491551+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 454, in _dispatch_update
+2021-07-17T14:04:11.491551+00:00 app[ultroid.1]:     await callback(event)
+2021-07-17T14:04:11.491552+00:00 app[ultroid.1]:   File "/root/TeamUltroid/addons/button.py", line 105, in query_ibutton
+2021-07-17T14:04:11.491552+00:00 app[ultroid.1]:     await event.answer([result] if result else None)
+2021-07-17T14:04:11.491553+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/events/inlinequery.py", line 221, in answer
+2021-07-17T14:04:11.491553+00:00 app[ultroid.1]:     results = [x.result() for x in futures]
+2021-07-17T14:04:11.491553+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/events/inlinequery.py", line 221, in <listcomp>
+2021-07-17T14:04:11.491554+00:00 app[ultroid.1]:     results = [x.result() for x in futures]
+2021-07-17T14:04:11.491554+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/tl/custom/inlinebuilder.py", line 314, in document
+2021-07-17T14:04:11.491555+00:00 app[ultroid.1]:     r = await self._client(functions.messages.UploadMediaRequest(
+2021-07-17T14:04:11.491555+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/client/users.py", line 79, in _call
+2021-07-17T14:04:11.491556+00:00 app[ultroid.1]:     result = await future
+2021-07-17T14:04:11.491556+00:00 app[ultroid.1]: telethon.errors.rpcerrorlist.MediaInvalidError: Media invalid (caused by UploadMediaRequest)
