@@ -1,0 +1,100 @@
+2021-07-18T02:57:52.960785+00:00 app[ultroid.1]:   File "/root/TeamUltroid/addons/_inline.py", line 447, in opner
+2021-07-18T02:57:52.960785+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/events/callbackquery.py", line 316, in edit
+2021-07-18T02:57:52.960786+00:00 app[ultroid.1]:     return await self._client.edit_message(
+2021-07-18T02:57:52.960786+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/client/messages.py", line 1152, in edit_message
+2021-07-18T02:57:52.960786+00:00 app[ultroid.1]:     return await self(request)
+2021-07-18T02:57:52.960787+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+2021-07-18T02:57:52.960787+00:00 app[ultroid.1]:     return await self._call(self._sender, request, ordered=ordered)
+2021-07-18T02:57:52.960787+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/client/users.py", line 79, in _call
+2021-07-18T02:57:52.960788+00:00 app[ultroid.1]:     result = await future
+2021-07-18T02:57:52.960788+00:00 app[ultroid.1]: telethon.errors.rpcerrorlist.MessageNotModifiedError: Content of the message was not modified (caused by EditInlineBotMessageRequest)
+2021-07-18T02:57:53.006242+00:00 app[ultroid.1]: [ERROR/2021-07-18 08:27:53,005] telethon.client.updates: Unhandled exception on opner
+2021-07-18T02:57:53.006244+00:00 app[ultroid.1]: Traceback (most recent call last):
+2021-07-18T02:57:53.006245+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 454, in _dispatch_update
+2021-07-18T02:57:53.006246+00:00 app[ultroid.1]:     await callback(event)
+2021-07-18T02:57:53.006246+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/pyUltroid/misc/_assistant.py", line 115, in wrapper
+2021-07-18T02:57:53.006249+00:00 app[ultroid.1]:     await function(event)
+2021-07-18T02:57:53.006250+00:00 app[ultroid.1]:   File "/root/TeamUltroid/addons/ini.py", line 423, in opner
+2021-07-18T02:57:53.006250+00:00 app[ultroid.1]:     await event.edit(
+2021-07-18T02:57:53.006251+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/events/callbackquery.py", line 316, in edit
+2021-07-18T02:57:53.006251+00:00 app[ultroid.1]:     return await self._client.edit_message(
+2021-07-18T02:57:53.006252+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/client/messages.py", line 1152, in edit_message
+2021-07-18T02:57:53.006252+00:00 app[ultroid.1]:     return await self(request)
+2021-07-18T02:57:53.006252+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+2021-07-18T02:57:53.006253+00:00 app[ultroid.1]:     return await self._call(self._sender, request, ordered=ordered)
+2021-07-18T02:57:53.006254+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/client/users.py", line 79, in _call
+2021-07-18T02:57:53.006254+00:00 app[ultroid.1]:     result = await future
+2021-07-18T02:57:53.006255+00:00 app[ultroid.1]: telethon.errors.rpcerrorlist.MessageNotModifiedError: Content of the message was not modified (caused by EditInlineBotMessageRequest)
+2021-07-18T02:57:53.692745+00:00 app[ultroid.1]: [ INFO/2021-07-18 08:27:53,692] telethon.client.users: Sleeping for 4s (0:00:04) on EditInlineBotMessageRequest flood wait
+2021-07-18T02:57:54.388144+00:00 app[ultroid.1]: [ INFO/2021-07-18 08:27:54,387] telethon.client.users: Sleeping for 3s (0:00:03) on EditInlineBotMessageRequest flood wait
+2021-07-18T02:57:57.429620+00:00 app[ultroid.1]: [ INFO/2021-07-18 08:27:57,429] telethon.client.users: Sleeping for 3s (0:00:03) on EditInlineBotMessageRequest flood wait
+2021-07-18T02:57:57.733144+00:00 app[ultroid.1]: [ INFO/2021-07-18 08:27:57,732] telethon.client.users: Sleeping for 3s (0:00:03) on EditInlineBotMessageRequest flood wait
+2021-07-18T02:57:59.118224+00:00 app[ultroid.1]: [ERROR/2021-07-18 08:27:59,117] telethon.client.updates: Unhandled exception on on_plug_in_callback_query_handler
+2021-07-18T02:57:59.118244+00:00 app[ultroid.1]: Traceback (most recent call last):
+2021-07-18T02:57:59.118245+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 454, in _dispatch_update
+2021-07-18T02:57:59.118246+00:00 app[ultroid.1]:     await callback(event)
+2021-07-18T02:57:59.118246+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/pyUltroid/misc/_assistant.py", line 115, in wrapper
+2021-07-18T02:57:59.118247+00:00 app[ultroid.1]:     await function(event)
+2021-07-18T02:57:59.118247+00:00 app[ultroid.1]:   File "/root/TeamUltroid/addons/_inline.py", line 462, in on_plug_in_callback_query_handler
+2021-07-18T02:57:59.118248+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/events/callbackquery.py", line 316, in edit
+2021-07-18T02:57:59.118248+00:00 app[ultroid.1]:     return await self._client.edit_message(
+2021-07-18T02:57:59.118249+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/client/messages.py", line 1152, in edit_message
+2021-07-18T02:57:59.118249+00:00 app[ultroid.1]:     return await self(request)
+2021-07-18T02:57:59.118250+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+2021-07-18T02:57:59.118250+00:00 app[ultroid.1]:     return await self._call(self._sender, request, ordered=ordered)
+2021-07-18T02:57:59.118251+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/client/users.py", line 79, in _call
+2021-07-18T02:57:59.118251+00:00 app[ultroid.1]:     result = await future
+2021-07-18T02:57:59.118254+00:00 app[ultroid.1]: telethon.errors.rpcerrorlist.MessageNotModifiedError: Content of the message was not modified (caused by EditInlineBotMessageRequest)
+2021-07-18T02:57:59.119860+00:00 app[ultroid.1]: [ERROR/2021-07-18 08:27:59,119] telethon.client.updates: Unhandled exception on on_plug_in_callback_query_handler
+2021-07-18T02:57:59.119861+00:00 app[ultroid.1]: Traceback (most recent call last):
+2021-07-18T02:57:59.119862+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 454, in _dispatch_update
+2021-07-18T02:57:59.119862+00:00 app[ultroid.1]:     await callback(event)
+2021-07-18T02:57:59.119863+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/pyUltroid/misc/_assistant.py", line 115, in wrapper
+2021-07-18T02:57:59.119863+00:00 app[ultroid.1]:     await function(event)
+2021-07-18T02:57:59.119864+00:00 app[ultroid.1]:   File "/root/TeamUltroid/addons/ini.py", line 440, in on_plug_in_callback_query_handler
+2021-07-18T02:57:59.119864+00:00 app[ultroid.1]:     file=_oh_man if _oh_man else _file_to_replace,
+2021-07-18T02:57:59.119865+00:00 app[ultroid.1]: NameError: name '_oh_man' is not defined
+2021-07-18T02:58:00.485148+00:00 app[ultroid.1]: [ERROR/2021-07-18 08:28:00,484] telethon.client.updates: Unhandled exception on on_plug_in_callback_query_handler
+2021-07-18T02:58:00.485167+00:00 app[ultroid.1]: Traceback (most recent call last):
+2021-07-18T02:58:00.485168+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 454, in _dispatch_update
+2021-07-18T02:58:00.485168+00:00 app[ultroid.1]:     await callback(event)
+2021-07-18T02:58:00.485169+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/pyUltroid/misc/_assistant.py", line 115, in wrapper
+2021-07-18T02:58:00.485169+00:00 app[ultroid.1]:     await function(event)
+2021-07-18T02:58:00.485170+00:00 app[ultroid.1]:   File "/root/TeamUltroid/plugins/_inline.py", line 433, in on_plug_in_callback_query_handler
+2021-07-18T02:58:00.485171+00:00 app[ultroid.1]:     link_preview=False,
+2021-07-18T02:58:00.485171+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/events/callbackquery.py", line 316, in edit
+2021-07-18T02:58:00.485172+00:00 app[ultroid.1]:     return await self._client.edit_message(
+2021-07-18T02:58:00.485172+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/client/messages.py", line 1152, in edit_message
+2021-07-18T02:58:00.485173+00:00 app[ultroid.1]:     return await self(request)
+2021-07-18T02:58:00.485173+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+2021-07-18T02:58:00.485173+00:00 app[ultroid.1]:     return await self._call(self._sender, request, ordered=ordered)
+2021-07-18T02:58:00.485174+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/client/users.py", line 79, in _call
+2021-07-18T02:58:00.485174+00:00 app[ultroid.1]:     result = await future
+2021-07-18T02:58:00.485182+00:00 app[ultroid.1]: telethon.errors.rpcerrorlist.MessageNotModifiedError: Content of the message was not modified (caused by EditInlineBotMessageRequest)
+2021-07-18T02:58:00.540126+00:00 app[ultroid.1]: [ERROR/2021-07-18 08:28:00,539] telethon.client.updates: Unhandled exception on on_plug_in_callback_query_handler
+2021-07-18T02:58:00.540128+00:00 app[ultroid.1]: Traceback (most recent call last):
+2021-07-18T02:58:00.540128+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 454, in _dispatch_update
+2021-07-18T02:58:00.540129+00:00 app[ultroid.1]:     await callback(event)
+2021-07-18T02:58:00.540129+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/pyUltroid/misc/_assistant.py", line 115, in wrapper
+2021-07-18T02:58:00.540129+00:00 app[ultroid.1]:     await function(event)
+2021-07-18T02:58:00.540130+00:00 app[ultroid.1]:   File "/root/TeamUltroid/addons/_inline.py", line 462, in on_plug_in_callback_query_handler
+2021-07-18T02:58:00.540130+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/events/callbackquery.py", line 316, in edit
+2021-07-18T02:58:00.540131+00:00 app[ultroid.1]:     return await self._client.edit_message(
+2021-07-18T02:58:00.540131+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/client/messages.py", line 1152, in edit_message
+2021-07-18T02:58:00.540131+00:00 app[ultroid.1]:     return await self(request)
+2021-07-18T02:58:00.540131+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+2021-07-18T02:58:00.540132+00:00 app[ultroid.1]:     return await self._call(self._sender, request, ordered=ordered)
+2021-07-18T02:58:00.540132+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/client/users.py", line 79, in _call
+2021-07-18T02:58:00.540132+00:00 app[ultroid.1]:     result = await future
+2021-07-18T02:58:00.540133+00:00 app[ultroid.1]: telethon.errors.rpcerrorlist.MessageNotModifiedError: Content of the message was not modified (caused by EditInlineBotMessageRequest)
+2021-07-18T02:58:00.542089+00:00 app[ultroid.1]: [ERROR/2021-07-18 08:28:00,541] telethon.client.updates: Unhandled exception on on_plug_in_callback_query_handler
+2021-07-18T02:58:00.542090+00:00 app[ultroid.1]: Traceback (most recent call last):
+2021-07-18T02:58:00.542090+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 454, in _dispatch_update
+2021-07-18T02:58:00.542090+00:00 app[ultroid.1]:     await callback(event)
+2021-07-18T02:58:00.542091+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/pyUltroid/misc/_assistant.py", line 115, in wrapper
+2021-07-18T02:58:00.542091+00:00 app[ultroid.1]:     await function(event)
+2021-07-18T02:58:00.542091+00:00 app[ultroid.1]:   File "/root/TeamUltroid/addons/ini.py", line 440, in on_plug_in_callback_query_handler
+2021-07-18T02:58:00.542091+00:00 app[ultroid.1]:     file=_oh_man if _oh_man else _file_to_replace,
+2021-07-18T02:58:00.542092+00:00 app[ultroid.1]: NameError: name '_oh_man' is not defined
+2021-07-18T02:58:00.848500+00:00 app[ultroid.1]: [ INFO/2021-07-18 08:28:00,848] telethon.client.users: Sleeping for 42s (0:00:42) on EditInlineBotMessageRequest flood wait
+2021-07-18T02:58:03.550020+00:00 app[ultroid.1]: [ INFO/2021-07-18 08:28:03,549] telethon.client.users: Sleeping early for 39s (0:00:39) on EditInlineBotMessageRequest flood wait
