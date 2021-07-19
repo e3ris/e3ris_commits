@@ -1,0 +1,100 @@
+2021-07-19T12:06:29.886152+00:00 app[ultroid.1]: 07/19/2021, 17:36:29 || pyrogram.session.session [INFO] - Session initialized: Layer 126
+2021-07-19T12:06:29.887581+00:00 app[ultroid.1]: 07/19/2021, 17:36:29 || pyrogram.session.session [INFO] - Device: CPython 3.9.5 - Pyrogram 1.2.9
+2021-07-19T12:06:29.887761+00:00 app[ultroid.1]: 07/19/2021, 17:36:29 || pyrogram.session.session [INFO] - System: Linux 4.4.0-1093-aws (EN)
+2021-07-19T12:06:29.887936+00:00 app[ultroid.1]: 07/19/2021, 17:36:29 || pyrogram.session.session [INFO] - Session started
+2021-07-19T12:06:29.888231+00:00 app[ultroid.1]: 07/19/2021, 17:36:29 || pyrogram.session.session [INFO] - PingTask started
+2021-07-19T12:06:30.166730+00:00 app[ultroid.1]: 07/19/2021, 17:36:30 || pyrogram.session.session [INFO] - Session initialized: Layer 126
+2021-07-19T12:06:30.166827+00:00 app[ultroid.1]: 07/19/2021, 17:36:30 || pyrogram.session.session [INFO] - Device: CPython 3.9.5 - Pyrogram 1.2.9
+2021-07-19T12:06:30.166918+00:00 app[ultroid.1]: 07/19/2021, 17:36:30 || pyrogram.session.session [INFO] - System: Linux 4.4.0-1093-aws (EN)
+2021-07-19T12:06:30.167011+00:00 app[ultroid.1]: 07/19/2021, 17:36:30 || pyrogram.session.session [INFO] - Session started
+2021-07-19T12:06:30.167144+00:00 app[ultroid.1]: 07/19/2021, 17:36:30 || pyrogram.session.session [INFO] - PingTask started
+2021-07-19T12:13:37.771217+00:00 app[ultroid.1]: 07/19/2021, 17:43:37 || pyrogram.session.session [INFO] - NetworkTask stopped
+2021-07-19T12:13:37.771736+00:00 app[ultroid.1]: 07/19/2021, 17:43:37 || pyrogram.session.session [INFO] - PingTask stopped
+2021-07-19T12:13:37.772032+00:00 app[ultroid.1]: 07/19/2021, 17:43:37 || pyrogram.session.session [INFO] - NextSaltTask stopped
+2021-07-19T12:13:37.772419+00:00 app[ultroid.1]: 07/19/2021, 17:43:37 || pyrogram.connection.connection [INFO] - Disconnected
+2021-07-19T12:13:37.772683+00:00 app[ultroid.1]: 07/19/2021, 17:43:37 || pyrogram.session.session [INFO] - Session stopped
+2021-07-19T12:13:37.773096+00:00 app[ultroid.1]: 07/19/2021, 17:43:37 || pyrogram.connection.connection [INFO] - Connecting...
+2021-07-19T12:13:37.798390+00:00 app[ultroid.1]: 07/19/2021, 17:43:37 || pyrogram.connection.connection [INFO] - Connected! Production DC1 - IPv4 - TCPAbridgedO
+2021-07-19T12:13:37.799177+00:00 app[ultroid.1]: 07/19/2021, 17:43:37 || pyrogram.session.session [INFO] - NetworkTask started
+2021-07-19T12:13:37.800067+00:00 app[ultroid.1]: 07/19/2021, 17:43:37 || pyrogram.session.session [INFO] - NetworkTask stopped
+2021-07-19T12:13:37.800639+00:00 app[ultroid.1]: 07/19/2021, 17:43:37 || pyrogram.session.session [INFO] - PingTask stopped
+2021-07-19T12:13:37.800883+00:00 app[ultroid.1]: 07/19/2021, 17:43:37 || pyrogram.session.session [INFO] - NextSaltTask stopped
+2021-07-19T12:13:37.801197+00:00 app[ultroid.1]: 07/19/2021, 17:43:37 || pyrogram.connection.connection [INFO] - Disconnected
+2021-07-19T12:13:37.801425+00:00 app[ultroid.1]: 07/19/2021, 17:43:37 || pyrogram.session.session [INFO] - Session stopped
+2021-07-19T12:13:37.801778+00:00 app[ultroid.1]: 07/19/2021, 17:43:37 || pyrogram.connection.connection [INFO] - Connecting...
+2021-07-19T12:13:37.828166+00:00 app[ultroid.1]: 07/19/2021, 17:43:37 || pyrogram.connection.connection [INFO] - Connected! Production DC1 - IPv4 - TCPAbridgedO
+2021-07-19T12:13:37.829025+00:00 app[ultroid.1]: 07/19/2021, 17:43:37 || pyrogram.session.session [INFO] - NetworkTask started
+2021-07-19T12:13:38.953036+00:00 app[ultroid.1]: 07/19/2021, 17:43:38 || pyrogram.connection.connection [INFO] - Disconnected
+2021-07-19T12:13:38.953267+00:00 app[ultroid.1]: 07/19/2021, 17:43:38 || pyrogram.connection.connection [INFO] - Disconnected
+2021-07-19T12:13:38.954198+00:00 app[ultroid.1]: 07/19/2021, 17:43:38 || pyrogram.session.session [INFO] - NetworkTask stopped
+2021-07-19T12:13:38.954410+00:00 app[ultroid.1]: 07/19/2021, 17:43:38 || pyrogram.session.session [INFO] - Session stopped
+2021-07-19T12:13:38.954709+00:00 app[ultroid.1]: 07/19/2021, 17:43:38 || pyrogram.connection.connection [INFO] - Connecting...
+2021-07-19T12:13:38.982217+00:00 app[ultroid.1]: 07/19/2021, 17:43:38 || pyrogram.connection.connection [INFO] - Connected! Production DC1 - IPv4 - TCPAbridgedO
+2021-07-19T12:13:38.982947+00:00 app[ultroid.1]: 07/19/2021, 17:43:38 || pyrogram.session.session [INFO] - NetworkTask started
+2021-07-19T12:13:38.984615+00:00 app[ultroid.1]: 07/19/2021, 17:43:38 || pyrogram.session.session [INFO] - NetworkTask stopped
+2021-07-19T12:13:38.984880+00:00 app[ultroid.1]: 07/19/2021, 17:43:38 || pyrogram.session.session [INFO] - Session stopped
+2021-07-19T12:13:38.985235+00:00 app[ultroid.1]: 07/19/2021, 17:43:38 || pyrogram.connection.connection [INFO] - Connecting...
+2021-07-19T12:13:39.009822+00:00 app[ultroid.1]: 07/19/2021, 17:43:39 || pyrogram.connection.connection [INFO] - Connected! Production DC1 - IPv4 - TCPAbridgedO
+2021-07-19T12:13:39.010304+00:00 app[ultroid.1]: 07/19/2021, 17:43:39 || pyrogram.session.session [INFO] - NetworkTask started
+2021-07-19T12:13:40.594574+00:00 app[ultroid.1]: 07/19/2021, 17:43:40 || pyrogram.session.session [INFO] - NextSaltTask started
+2021-07-19T12:13:40.594759+00:00 app[ultroid.1]: 07/19/2021, 17:43:40 || pyrogram.session.session [INFO] - Next salt in 38m 25s (at 2021-07-19 18:22:06)
+2021-07-19T12:13:40.601069+00:00 app[ultroid.1]: 07/19/2021, 17:43:40 || pyrogram.session.session [INFO] - NextSaltTask started
+2021-07-19T12:13:40.601586+00:00 app[ultroid.1]: 07/19/2021, 17:43:40 || pyrogram.session.session [INFO] - Next salt in 37m 33s (at 2021-07-19 18:21:14)
+2021-07-19T12:13:40.642089+00:00 app[ultroid.1]: 07/19/2021, 17:43:40 || pyrogram.session.session [INFO] - Session initialized: Layer 126
+2021-07-19T12:13:40.642208+00:00 app[ultroid.1]: 07/19/2021, 17:43:40 || pyrogram.session.session [INFO] - Device: CPython 3.9.5 - Pyrogram 1.2.9
+2021-07-19T12:13:40.642343+00:00 app[ultroid.1]: 07/19/2021, 17:43:40 || pyrogram.session.session [INFO] - System: Linux 4.4.0-1093-aws (EN)
+2021-07-19T12:13:40.642477+00:00 app[ultroid.1]: 07/19/2021, 17:43:40 || pyrogram.session.session [INFO] - Session started
+2021-07-19T12:13:40.642614+00:00 app[ultroid.1]: 07/19/2021, 17:43:40 || pyrogram.session.session [INFO] - PingTask started
+2021-07-19T12:13:40.643940+00:00 app[ultroid.1]: 07/19/2021, 17:43:40 || pyrogram.session.session [INFO] - Session initialized: Layer 126
+2021-07-19T12:13:40.644051+00:00 app[ultroid.1]: 07/19/2021, 17:43:40 || pyrogram.session.session [INFO] - Device: CPython 3.9.5 - Pyrogram 1.2.9
+2021-07-19T12:13:40.644268+00:00 app[ultroid.1]: 07/19/2021, 17:43:40 || pyrogram.session.session [INFO] - System: Linux 4.4.0-1093-aws (EN)
+2021-07-19T12:13:40.644409+00:00 app[ultroid.1]: 07/19/2021, 17:43:40 || pyrogram.session.session [INFO] - Session started
+2021-07-19T12:13:40.644518+00:00 app[ultroid.1]: 07/19/2021, 17:43:40 || pyrogram.session.session [INFO] - PingTask started
+2021-07-19T12:41:33.082714+00:00 app[ultroid.1]: 07/19/2021, 18:11:33 || telethon.client.downloads [INFO] - Starting direct file download in chunks of 131072 at 0, stride 131072
+2021-07-19T12:44:02.106178+00:00 app[ultroid.1]: 07/19/2021, 18:14:02 || telethon.client.uploads [INFO] - Uploading file of 100480 bytes in 1 chunks of 131072
+2021-07-19T12:44:02.193312+00:00 app[ultroid.1]: 07/19/2021, 18:14:02 || telethon.client.uploads [INFO] - Uploading file of 48325 bytes in 1 chunks of 131072
+2021-07-19T12:47:57.645777+00:00 app[ultroid.1]: 07/19/2021, 18:17:57 || pyUltroid [ERROR] - get_all_added() missing 1 required positional argument: 'chat'
+2021-07-19T12:47:57.645788+00:00 app[ultroid.1]: Traceback (most recent call last):
+2021-07-19T12:47:57.645789+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/pyUltroid/misc/_decorators.py", line 142, in wrapper
+2021-07-19T12:47:57.645790+00:00 app[ultroid.1]:     await func(ult)
+2021-07-19T12:47:57.645791+00:00 app[ultroid.1]:   File "/root/TeamUltroid/plugins/chat_bot.py", line 55, in lister
+2021-07-19T12:47:57.645792+00:00 app[ultroid.1]:     users = get_all_added()
+2021-07-19T12:47:57.645792+00:00 app[ultroid.1]: TypeError: get_all_added() missing 1 required positional argument: 'chat'
+2021-07-19T12:51:16.147624+00:00 app[ultroid.1]: 07/19/2021, 18:21:16 || pyrogram.session.session [INFO] - Next salt in 29m 57s (at 2021-07-19 18:51:14)
+2021-07-19T12:52:06.078516+00:00 app[ultroid.1]: 07/19/2021, 18:22:06 || pyrogram.session.session [INFO] - Next salt in 29m 59s (at 2021-07-19 18:52:06)
+2021-07-19T13:01:55.930717+00:00 app[ultroid.1]: 07/19/2021, 18:31:55 || pyrogram.session.session [INFO] - NetworkTask stopped
+2021-07-19T13:01:55.930930+00:00 app[ultroid.1]: 07/19/2021, 18:31:55 || pyrogram.session.session [INFO] - NetworkTask stopped
+2021-07-19T13:01:55.931300+00:00 app[ultroid.1]: 07/19/2021, 18:31:55 || pyrogram.session.session [INFO] - PingTask stopped
+2021-07-19T13:01:55.934453+00:00 app[ultroid.1]: 07/19/2021, 18:31:55 || pyrogram.session.session [INFO] - NextSaltTask stopped
+2021-07-19T13:01:55.934749+00:00 app[ultroid.1]: 07/19/2021, 18:31:55 || pyrogram.session.session [INFO] - PingTask stopped
+2021-07-19T13:01:55.935042+00:00 app[ultroid.1]: 07/19/2021, 18:31:55 || pyrogram.session.session [INFO] - NextSaltTask stopped
+2021-07-19T13:01:55.935463+00:00 app[ultroid.1]: 07/19/2021, 18:31:55 || pyrogram.connection.connection [INFO] - Disconnected
+2021-07-19T13:01:55.935772+00:00 app[ultroid.1]: 07/19/2021, 18:31:55 || pyrogram.session.session [INFO] - Session stopped
+2021-07-19T13:01:55.936179+00:00 app[ultroid.1]: 07/19/2021, 18:31:55 || pyrogram.connection.connection [INFO] - Connecting...
+2021-07-19T13:01:55.962170+00:00 app[ultroid.1]: 07/19/2021, 18:31:55 || pyrogram.connection.connection [INFO] - Disconnected
+2021-07-19T13:01:55.962318+00:00 app[ultroid.1]: 07/19/2021, 18:31:55 || pyrogram.session.session [INFO] - Session stopped
+2021-07-19T13:01:55.962628+00:00 app[ultroid.1]: 07/19/2021, 18:31:55 || pyrogram.connection.connection [INFO] - Connecting...
+2021-07-19T13:01:55.990715+00:00 app[ultroid.1]: 07/19/2021, 18:31:55 || pyrogram.connection.connection [INFO] - Connected! Production DC1 - IPv4 - TCPAbridgedO
+2021-07-19T13:01:55.991415+00:00 app[ultroid.1]: 07/19/2021, 18:31:55 || pyrogram.connection.connection [INFO] - Connected! Production DC1 - IPv4 - TCPAbridgedO
+2021-07-19T13:01:55.992066+00:00 app[ultroid.1]: 07/19/2021, 18:31:55 || pyrogram.session.session [INFO] - NetworkTask started
+2021-07-19T13:01:55.992483+00:00 app[ultroid.1]: 07/19/2021, 18:31:55 || pyrogram.session.session [INFO] - NetworkTask started
+2021-07-19T13:01:56.465290+00:00 app[ultroid.1]: 07/19/2021, 18:31:56 || pyrogram.session.session [INFO] - NextSaltTask started
+2021-07-19T13:01:56.466725+00:00 app[ultroid.1]: 07/19/2021, 18:31:56 || pyrogram.session.session [INFO] - Next salt in 20m 9s (at 2021-07-19 18:52:06)
+2021-07-19T13:01:56.470362+00:00 app[ultroid.1]: 07/19/2021, 18:31:56 || pyrogram.session.session [INFO] - NextSaltTask started
+2021-07-19T13:01:56.470558+00:00 app[ultroid.1]: 07/19/2021, 18:31:56 || pyrogram.session.session [INFO] - Next salt in 19m 17s (at 2021-07-19 18:51:14)
+2021-07-19T13:01:56.529935+00:00 app[ultroid.1]: 07/19/2021, 18:31:56 || pyrogram.session.session [INFO] - Session initialized: Layer 126
+2021-07-19T13:01:56.530054+00:00 app[ultroid.1]: 07/19/2021, 18:31:56 || pyrogram.session.session [INFO] - Device: CPython 3.9.5 - Pyrogram 1.2.9
+2021-07-19T13:01:56.530158+00:00 app[ultroid.1]: 07/19/2021, 18:31:56 || pyrogram.session.session [INFO] - System: Linux 4.4.0-1093-aws (EN)
+2021-07-19T13:01:56.530266+00:00 app[ultroid.1]: 07/19/2021, 18:31:56 || pyrogram.session.session [INFO] - Session started
+2021-07-19T13:01:56.530408+00:00 app[ultroid.1]: 07/19/2021, 18:31:56 || pyrogram.session.session [INFO] - PingTask started
+2021-07-19T13:01:56.589071+00:00 app[ultroid.1]: 07/19/2021, 18:31:56 || pyrogram.session.session [INFO] - Session initialized: Layer 126
+2021-07-19T13:01:56.592863+00:00 app[ultroid.1]: 07/19/2021, 18:31:56 || pyrogram.session.session [INFO] - Device: CPython 3.9.5 - Pyrogram 1.2.9
+2021-07-19T13:01:56.593064+00:00 app[ultroid.1]: 07/19/2021, 18:31:56 || pyrogram.session.session [INFO] - System: Linux 4.4.0-1093-aws (EN)
+2021-07-19T13:01:56.593317+00:00 app[ultroid.1]: 07/19/2021, 18:31:56 || pyrogram.session.session [INFO] - Session started
+2021-07-19T13:01:56.593594+00:00 app[ultroid.1]: 07/19/2021, 18:31:56 || pyrogram.session.session [INFO] - PingTask started
+2021-07-19T13:15:19.539939+00:00 app[ultroid.1]: 07/19/2021, 18:45:19 || telethon.client.updates [ERROR] - Unhandled exception on _
+2021-07-19T13:15:19.539949+00:00 app[ultroid.1]: Traceback (most recent call last):
+2021-07-19T13:15:19.539950+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 455, in _dispatch_update
+2021-07-19T13:15:19.539951+00:00 app[ultroid.1]:     await callback(event)
+2021-07-19T13:15:19.539952+00:00 app[ultroid.1]:   File "<string>", line 12, in _
+2021-07-19T13:15:19.539952+00:00 app[ultroid.1]: NameError: name 'k' is not defined
