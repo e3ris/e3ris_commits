@@ -1,0 +1,18 @@
+► EVALPy
+x=reply.text
+await asst.send_message(chat, "hi", buttons=[Button.url("hi", url=x)]) 
+
+ ► OUTPUT: 
+Traceback (most recent call last):
+  File "/root/TeamUltroid/plugins/devtools.py", line 132, in _
+    await aexec(cmd, event)
+  File "/root/TeamUltroid/plugins/devtools.py", line 181, in aexec
+    return await locals()["__aexec"](event, event.client)
+  File "<string>", line 6, in __aexec
+  File "/usr/local/lib/python3.9/site-packages/telethon/client/messages.py", line 862, in send_message
+    result = await self(request)
+  File "/usr/local/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/usr/local/lib/python3.9/site-packages/telethon/client/users.py", line 79, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ButtonUrlInvalidError: Button URL invalid (caused by SendMessageRequest)
