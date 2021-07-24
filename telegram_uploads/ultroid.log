@@ -1,36 +1,1317 @@
-☞ BASH
+07/23/2021, 22:34:59 || pyUltroid [INFO] - 
+                -----------------------------------
+                        Starting Deployment
+                -----------------------------------
 
-• COMMAND:
-pip install PyGithub 
+07/23/2021, 22:34:59 || pyUltroid [INFO] - py-Ultroid Version - 2021.07.19
+07/23/2021, 22:34:59 || pyUltroid [INFO] - Telethon Version - 1.23.0
+07/23/2021, 22:34:59 || pyUltroid [INFO] - Ultroid Version - 0.0.9
+07/23/2021, 22:34:59 || pyUltroid [INFO] - Getting Connection With Redis Database
+07/23/2021, 22:35:08 || pyUltroid [INFO] - Succesfully Established Connection With Redis DataBase.
+07/23/2021, 22:35:10 || pyUltroid [INFO] - Initialising...
+07/23/2021, 22:35:10 || pyUltroid [INFO] - Starting Ultroid...
+07/23/2021, 22:35:10 || telethon.network.mtprotosender [INFO] - Connecting to 149.154.167.51:443/TcpFull...
+07/23/2021, 22:35:12 || telethon.network.mtprotosender [INFO] - Connection to 149.154.167.51:443/TcpFull complete!
+07/23/2021, 22:35:13 || telethon.client.users [INFO] - Phone migrated to 1
+07/23/2021, 22:35:13 || telethon.client.telegrambaseclient [INFO] - Reconnecting to new data center 1
+07/23/2021, 22:35:13 || telethon.network.mtprotosender [INFO] - Disconnecting from 149.154.167.51:443/TcpFull...
+07/23/2021, 22:35:13 || telethon.network.mtprotosender [INFO] - Disconnection from 149.154.167.51:443/TcpFull complete!
+07/23/2021, 22:35:13 || telethon.network.mtprotosender [INFO] - Connecting to 149.154.175.56:443/TcpFull...
+07/23/2021, 22:35:14 || telethon.network.mtprotosender [INFO] - Connection to 149.154.175.56:443/TcpFull complete!
+07/23/2021, 22:35:14 || telethon.network.mtprotosender [INFO] - Connecting to 149.154.175.55:443/TcpFull...
+07/23/2021, 22:35:14 || telethon.network.mtprotosender [INFO] - Connection to 149.154.175.55:443/TcpFull complete!
+07/23/2021, 22:35:15 || pyUltroid [INFO] - Done, startup completed
+07/23/2021, 22:35:15 || pyUltroid [INFO] - Assistant - Started
+07/23/2021, 22:35:19 || pyUltroid [INFO] - Ultroid - Official -  Installed - _ChatActions.py
+07/23/2021, 22:35:19 || pyUltroid [INFO] - Ultroid - Official -  Installed - __init__.py
+07/23/2021, 22:35:21 || pyUltroid [INFO] - Ultroid - Official -  Installed - _help.py
+07/23/2021, 22:35:21 || pyUltroid [INFO] - Ultroid - Official -  Installed - _inline.py
+07/23/2021, 22:35:21 || pyUltroid [INFO] - Ultroid - Official -  Installed - _ultroid.py
+07/23/2021, 22:35:21 || pyUltroid [INFO] - Ultroid - Official -  Installed - _userlogs.py
+07/23/2021, 22:35:21 || pyUltroid [INFO] - Ultroid - Official -  Installed - _wspr.py
+07/23/2021, 22:35:22 || pyUltroid [INFO] - Ultroid - Official -  Installed - admintools.py
+07/23/2021, 22:35:22 || pyUltroid [INFO] - Ultroid - Official -  Installed - afk.py
+07/23/2021, 22:35:22 || pyUltroid [INFO] - Ultroid - Official -  Installed - anime.py
+07/23/2021, 22:35:22 || pyUltroid [INFO] - Ultroid - Official -  Installed - antiflood.py
+07/23/2021, 22:35:22 || pyUltroid [INFO] - Ultroid - Official -  Installed - ascii.py
+07/23/2021, 22:35:22 || pyUltroid [INFO] - Ultroid - Official -  Installed - asst_cmd.py
+07/23/2021, 22:35:23 || pyUltroid [INFO] - Ultroid - Official -  Installed - autocorrect.py
+07/23/2021, 22:35:23 || pyUltroid [INFO] - Ultroid - Official -  Installed - autopic.py
+07/23/2021, 22:35:23 || pyUltroid [INFO] - Ultroid - Official -  Installed - blacklist.py
+07/23/2021, 22:35:23 || pyUltroid [INFO] - Ultroid - Official -  Installed - bot.py
+07/23/2021, 22:35:23 || pyUltroid [INFO] - Ultroid - Official -  Installed - botecho.py
+07/23/2021, 22:35:24 || pyUltroid [INFO] - Ultroid - Official -  Installed - broadcast.py
+07/23/2021, 22:35:24 || pyUltroid [INFO] - Ultroid - Official -  Installed - calculator.py
+07/23/2021, 22:35:24 || pyUltroid [INFO] - Ultroid - Official -  Installed - carbon.py
+07/23/2021, 22:35:24 || pyUltroid [INFO] - Ultroid - Official -  Installed - channelhacks.py
+07/23/2021, 22:35:25 || pyUltroid [INFO] - Ultroid - Official -  Installed - chat_bot.py
+07/23/2021, 22:35:25 || pyUltroid [INFO] - Ultroid - Official -  Installed - chats.py
+07/23/2021, 22:35:25 || pyUltroid [INFO] - Ultroid - Official -  Installed - clean_action.py
+07/23/2021, 22:35:25 || pyUltroid [INFO] - Ultroid - Official -  Installed - compressor.py
+07/23/2021, 22:35:26 || pyUltroid [INFO] - Ultroid - Official -  Installed - converter.py
+07/23/2021, 22:35:26 || pyUltroid [INFO] - Ultroid - Official -  Installed - core.py
+07/23/2021, 22:35:26 || pyUltroid [INFO] - Ultroid - Official -  Installed - dayevents.py
+07/23/2021, 22:35:26 || pyUltroid [INFO] - Ultroid - Official -  Installed - deezer.py
+07/23/2021, 22:35:26 || pyUltroid [INFO] - Ultroid - Official -  Installed - devtools.py
+07/23/2021, 22:35:27 || pyUltroid [INFO] - Ultroid - Official -  Installed - dm.py
+07/23/2021, 22:35:27 || pyUltroid [INFO] - Ultroid - Official -  Installed - download_upload.py
+07/23/2021, 22:35:27 || pyUltroid [INFO] - Ultroid - Official -  Installed - echo.py
+07/23/2021, 22:35:27 || pyUltroid [INFO] - Ultroid - Official -  Installed - evaljs.py
+07/23/2021, 22:35:27 || pyUltroid [INFO] - Ultroid - Official -  Installed - extra.py
+07/23/2021, 22:35:28 || pyUltroid [INFO] - Ultroid - Official -  Installed - fakeaction.py
+07/23/2021, 22:35:28 || pyUltroid [INFO] - Ultroid - Official -  Installed - fedutils.py
+07/23/2021, 22:35:28 || pyUltroid [INFO] - Ultroid - Official -  Installed - filter.py
+07/23/2021, 22:35:28 || pyUltroid [INFO] - Ultroid - Official -  Installed - fontgen.py
+07/23/2021, 22:35:28 || pyUltroid [INFO] - Ultroid - Official -  Installed - forcesubscribe.py
+07/23/2021, 22:35:29 || pyUltroid [INFO] - Ultroid - Official -  Installed - gadgets.py
+07/23/2021, 22:35:29 || pyUltroid [INFO] - Ultroid - Official -  Installed - gdrive.py
+07/23/2021, 22:35:29 || pyUltroid [INFO] - Ultroid - Official -  Installed - get_addons.py
+07/23/2021, 22:35:29 || pyUltroid [INFO] - Ultroid - Official -  Installed - giftools.py
+07/23/2021, 22:35:29 || pyUltroid [INFO] - Ultroid - Official -  Installed - github.py
+07/23/2021, 22:35:29 || pyUltroid [INFO] - Ultroid - Official -  Installed - glitch.py
+07/23/2021, 22:35:30 || pyUltroid [INFO] - Ultroid - Official -  Installed - globaltools.py
+07/23/2021, 22:35:30 || pyUltroid [INFO] - Ultroid - Official -  Installed - google.py
+07/23/2021, 22:35:31 || pyUltroid [INFO] - Ultroid - Official -  Installed - greetings.py
+07/23/2021, 22:35:31 || pyUltroid [INFO] - Ultroid - Official -  Installed - groups.py
+07/23/2021, 22:35:32 || pyUltroid [INFO] - Ultroid - Official -  Installed - imagetools.py
+07/23/2021, 22:35:33 || pyUltroid [INFO] - Ultroid - Official -  Installed - locks.py
+07/23/2021, 22:35:33 || pyUltroid [INFO] - Ultroid - Official -  Installed - logo.py
+07/23/2021, 22:35:33 || pyUltroid [INFO] - Ultroid - Official -  Installed - mediainfo.py
+07/23/2021, 22:35:33 || pyUltroid [INFO] - Ultroid - Official -  Installed - megadl.py
+07/23/2021, 22:35:33 || pyUltroid [INFO] - Ultroid - Official -  Installed - mute.py
+07/23/2021, 22:35:34 || pyUltroid [INFO] - Ultroid - Official -  Installed - nightmode.py
+07/23/2021, 22:35:35 || pyUltroid [INFO] - Ultroid - Official -  Installed - notes.py
+07/23/2021, 22:35:35 || pyUltroid [INFO] - Ultroid - Official -  Installed - nsfw_filter.py
+07/23/2021, 22:35:37 || pyUltroid [INFO] - Ultroid - Official -  Installed - pdftools.py
+07/23/2021, 22:35:37 || pyUltroid [INFO] - Ultroid - Official -  Installed - pinterest.py
+07/23/2021, 22:35:39 || pyUltroid [INFO] - Ultroid - Official -  Installed - pmpermit.py
+07/23/2021, 22:35:39 || pyUltroid [INFO] - Ultroid - Official -  Installed - polls.py
+07/23/2021, 22:35:39 || pyUltroid [INFO] - Ultroid - Official -  Installed - profanity_filter.py
+07/23/2021, 22:35:39 || pyUltroid [INFO] - Ultroid - Official -  Installed - profile.py
+07/23/2021, 22:35:40 || pyUltroid [INFO] - Ultroid - Official -  Installed - qrcode.py
+07/23/2021, 22:35:40 || pyUltroid [INFO] - Ultroid - Official -  Installed - randomuser.py
+07/23/2021, 22:35:40 || pyUltroid [INFO] - Ultroid - Official -  Installed - redis.py
+07/23/2021, 22:35:40 || pyUltroid [INFO] - Ultroid - Official -  Installed - resize.py
+07/23/2021, 22:35:41 || pyUltroid [INFO] - Ultroid - Official -  Installed - saavn.py
+07/23/2021, 22:35:41 || pyUltroid [INFO] - Ultroid - Official -  Installed - save.py
+07/23/2021, 22:35:41 || pyUltroid [INFO] - Ultroid - Official -  Installed - schedule_msg.py
+07/23/2021, 22:35:41 || pyUltroid [INFO] - Ultroid - Official -  Installed - snips.py
+07/23/2021, 22:35:43 || matplotlib.font_manager [INFO] - generated new fontManager
+07/23/2021, 22:35:44 || pyUltroid [INFO] - Ultroid - Official -  Installed - specialtools.py
+07/23/2021, 22:35:45 || pyUltroid [INFO] - Ultroid - Official -  Installed - stickertools.py
+07/23/2021, 22:35:46 || pyUltroid [INFO] - Ultroid - Official -  Installed - sudo.py
+07/23/2021, 22:35:46 || pyUltroid [INFO] - Ultroid - Official -  Installed - tag.py
+07/23/2021, 22:35:47 || pyUltroid [INFO] - Ultroid - Official -  Installed - tools.py
+07/23/2021, 22:35:47 || pyUltroid [INFO] - Ultroid - Official -  Installed - unsplash.py
+07/23/2021, 22:35:47 || pyUltroid [INFO] - Ultroid - Official -  Installed - updater.py
+07/23/2021, 22:35:48 || pyUltroid [INFO] - Ultroid - Official -  Installed - usage.py
+07/23/2021, 22:35:53 || pyUltroid [INFO] - Ultroid - Official -  Installed - utilities.py
+07/23/2021, 22:35:54 || pyUltroid [INFO] - Ultroid - Official -  Installed - variables.py
+07/23/2021, 22:35:55 || pyUltroid [INFO] - Ultroid - Official -  Installed - vctools.py
+07/23/2021, 22:35:56 || pyUltroid [INFO] - Ultroid - Official -  Installed - warn.py
+07/23/2021, 22:35:57 || pyUltroid [INFO] - Ultroid - Official -  Installed - webshot.py
+07/23/2021, 22:35:57 || pyUltroid [INFO] - Ultroid - Official -  Installed - webupload.py
+07/23/2021, 22:35:58 || pyUltroid [INFO] - Ultroid - Official -  Installed - whichsong.py
+07/23/2021, 22:36:01 || pyUltroid [INFO] - Ultroid - Official -  Installed - words.py
+07/23/2021, 22:36:02 || pyUltroid [INFO] - Ultroid - Official -  Installed - youtube.py
+07/23/2021, 22:36:04 || pyUltroid [INFO] - Ultroid - Official -  Installed - ziptools.py
+07/23/2021, 22:36:04 || pyUltroid [INFO] - ----------------------------------------------------------------------
+07/23/2021, 22:36:04 || pyUltroid [INFO] - Ultroid - Assistant -  Installed - __init__.py
+07/23/2021, 22:36:04 || pyUltroid [INFO] - Ultroid - Assistant -  Installed - api_setter.py
+07/23/2021, 22:36:04 || pyUltroid [INFO] - Ultroid - Assistant -  Installed - callbackstuffs.py
+07/23/2021, 22:36:05 || pyUltroid [INFO] - Ultroid - Assistant -  Installed - inlinestuff.py
+07/23/2021, 22:36:05 || pyUltroid [INFO] - Ultroid - Assistant -  Installed - localization.py
+07/23/2021, 22:36:05 || pyUltroid [INFO] - Ultroid - Assistant -  Installed - ping.py
+07/23/2021, 22:36:05 || pyUltroid [INFO] - Ultroid - Assistant -  Installed - start.py
+07/23/2021, 22:36:05 || pyUltroid [INFO] - Ultroid - Assistant -  Installed - ytdl.py
+07/23/2021, 22:36:05 || pyUltroid [INFO] - ----------------------------------------------------------------------
+07/23/2021, 22:36:06 || pyUltroid [INFO] - Ultroid - Addons -  Installed - __init__.py
+07/23/2021, 22:36:06 || pyUltroid [INFO] - Ultroid - Addons -  Installed - animations.py
+07/23/2021, 22:36:06 || pyUltroid [INFO] - Ultroid - Addons -  Installed - animechan.py
+07/23/2021, 22:36:07 || pyUltroid [INFO] - Ultroid - Addons -  Installed - animedb.py
+07/23/2021, 22:36:07 || pyUltroid [INFO] - Ultroid - Addons -  Installed - autoprofile.py
+07/23/2021, 22:36:07 || pyUltroid [INFO] - Ultroid - Addons -  Installed - clone.py
+07/23/2021, 22:36:07 || pyUltroid [INFO] - Ultroid - Addons - ERROR - covid.py
+07/23/2021, 22:36:07 || pyUltroid [INFO] - <class 'ModuleNotFoundError'>: No module named 'covid'
+07/23/2021, 22:36:07 || pyUltroid [INFO] - Ultroid - Addons -  Installed - encode_decode.py
+07/23/2021, 22:36:07 || pyUltroid [INFO] - Ultroid - Addons - ERROR - figlet.py
+07/23/2021, 22:36:07 || pyUltroid [INFO] - <class 'ModuleNotFoundError'>: No module named 'pyfiglet'
+07/23/2021, 22:36:08 || pyUltroid [INFO] - Ultroid - Addons -  Installed - findsong.py
+07/23/2021, 22:36:08 || pyUltroid [INFO] - Ultroid - Addons -  Installed - flaticon.py
+07/23/2021, 22:36:08 || pyUltroid [INFO] - Ultroid - Addons - ERROR - fun.py
+07/23/2021, 22:36:08 || pyUltroid [INFO] - <class 'ModuleNotFoundError'>: No module named 'pyjokes'
+07/23/2021, 22:36:08 || pyUltroid [INFO] - Ultroid - Addons -  Installed - googleutility.py
+07/23/2021, 22:36:08 || pyUltroid [INFO] - Ultroid - Addons -  Installed - hack.py
+07/23/2021, 22:36:08 || pyUltroid [INFO] - Ultroid - Addons -  Installed - imdb.py
+07/23/2021, 22:36:09 || pyUltroid [INFO] - Ultroid - Addons -  Installed - inlinefun.py
+07/23/2021, 22:36:09 || pyUltroid [INFO] - Ultroid - Addons -  Installed - limited.py
+07/23/2021, 22:36:09 || pyUltroid [INFO] - Ultroid - Addons -  Installed - memify.py
+07/23/2021, 22:36:09 || pyUltroid [INFO] - Ultroid - Addons -  Installed - ocr.py
+07/23/2021, 22:36:09 || pyUltroid [INFO] - Ultroid - Addons - ERROR - pokedex.py
+07/23/2021, 22:36:09 || pyUltroid [INFO] - <class 'ModuleNotFoundError'>: No module named 'pokedex'
+07/23/2021, 22:36:10 || pyUltroid [INFO] - Ultroid - Addons -  Installed - prankpromote.py
+07/23/2021, 22:36:10 || pyUltroid [INFO] - Ultroid - Addons - ERROR - quotefancy.py
+07/23/2021, 22:36:10 || pyUltroid [INFO] - <class 'ModuleNotFoundError'>: No module named 'quotefancy'
+07/23/2021, 22:36:10 || pyUltroid [INFO] - Ultroid - Addons -  Installed - quotly.py
+07/23/2021, 22:36:10 || pyUltroid [INFO] - Ultroid - Addons - ERROR - shorturl.py
+07/23/2021, 22:36:10 || pyUltroid [INFO] - <class 'ModuleNotFoundError'>: No module named 'pyshorteners'
+07/23/2021, 22:36:10 || pyUltroid [INFO] - Ultroid - Addons - ERROR - song.py
+07/23/2021, 22:36:10 || pyUltroid [INFO] - <class 'ModuleNotFoundError'>: No module named 'lyrics_extractor'
+07/23/2021, 22:36:10 || pyUltroid [INFO] - Ultroid - Addons -  Installed - spam.py
+07/23/2021, 22:36:10 || pyUltroid [INFO] - Ultroid - Addons - ERROR - speechtool.py
+07/23/2021, 22:36:10 || pyUltroid [INFO] - <class 'ModuleNotFoundError'>: No module named 'gtts'
+07/23/2021, 22:36:10 || pyUltroid [INFO] - Ultroid - Addons - ERROR - spell_check.py
+07/23/2021, 22:36:10 || pyUltroid [INFO] - <class 'ModuleNotFoundError'>: No module named 'textblob'
+07/23/2021, 22:36:11 || pyUltroid [INFO] - Ultroid - Addons -  Installed - stickerspam.py
+07/23/2021, 22:36:11 || pyUltroid [INFO] - Ultroid - Addons -  Installed - sticklet.py
+07/23/2021, 22:36:11 || pyUltroid [INFO] - Ultroid - Addons -  Installed - test.py
+07/23/2021, 22:36:11 || pyUltroid [INFO] - Ultroid - Addons -  Installed - totalmsgs.py
+07/23/2021, 22:36:11 || pyUltroid [INFO] - Ultroid - Addons -  Installed - truthdare.py
+07/23/2021, 22:36:11 || pyUltroid [INFO] - Ultroid - Addons -  Installed - tscan.py
+07/23/2021, 22:36:11 || pyUltroid [INFO] - Ultroid - Addons -  Installed - typing.py
+07/23/2021, 22:36:11 || pyUltroid [INFO] - Ultroid - Addons - ERROR - wikipedia.py
+07/23/2021, 22:36:11 || pyUltroid [INFO] - <class 'ModuleNotFoundError'>: No module named 'wikipedia'
+07/23/2021, 22:36:11 || pyUltroid [INFO] - Ultroid - Addons -  Installed - zombies.py
+07/23/2021, 22:36:11 || pyUltroid [INFO] - ----------------------------------------------------------------------
+07/23/2021, 22:36:11 || pyUltroid [INFO] - Ultroid - Group Manager - Installed - __init__.py.
+07/23/2021, 22:36:11 || pyUltroid [INFO] - ----------------------------------------------------------------------
+07/23/2021, 22:36:12 || pyUltroid [INFO] - Ultroid - PM Bot Message Forwards - Enabled.
+07/23/2021, 22:36:12 || pyUltroid [INFO] - ----------------------------------------------------------------------
+07/23/2021, 22:36:16 || telethon.client.downloads [INFO] - Starting direct file download in chunks of 131072 at 0, stride 131072
+07/23/2021, 22:36:16 || pyUltroid [INFO] - Ultroid - PLUGIN_CHANNEL - Installed - adultzone
+07/23/2021, 22:36:17 || telethon.client.downloads [INFO] - Starting direct file download in chunks of 131072 at 0, stride 131072
+07/23/2021, 22:36:17 || pyUltroid [INFO] - Ultroid - PLUGIN_CHANNEL - ERROR - eris_git
+07/23/2021, 22:36:17 || pyUltroid [INFO] - invalid syntax (eris_git.py, line 44)
+07/23/2021, 22:36:17 || telethon.client.downloads [INFO] - Starting direct file download in chunks of 131072 at 0, stride 131072
+07/23/2021, 22:36:17 || pyUltroid [INFO] - Ultroid - PLUGIN_CHANNEL - Installed - getlink
+07/23/2021, 22:36:18 || telethon.client.downloads [INFO] - Starting direct file download in chunks of 131072 at 0, stride 131072
+07/23/2021, 22:36:18 || pyUltroid [INFO] - Ultroid - PLUGIN_CHANNEL - Installed - send
+07/23/2021, 22:36:19 || telethon.client.downloads [INFO] - Starting direct file download in chunks of 131072 at 0, stride 131072
+07/23/2021, 22:36:19 || pyUltroid [INFO] - Ultroid - PLUGIN_CHANNEL - Installed - ebal
+07/23/2021, 22:36:20 || telethon.client.downloads [INFO] - Starting direct file download in chunks of 131072 at 0, stride 131072
+07/23/2021, 22:36:20 || pyUltroid [INFO] - Ultroid - PLUGIN_CHANNEL - Installed - ialive
+07/23/2021, 22:36:21 || telethon.client.downloads [INFO] - Starting direct file download in chunks of 131072 at 0, stride 131072
+07/23/2021, 22:36:22 || pyUltroid [INFO] - Ultroid - PLUGIN_CHANNEL - Installed - button
+07/23/2021, 22:36:22 || telethon.client.downloads [INFO] - Starting direct file download in chunks of 131072 at 0, stride 131072
+07/23/2021, 22:36:23 || pyUltroid [INFO] - Ultroid - PLUGIN_CHANNEL - Installed - fetch
+07/23/2021, 22:36:23 || telethon.client.downloads [INFO] - Starting direct file download in chunks of 131072 at 0, stride 131072
+07/23/2021, 22:36:23 || pyUltroid [INFO] - Ultroid - PLUGIN_CHANNEL - Installed - xspamot
+07/23/2021, 22:36:24 || telethon.client.downloads [INFO] - Starting direct file download in chunks of 131072 at 0, stride 131072
+07/23/2021, 22:36:24 || pyUltroid [INFO] - Ultroid - PLUGIN_CHANNEL - Installed - alt_logs_paste
+07/23/2021, 22:36:25 || telethon.client.downloads [INFO] - Starting direct file download in chunks of 131072 at 0, stride 131072
+07/23/2021, 22:36:25 || pyUltroid [INFO] - Ultroid - PLUGIN_CHANNEL - Installed - reddit
+07/23/2021, 22:36:26 || telethon.client.downloads [INFO] - Starting direct file download in chunks of 131072 at 0, stride 131072
+07/23/2021, 22:36:26 || pyUltroid [INFO] - Ultroid - PLUGIN_CHANNEL - Installed - fping
+07/23/2021, 22:36:27 || telethon.client.downloads [INFO] - Starting direct file download in chunks of 131072 at 0, stride 131072
+07/23/2021, 22:36:27 || pyUltroid [INFO] - Ultroid - PLUGIN_CHANNEL - ERROR - lomgs
+07/23/2021, 22:36:27 || pyUltroid [INFO] - No module named 'github'
+07/23/2021, 22:36:27 || telethon.client.downloads [INFO] - Starting direct file download in chunks of 131072 at 0, stride 131072
+07/23/2021, 22:36:28 || pyUltroid [INFO] - Ultroid - PLUGIN_CHANNEL - Installed - get_movie
+07/23/2021, 22:36:29 || telethon.client.downloads [INFO] - Starting direct file download in chunks of 131072 at 0, stride 131072
+07/23/2021, 22:36:29 || pyUltroid [INFO] - Ultroid - PLUGIN_CHANNEL - Installed - mov_fwd
+07/23/2021, 22:36:30 || telethon.client.downloads [INFO] - Starting direct file download in chunks of 131072 at 0, stride 131072
+07/23/2021, 22:36:30 || pyUltroid [INFO] - Ultroid - PLUGIN_CHANNEL - Installed - voice
+07/23/2021, 22:36:30 || telethon.client.downloads [INFO] - Starting direct file download in chunks of 131072 at 0, stride 131072
+07/23/2021, 22:36:31 || pyUltroid [INFO] - Ultroid - PLUGIN_CHANNEL - Installed - xDeezer
+07/23/2021, 22:36:31 || telethon.client.downloads [INFO] - Starting direct file download in chunks of 131072 at 0, stride 131072
+07/23/2021, 22:36:32 || pyUltroid [INFO] - Ultroid - PLUGIN_CHANNEL - Installed - deldog
+07/23/2021, 22:36:32 || telethon.client.downloads [INFO] - Starting direct file download in chunks of 131072 at 0, stride 131072
+07/23/2021, 22:36:32 || pyUltroid [INFO] - Ultroid - PLUGIN_CHANNEL - Installed - shitpost
+07/23/2021, 22:36:33 || telethon.client.downloads [INFO] - Starting direct file download in chunks of 131072 at 0, stride 131072
+07/23/2021, 22:36:34 || pyUltroid [INFO] - Ultroid - PLUGIN_CHANNEL - Installed - e3memes
+07/23/2021, 22:36:35 || telethon.client.downloads [INFO] - Starting direct file download in chunks of 131072 at 0, stride 131072
+07/23/2021, 22:36:35 || pyUltroid [INFO] - Ultroid - PLUGIN_CHANNEL - Installed - picstick
+07/23/2021, 22:36:36 || telethon.client.downloads [INFO] - Starting direct file download in chunks of 131072 at 0, stride 131072
+07/23/2021, 22:36:36 || pyUltroid [INFO] - Ultroid - PLUGIN_CHANNEL - Installed - glex
+07/23/2021, 22:36:37 || telethon.client.downloads [INFO] - Starting direct file download in chunks of 131072 at 0, stride 131072
+07/23/2021, 22:36:37 || pyUltroid [INFO] - Ultroid - PLUGIN_CHANNEL - Installed - domge
+07/23/2021, 22:36:37 || telethon.client.downloads [INFO] - Starting direct file download in chunks of 131072 at 0, stride 131072
+07/23/2021, 22:36:38 || pyUltroid [INFO] - Ultroid - PLUGIN_CHANNEL - Installed - frwd
+07/23/2021, 22:36:38 || telethon.client.downloads [INFO] - Starting direct file download in chunks of 131072 at 0, stride 131072
+07/23/2021, 22:36:39 || pyUltroid [INFO] - Ultroid - PLUGIN_CHANNEL - Installed - prank
+07/23/2021, 22:36:39 || telethon.client.downloads [INFO] - Starting direct file download in chunks of 131072 at 0, stride 131072
+07/23/2021, 22:36:40 || pyUltroid [INFO] - Ultroid - PLUGIN_CHANNEL - Installed - spin
+07/23/2021, 22:36:40 || telethon.client.downloads [INFO] - Starting direct file download in chunks of 131072 at 0, stride 131072
+07/23/2021, 22:36:41 || pyUltroid [INFO] - Ultroid - PLUGIN_CHANNEL - Installed - mobi
+07/23/2021, 22:36:41 || telethon.client.downloads [INFO] - Starting direct file download in chunks of 131072 at 0, stride 131072
+07/23/2021, 22:36:42 || pyUltroid [INFO] - Ultroid - PLUGIN_CHANNEL - Installed - stickerizer
+07/23/2021, 22:36:42 || telethon.client.downloads [INFO] - Starting direct file download in chunks of 131072 at 0, stride 131072
+07/23/2021, 22:36:43 || pyUltroid [INFO] - Ultroid - PLUGIN_CHANNEL - Installed - spotify
+07/23/2021, 22:36:44 || telethon.client.downloads [INFO] - Starting direct file download in chunks of 131072 at 0, stride 131072
+07/23/2021, 22:36:45 || pyUltroid [INFO] - Ultroid - PLUGIN_CHANNEL - Installed - weather
+07/23/2021, 22:36:45 || telethon.client.downloads [INFO] - Starting direct file download in chunks of 131072 at 0, stride 131072
+07/23/2021, 22:36:46 || pyUltroid [INFO] - Ultroid - PLUGIN_CHANNEL - Installed - mask
+07/23/2021, 22:36:46 || telethon.client.downloads [INFO] - Starting direct file download in chunks of 131072 at 0, stride 131072
+07/23/2021, 22:36:47 || pyUltroid [INFO] - Ultroid - PLUGIN_CHANNEL - Installed - F'sinChat
+07/23/2021, 22:36:47 || telethon.client.downloads [INFO] - Starting direct file download in chunks of 131072 at 0, stride 131072
+07/23/2021, 22:36:48 || pyUltroid [INFO] - Ultroid - PLUGIN_CHANNEL - Installed - frybot
+07/23/2021, 22:36:48 || telethon.client.downloads [INFO] - Starting direct file download in chunks of 131072 at 0, stride 131072
+07/23/2021, 22:36:48 || telethon.client.downloads [INFO] - File lives in another DC
+07/23/2021, 22:36:48 || telethon.network.mtprotosender [INFO] - Connecting to 91.108.56.190:443/TcpFull...
+07/23/2021, 22:36:51 || telethon.network.mtprotosender [INFO] - Connection to 91.108.56.190:443/TcpFull complete!
+07/23/2021, 22:36:51 || telethon.client.telegrambaseclient [INFO] - Exporting auth for new borrowed sender in DcOption(id=5, ip_address='91.108.56.190', port=443, ipv6=False, media_only=False, tcpo_only=False, cdn=False, static=False, secret=None)
+07/23/2021, 22:36:52 || pyUltroid [INFO] - Ultroid - PLUGIN_CHANNEL - Installed - recognise
+07/23/2021, 22:36:53 || telethon.client.downloads [INFO] - Starting direct file download in chunks of 131072 at 0, stride 131072
+07/23/2021, 22:36:53 || pyUltroid [INFO] - Ultroid - PLUGIN_CHANNEL - Installed - thanos
+07/23/2021, 22:36:54 || telethon.client.downloads [INFO] - Starting direct file download in chunks of 131072 at 0, stride 131072
+07/23/2021, 22:36:54 || telethon.client.downloads [INFO] - File lives in another DC
+07/23/2021, 22:36:54 || pyUltroid [INFO] - Ultroid - PLUGIN_CHANNEL - Installed - unparse
+07/23/2021, 22:36:55 || telethon.client.downloads [INFO] - Starting direct file download in chunks of 131072 at 0, stride 131072
+07/23/2021, 22:36:55 || pyUltroid [INFO] - Ultroid - PLUGIN_CHANNEL - Installed - tanimator
+07/23/2021, 22:36:56 || telethon.client.downloads [INFO] - Starting direct file download in chunks of 131072 at 0, stride 131072
+07/23/2021, 22:36:56 || telethon.client.downloads [INFO] - File lives in another DC
+07/23/2021, 22:37:05 || pyUltroid [INFO] - Ultroid - PLUGIN_CHANNEL - Installed - allanimations
+07/23/2021, 22:37:05 || telethon.client.downloads [INFO] - Starting direct file download in chunks of 131072 at 0, stride 131072
+07/23/2021, 22:37:05 || pyUltroid [INFO] - Ultroid - PLUGIN_CHANNEL - Installed - me_admin
+07/23/2021, 22:37:06 || telethon.client.downloads [INFO] - Starting direct file download in chunks of 131072 at 0, stride 131072
+07/23/2021, 22:37:06 || pyUltroid [INFO] - Ultroid - PLUGIN_CHANNEL - Installed - padmin
+07/23/2021, 22:37:07 || telethon.client.downloads [INFO] - Starting direct file download in chunks of 131072 at 0, stride 131072
+07/23/2021, 22:37:07 || pyUltroid [INFO] - Ultroid - PLUGIN_CHANNEL - Installed - gana
+07/23/2021, 22:37:08 || telethon.client.downloads [INFO] - Starting direct file download in chunks of 131072 at 0, stride 131072
+07/23/2021, 22:37:08 || pyUltroid [INFO] - Ultroid - PLUGIN_CHANNEL - Installed - userlist
+07/23/2021, 22:37:09 || telethon.client.downloads [INFO] - Starting direct file download in chunks of 131072 at 0, stride 131072
+07/23/2021, 22:37:09 || pyUltroid [INFO] - Ultroid - PLUGIN_CHANNEL - Installed - autodp
+07/23/2021, 22:37:09 || telethon.client.downloads [INFO] - Starting direct file download in chunks of 131072 at 0, stride 131072
+07/23/2021, 22:37:09 || telethon.client.downloads [INFO] - File lives in another DC
+07/23/2021, 22:37:10 || pyUltroid [INFO] - Ultroid - PLUGIN_CHANNEL - Installed - animation11
+07/23/2021, 22:37:11 || telethon.client.downloads [INFO] - Starting direct file download in chunks of 131072 at 0, stride 131072
+07/23/2021, 22:37:11 || telethon.client.downloads [INFO] - File lives in another DC
+07/23/2021, 22:37:11 || pyUltroid [INFO] - Ultroid - PLUGIN_CHANNEL - Installed - iwarn
+07/23/2021, 22:37:12 || telethon.client.downloads [INFO] - Starting direct file download in chunks of 131072 at 0, stride 131072
+07/23/2021, 22:37:12 || telethon.client.downloads [INFO] - File lives in another DC
+07/23/2021, 22:37:12 || pyUltroid [INFO] - Ultroid - PLUGIN_CHANNEL - Installed - me_total
+07/23/2021, 22:37:13 || telethon.client.downloads [INFO] - Starting direct file download in chunks of 131072 at 0, stride 131072
+07/23/2021, 22:37:13 || telethon.client.downloads [INFO] - File lives in another DC
+07/23/2021, 22:37:13 || pyUltroid [INFO] - Ultroid - PLUGIN_CHANNEL - Installed - hquote
+07/23/2021, 22:37:14 || telethon.client.downloads [INFO] - Starting direct file download in chunks of 131072 at 0, stride 131072
+07/23/2021, 22:37:15 || pyUltroid [INFO] - Ultroid - PLUGIN_CHANNEL - Installed - insult
+07/23/2021, 22:37:15 || telethon.client.downloads [INFO] - Starting direct file download in chunks of 131072 at 0, stride 131072
+07/23/2021, 22:37:15 || pyUltroid [INFO] - Ultroid - PLUGIN_CHANNEL - Installed - snap
+07/23/2021, 22:37:16 || telethon.client.downloads [INFO] - Starting direct file download in chunks of 131072 at 0, stride 131072
+07/23/2021, 22:37:16 || pyUltroid [INFO] - Ultroid - PLUGIN_CHANNEL - Installed - iwish
+07/23/2021, 22:37:17 || telethon.client.downloads [INFO] - Starting direct file download in chunks of 131072 at 0, stride 131072
+07/23/2021, 22:37:17 || pyUltroid [INFO] - Ultroid - PLUGIN_CHANNEL - Installed - sd
+07/23/2021, 22:37:18 || telethon.client.downloads [INFO] - Starting direct file download in chunks of 131072 at 0, stride 131072
+07/23/2021, 22:37:18 || pyUltroid [INFO] - Ultroid - PLUGIN_CHANNEL - Installed - musik
+07/23/2021, 22:37:18 || telethon.client.downloads [INFO] - Starting direct file download in chunks of 131072 at 0, stride 131072
+07/23/2021, 22:37:19 || pyUltroid [INFO] - Ultroid - PLUGIN_CHANNEL - Installed - emojigames
+07/23/2021, 22:37:20 || telethon.client.downloads [INFO] - Starting direct file download in chunks of 131072 at 0, stride 131072
+07/23/2021, 22:37:20 || pyUltroid [INFO] - Ultroid - PLUGIN_CHANNEL - Installed - lenk
+07/23/2021, 22:37:21 || telethon.client.downloads [INFO] - Starting direct file download in chunks of 131072 at 0, stride 131072
+07/23/2021, 22:37:21 || pyUltroid [INFO] - Ultroid - PLUGIN_CHANNEL - Installed - bio_auto
+07/23/2021, 22:37:21 || telethon.client.downloads [INFO] - Starting direct file download in chunks of 131072 at 0, stride 131072
+07/23/2021, 22:37:22 || pyUltroid [INFO] - Ultroid - PLUGIN_CHANNEL - Installed - dspem
+07/23/2021, 22:37:22 || telethon.client.downloads [INFO] - Starting direct file download in chunks of 131072 at 0, stride 131072
+07/23/2021, 22:37:22 || telethon.client.downloads [INFO] - File lives in another DC
+07/23/2021, 22:37:23 || pyUltroid [INFO] - Ultroid - PLUGIN_CHANNEL - Installed - cricker_score
+07/23/2021, 22:37:23 || telethon.client.downloads [INFO] - Starting direct file download in chunks of 131072 at 0, stride 131072
+07/23/2021, 22:37:24 || pyUltroid [INFO] - Ultroid - PLUGIN_CHANNEL - Installed - cringe
+07/23/2021, 22:37:25 || telethon.client.downloads [INFO] - Starting direct file download in chunks of 131072 at 0, stride 131072
+07/23/2021, 22:37:25 || pyUltroid [INFO] - Ultroid - PLUGIN_CHANNEL - Installed - ttyp
+07/23/2021, 22:37:25 || telethon.client.downloads [INFO] - Starting direct file download in chunks of 131072 at 0, stride 131072
+07/23/2021, 22:37:25 || pyUltroid [INFO] - Ultroid - PLUGIN_CHANNEL - Installed - off_bio
+07/23/2021, 22:37:26 || telethon.client.downloads [INFO] - Starting direct file download in chunks of 131072 at 0, stride 131072
+07/23/2021, 22:37:26 || pyUltroid [INFO] - Ultroid - PLUGIN_CHANNEL - Installed - FLAC
+07/23/2021, 22:37:27 || pyUltroid [INFO] - 
+            ----------------------------------------------------------------------
+                Ultroid has been deployed! Visit @TheUltroid for updates!!
+            ----------------------------------------------------------------------
 
-• ERROR: 
-WARNING: Ignoring invalid distribution -wh-idna (/usr/local/lib/python3.9/site-packages)
-WARNING: Ignoring invalid distribution -wh-chardet (/usr/local/lib/python3.9/site-packages)
-WARNING: Ignoring invalid distribution -wh-aiohttp (/usr/local/lib/python3.9/site-packages)
-WARNING: Ignoring invalid distribution -wh-idna (/usr/local/lib/python3.9/site-packages)
-WARNING: Ignoring invalid distribution -wh-chardet (/usr/local/lib/python3.9/site-packages)
-WARNING: Ignoring invalid distribution -wh-aiohttp (/usr/local/lib/python3.9/site-packages)
-WARNING: Ignoring invalid distribution -wh-idna (/usr/local/lib/python3.9/site-packages)
-WARNING: Ignoring invalid distribution -wh-chardet (/usr/local/lib/python3.9/site-packages)
-WARNING: Ignoring invalid distribution -wh-aiohttp (/usr/local/lib/python3.9/site-packages)
-WARNING: Ignoring invalid distribution -wh-idna (/usr/local/lib/python3.9/site-packages)
-WARNING: Ignoring invalid distribution -wh-chardet (/usr/local/lib/python3.9/site-packages)
-WARNING: Ignoring invalid distribution -wh-aiohttp (/usr/local/lib/python3.9/site-packages)
-WARNING: Ignoring invalid distribution -wh-idna (/usr/local/lib/python3.9/site-packages)
-WARNING: Ignoring invalid distribution -wh-chardet (/usr/local/lib/python3.9/site-packages)
-WARNING: Ignoring invalid distribution -wh-aiohttp (/usr/local/lib/python3.9/site-packages)
-
-• OUTPUT:
-Requirement already satisfied: PyGithub in /usr/local/lib/python3.9/site-packages (1.55)
-Requirement already satisfied: deprecated in /usr/local/lib/python3.9/site-packages (from PyGithub) (1.2.12)
-Requirement already satisfied: pynacl>=1.4.0 in /usr/local/lib/python3.9/site-packages (from PyGithub) (1.4.0)
-Requirement already satisfied: requests>=2.14.0 in /usr/local/lib/python3.9/site-packages (from PyGithub) (2.25.1)
-Requirement already satisfied: pyjwt>=2.0 in /usr/local/lib/python3.9/site-packages (from PyGithub) (2.1.0)
-Requirement already satisfied: six in /usr/local/lib/python3.9/site-packages (from pynacl>=1.4.0->PyGithub) (1.16.0)
-Requirement already satisfied: cffi>=1.4.1 in /usr/local/lib/python3.9/site-packages (from pynacl>=1.4.0->PyGithub) (1.14.5)
-Requirement already satisfied: pycparser in /usr/local/lib/python3.9/site-packages (from cffi>=1.4.1->pynacl>=1.4.0->PyGithub) (2.20)
-Requirement already satisfied: chardet<5,>=3.0.2 in /usr/local/lib/python3.9/site-packages (from requests>=2.14.0->PyGithub) (4.0.0)
-Requirement already satisfied: urllib3<1.27,>=1.21.1 in /usr/local/lib/python3.9/site-packages (from requests>=2.14.0->PyGithub) (1.26.5)
-Requirement already satisfied: certifi>=2017.4.17 in /usr/local/lib/python3.9/site-packages (from requests>=2.14.0->PyGithub) (2021.5.30)
-Requirement already satisfied: idna<3,>=2.5 in /usr/local/lib/python3.9/site-packages (from requests>=2.14.0->PyGithub) (2.10)
-Requirement already satisfied: wrapt<2,>=1.10 in /usr/local/lib/python3.9/site-packages (from deprecated->PyGithub) (1.12.1)[ INFO/2021-06-22 16:41:28,190] telethon.client.uploads: Uploading file of 3004 bytes in 1 chunks of 131072
+07/23/2021, 22:39:15 || telethon.client.telegrambaseclient [INFO] - Disconnecting borrowed sender for DC 5
+07/23/2021, 22:39:15 || telethon.network.mtprotosender [INFO] - Disconnecting from 91.108.56.190:443/TcpFull...
+07/23/2021, 22:39:15 || telethon.network.mtprotosender [INFO] - Disconnection from 91.108.56.190:443/TcpFull complete!
+07/24/2021, 06:38:29 || telethon.client.updates [ERROR] - Unhandled exception on chatBot_replies
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 455, in _dispatch_update
+    await callback(event)
+  File "/root/TeamUltroid/plugins/_ChatActions.py", line 139, in chatBot_replies
+    if event.sender_id and chatbot_stats(event.chat.id, event.sender_id) and event.text:
+AttributeError: 'NoneType' object has no attribute 'id'
+07/24/2021, 06:58:11 || telethon.client.updates [ERROR] - Unhandled exception on chatBot_replies
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 455, in _dispatch_update
+    await callback(event)
+  File "/root/TeamUltroid/plugins/_ChatActions.py", line 139, in chatBot_replies
+    if event.sender_id and chatbot_stats(event.chat.id, event.sender_id) and event.text:
+AttributeError: 'NoneType' object has no attribute 'id'
+07/24/2021, 08:37:54 || telethon.client.updates [ERROR] - Unhandled exception on chatBot_replies
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 455, in _dispatch_update
+    await callback(event)
+  File "/root/TeamUltroid/plugins/_ChatActions.py", line 139, in chatBot_replies
+    if event.sender_id and chatbot_stats(event.chat.id, event.sender_id) and event.text:
+AttributeError: 'NoneType' object has no attribute 'id'
+07/24/2021, 10:11:26 || telethon.network.mtprotosender [INFO] - Connecting to 91.108.56.190:443/TcpFull...
+07/24/2021, 10:11:29 || telethon.network.mtprotosender [INFO] - Connection to 91.108.56.190:443/TcpFull complete!
+07/24/2021, 10:11:30 || telethon.network.mtprotosender [INFO] - Disconnecting from 91.108.56.190:443/TcpFull...
+07/24/2021, 10:11:30 || telethon.network.mtprotosender [INFO] - Disconnection from 91.108.56.190:443/TcpFull complete!
+07/24/2021, 10:11:30 || telethon.network.mtprotosender [INFO] - Connecting to 149.154.175.56:443/TcpFull...
+07/24/2021, 10:11:30 || telethon.network.mtprotosender [INFO] - Connection to 149.154.175.56:443/TcpFull complete!
+07/24/2021, 10:11:31 || telethon.network.mtprotosender [INFO] - Disconnecting from 149.154.175.56:443/TcpFull...
+07/24/2021, 10:11:31 || telethon.network.mtprotosender [INFO] - Disconnection from 149.154.175.56:443/TcpFull complete!
+07/24/2021, 10:11:31 || telethon.client.uploads [INFO] - Uploading file of 48325 bytes in 1 chunks of 131072
+07/24/2021, 12:01:43 || telethon.client.updates [ERROR] - Unhandled exception on chatBot_replies
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 455, in _dispatch_update
+    await callback(event)
+  File "/root/TeamUltroid/plugins/_ChatActions.py", line 139, in chatBot_replies
+    if event.sender_id and chatbot_stats(event.chat.id, event.sender_id) and event.text:
+AttributeError: 'NoneType' object has no attribute 'id'
+07/24/2021, 12:01:51 || telethon.client.updates [ERROR] - Unhandled exception on chatBot_replies
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 455, in _dispatch_update
+    await callback(event)
+  File "/root/TeamUltroid/plugins/_ChatActions.py", line 139, in chatBot_replies
+    if event.sender_id and chatbot_stats(event.chat.id, event.sender_id) and event.text:
+AttributeError: 'NoneType' object has no attribute 'id'
+07/24/2021, 12:02:03 || telethon.client.updates [ERROR] - Unhandled exception on chatBot_replies
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 455, in _dispatch_update
+    await callback(event)
+  File "/root/TeamUltroid/plugins/_ChatActions.py", line 139, in chatBot_replies
+    if event.sender_id and chatbot_stats(event.chat.id, event.sender_id) and event.text:
+AttributeError: 'NoneType' object has no attribute 'id'
+07/24/2021, 12:02:09 || telethon.client.updates [ERROR] - Unhandled exception on chatBot_replies
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 455, in _dispatch_update
+    await callback(event)
+  File "/root/TeamUltroid/plugins/_ChatActions.py", line 139, in chatBot_replies
+    if event.sender_id and chatbot_stats(event.chat.id, event.sender_id) and event.text:
+AttributeError: 'NoneType' object has no attribute 'id'
+07/24/2021, 12:02:16 || telethon.client.updates [ERROR] - Unhandled exception on chatBot_replies
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 455, in _dispatch_update
+    await callback(event)
+  File "/root/TeamUltroid/plugins/_ChatActions.py", line 139, in chatBot_replies
+    if event.sender_id and chatbot_stats(event.chat.id, event.sender_id) and event.text:
+AttributeError: 'NoneType' object has no attribute 'id'
+07/24/2021, 12:02:18 || telethon.client.updates [ERROR] - Unhandled exception on chatBot_replies
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 455, in _dispatch_update
+    await callback(event)
+  File "/root/TeamUltroid/plugins/_ChatActions.py", line 139, in chatBot_replies
+    if event.sender_id and chatbot_stats(event.chat.id, event.sender_id) and event.text:
+AttributeError: 'NoneType' object has no attribute 'id'
+07/24/2021, 12:02:28 || telethon.client.updates [ERROR] - Unhandled exception on chatBot_replies
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 455, in _dispatch_update
+    await callback(event)
+  File "/root/TeamUltroid/plugins/_ChatActions.py", line 139, in chatBot_replies
+    if event.sender_id and chatbot_stats(event.chat.id, event.sender_id) and event.text:
+AttributeError: 'NoneType' object has no attribute 'id'
+07/24/2021, 12:02:33 || telethon.client.updates [ERROR] - Unhandled exception on chatBot_replies
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 455, in _dispatch_update
+    await callback(event)
+  File "/root/TeamUltroid/plugins/_ChatActions.py", line 139, in chatBot_replies
+    if event.sender_id and chatbot_stats(event.chat.id, event.sender_id) and event.text:
+AttributeError: 'NoneType' object has no attribute 'id'
+07/24/2021, 12:05:14 || telethon.client.updates [ERROR] - Unhandled exception on chatBot_replies
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 455, in _dispatch_update
+    await callback(event)
+  File "/root/TeamUltroid/plugins/_ChatActions.py", line 139, in chatBot_replies
+    if event.sender_id and chatbot_stats(event.chat.id, event.sender_id) and event.text:
+AttributeError: 'NoneType' object has no attribute 'id'
+07/24/2021, 12:19:36 || telethon.client.updates [ERROR] - Unhandled exception on chatBot_replies
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 455, in _dispatch_update
+    await callback(event)
+  File "/root/TeamUltroid/plugins/_ChatActions.py", line 139, in chatBot_replies
+    if event.sender_id and chatbot_stats(event.chat.id, event.sender_id) and event.text:
+AttributeError: 'NoneType' object has no attribute 'id'
+07/24/2021, 12:19:53 || telethon.client.updates [ERROR] - Unhandled exception on chatBot_replies
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 455, in _dispatch_update
+    await callback(event)
+  File "/root/TeamUltroid/plugins/_ChatActions.py", line 139, in chatBot_replies
+    if event.sender_id and chatbot_stats(event.chat.id, event.sender_id) and event.text:
+AttributeError: 'NoneType' object has no attribute 'id'
+07/24/2021, 12:20:00 || telethon.client.updates [ERROR] - Unhandled exception on chatBot_replies
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 455, in _dispatch_update
+    await callback(event)
+  File "/root/TeamUltroid/plugins/_ChatActions.py", line 139, in chatBot_replies
+    if event.sender_id and chatbot_stats(event.chat.id, event.sender_id) and event.text:
+AttributeError: 'NoneType' object has no attribute 'id'
+07/24/2021, 12:20:14 || telethon.client.updates [ERROR] - Unhandled exception on chatBot_replies
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 455, in _dispatch_update
+    await callback(event)
+  File "/root/TeamUltroid/plugins/_ChatActions.py", line 139, in chatBot_replies
+    if event.sender_id and chatbot_stats(event.chat.id, event.sender_id) and event.text:
+AttributeError: 'NoneType' object has no attribute 'id'
+07/24/2021, 12:20:40 || telethon.client.updates [ERROR] - Unhandled exception on chatBot_replies
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 455, in _dispatch_update
+    await callback(event)
+  File "/root/TeamUltroid/plugins/_ChatActions.py", line 139, in chatBot_replies
+    if event.sender_id and chatbot_stats(event.chat.id, event.sender_id) and event.text:
+AttributeError: 'NoneType' object has no attribute 'id'
+07/24/2021, 12:20:54 || telethon.client.updates [ERROR] - Unhandled exception on chatBot_replies
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 455, in _dispatch_update
+    await callback(event)
+  File "/root/TeamUltroid/plugins/_ChatActions.py", line 139, in chatBot_replies
+    if event.sender_id and chatbot_stats(event.chat.id, event.sender_id) and event.text:
+AttributeError: 'NoneType' object has no attribute 'id'
+07/24/2021, 12:20:56 || telethon.client.updates [ERROR] - Unhandled exception on chatBot_replies
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 455, in _dispatch_update
+    await callback(event)
+  File "/root/TeamUltroid/plugins/_ChatActions.py", line 139, in chatBot_replies
+    if event.sender_id and chatbot_stats(event.chat.id, event.sender_id) and event.text:
+AttributeError: 'NoneType' object has no attribute 'id'
+07/24/2021, 12:21:02 || telethon.client.updates [ERROR] - Unhandled exception on chatBot_replies
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 455, in _dispatch_update
+    await callback(event)
+  File "/root/TeamUltroid/plugins/_ChatActions.py", line 139, in chatBot_replies
+    if event.sender_id and chatbot_stats(event.chat.id, event.sender_id) and event.text:
+AttributeError: 'NoneType' object has no attribute 'id'
+07/24/2021, 12:21:17 || telethon.client.updates [ERROR] - Unhandled exception on chatBot_replies
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 455, in _dispatch_update
+    await callback(event)
+  File "/root/TeamUltroid/plugins/_ChatActions.py", line 139, in chatBot_replies
+    if event.sender_id and chatbot_stats(event.chat.id, event.sender_id) and event.text:
+AttributeError: 'NoneType' object has no attribute 'id'
+07/24/2021, 12:21:48 || telethon.client.updates [ERROR] - Unhandled exception on chatBot_replies
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 455, in _dispatch_update
+    await callback(event)
+  File "/root/TeamUltroid/plugins/_ChatActions.py", line 139, in chatBot_replies
+    if event.sender_id and chatbot_stats(event.chat.id, event.sender_id) and event.text:
+AttributeError: 'NoneType' object has no attribute 'id'
+07/24/2021, 12:22:07 || telethon.client.updates [ERROR] - Unhandled exception on chatBot_replies
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 455, in _dispatch_update
+    await callback(event)
+  File "/root/TeamUltroid/plugins/_ChatActions.py", line 139, in chatBot_replies
+    if event.sender_id and chatbot_stats(event.chat.id, event.sender_id) and event.text:
+AttributeError: 'NoneType' object has no attribute 'id'
+07/24/2021, 12:22:17 || telethon.client.updates [ERROR] - Unhandled exception on chatBot_replies
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 455, in _dispatch_update
+    await callback(event)
+  File "/root/TeamUltroid/plugins/_ChatActions.py", line 139, in chatBot_replies
+    if event.sender_id and chatbot_stats(event.chat.id, event.sender_id) and event.text:
+AttributeError: 'NoneType' object has no attribute 'id'
+07/24/2021, 12:22:21 || telethon.client.updates [ERROR] - Unhandled exception on chatBot_replies
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 455, in _dispatch_update
+    await callback(event)
+  File "/root/TeamUltroid/plugins/_ChatActions.py", line 139, in chatBot_replies
+    if event.sender_id and chatbot_stats(event.chat.id, event.sender_id) and event.text:
+AttributeError: 'NoneType' object has no attribute 'id'
+07/24/2021, 12:23:08 || telethon.client.updates [ERROR] - Unhandled exception on chatBot_replies
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 455, in _dispatch_update
+    await callback(event)
+  File "/root/TeamUltroid/plugins/_ChatActions.py", line 139, in chatBot_replies
+    if event.sender_id and chatbot_stats(event.chat.id, event.sender_id) and event.text:
+AttributeError: 'NoneType' object has no attribute 'id'
+07/24/2021, 12:24:18 || telethon.client.updates [ERROR] - Unhandled exception on chatBot_replies
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 455, in _dispatch_update
+    await callback(event)
+  File "/root/TeamUltroid/plugins/_ChatActions.py", line 139, in chatBot_replies
+    if event.sender_id and chatbot_stats(event.chat.id, event.sender_id) and event.text:
+AttributeError: 'NoneType' object has no attribute 'id'
+07/24/2021, 12:24:41 || telethon.client.updates [ERROR] - Unhandled exception on chatBot_replies
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 455, in _dispatch_update
+    await callback(event)
+  File "/root/TeamUltroid/plugins/_ChatActions.py", line 139, in chatBot_replies
+    if event.sender_id and chatbot_stats(event.chat.id, event.sender_id) and event.text:
+AttributeError: 'NoneType' object has no attribute 'id'
+07/24/2021, 12:24:46 || telethon.client.updates [ERROR] - Unhandled exception on chatBot_replies
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 455, in _dispatch_update
+    await callback(event)
+  File "/root/TeamUltroid/plugins/_ChatActions.py", line 139, in chatBot_replies
+    if event.sender_id and chatbot_stats(event.chat.id, event.sender_id) and event.text:
+AttributeError: 'NoneType' object has no attribute 'id'
+07/24/2021, 12:56:49 || telethon.client.updates [ERROR] - Unhandled exception on chatBot_replies
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 455, in _dispatch_update
+    await callback(event)
+  File "/root/TeamUltroid/plugins/_ChatActions.py", line 139, in chatBot_replies
+    if event.sender_id and chatbot_stats(event.chat.id, event.sender_id) and event.text:
+AttributeError: 'NoneType' object has no attribute 'id'
+07/24/2021, 13:03:33 || telethon.client.updates [ERROR] - Unhandled exception on chatBot_replies
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 455, in _dispatch_update
+    await callback(event)
+  File "/root/TeamUltroid/plugins/_ChatActions.py", line 139, in chatBot_replies
+    if event.sender_id and chatbot_stats(event.chat.id, event.sender_id) and event.text:
+AttributeError: 'NoneType' object has no attribute 'id'
+07/24/2021, 13:04:06 || telethon.client.updates [ERROR] - Unhandled exception on chatBot_replies
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 455, in _dispatch_update
+    await callback(event)
+  File "/root/TeamUltroid/plugins/_ChatActions.py", line 139, in chatBot_replies
+    if event.sender_id and chatbot_stats(event.chat.id, event.sender_id) and event.text:
+AttributeError: 'NoneType' object has no attribute 'id'
+07/24/2021, 13:07:32 || telethon.client.updates [ERROR] - Unhandled exception on chatBot_replies
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 455, in _dispatch_update
+    await callback(event)
+  File "/root/TeamUltroid/plugins/_ChatActions.py", line 139, in chatBot_replies
+    if event.sender_id and chatbot_stats(event.chat.id, event.sender_id) and event.text:
+AttributeError: 'NoneType' object has no attribute 'id'
+07/24/2021, 13:08:05 || telethon.client.updates [ERROR] - Unhandled exception on chatBot_replies
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 455, in _dispatch_update
+    await callback(event)
+  File "/root/TeamUltroid/plugins/_ChatActions.py", line 139, in chatBot_replies
+    if event.sender_id and chatbot_stats(event.chat.id, event.sender_id) and event.text:
+AttributeError: 'NoneType' object has no attribute 'id'
+07/24/2021, 13:08:09 || telethon.client.updates [ERROR] - Unhandled exception on chatBot_replies
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 455, in _dispatch_update
+    await callback(event)
+  File "/root/TeamUltroid/plugins/_ChatActions.py", line 139, in chatBot_replies
+    if event.sender_id and chatbot_stats(event.chat.id, event.sender_id) and event.text:
+AttributeError: 'NoneType' object has no attribute 'id'
+07/24/2021, 13:08:13 || telethon.client.updates [ERROR] - Unhandled exception on chatBot_replies
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 455, in _dispatch_update
+    await callback(event)
+  File "/root/TeamUltroid/plugins/_ChatActions.py", line 139, in chatBot_replies
+    if event.sender_id and chatbot_stats(event.chat.id, event.sender_id) and event.text:
+AttributeError: 'NoneType' object has no attribute 'id'
+07/24/2021, 13:09:04 || telethon.client.updates [ERROR] - Unhandled exception on chatBot_replies
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 455, in _dispatch_update
+    await callback(event)
+  File "/root/TeamUltroid/plugins/_ChatActions.py", line 139, in chatBot_replies
+    if event.sender_id and chatbot_stats(event.chat.id, event.sender_id) and event.text:
+AttributeError: 'NoneType' object has no attribute 'id'
+07/24/2021, 13:09:13 || telethon.client.updates [ERROR] - Unhandled exception on chatBot_replies
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 455, in _dispatch_update
+    await callback(event)
+  File "/root/TeamUltroid/plugins/_ChatActions.py", line 139, in chatBot_replies
+    if event.sender_id and chatbot_stats(event.chat.id, event.sender_id) and event.text:
+AttributeError: 'NoneType' object has no attribute 'id'
+07/24/2021, 13:09:18 || telethon.client.updates [ERROR] - Unhandled exception on chatBot_replies
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 455, in _dispatch_update
+    await callback(event)
+  File "/root/TeamUltroid/plugins/_ChatActions.py", line 139, in chatBot_replies
+    if event.sender_id and chatbot_stats(event.chat.id, event.sender_id) and event.text:
+AttributeError: 'NoneType' object has no attribute 'id'
+07/24/2021, 13:09:29 || telethon.client.updates [ERROR] - Unhandled exception on chatBot_replies
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 455, in _dispatch_update
+    await callback(event)
+  File "/root/TeamUltroid/plugins/_ChatActions.py", line 139, in chatBot_replies
+    if event.sender_id and chatbot_stats(event.chat.id, event.sender_id) and event.text:
+AttributeError: 'NoneType' object has no attribute 'id'
+07/24/2021, 13:09:57 || telethon.client.updates [ERROR] - Unhandled exception on chatBot_replies
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 455, in _dispatch_update
+    await callback(event)
+  File "/root/TeamUltroid/plugins/_ChatActions.py", line 139, in chatBot_replies
+    if event.sender_id and chatbot_stats(event.chat.id, event.sender_id) and event.text:
+AttributeError: 'NoneType' object has no attribute 'id'
+07/24/2021, 13:10:00 || telethon.client.updates [ERROR] - Unhandled exception on chatBot_replies
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 455, in _dispatch_update
+    await callback(event)
+  File "/root/TeamUltroid/plugins/_ChatActions.py", line 139, in chatBot_replies
+    if event.sender_id and chatbot_stats(event.chat.id, event.sender_id) and event.text:
+AttributeError: 'NoneType' object has no attribute 'id'
+07/24/2021, 13:17:48 || telethon.client.updates [ERROR] - Unhandled exception on chatBot_replies
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 455, in _dispatch_update
+    await callback(event)
+  File "/root/TeamUltroid/plugins/_ChatActions.py", line 139, in chatBot_replies
+    if event.sender_id and chatbot_stats(event.chat.id, event.sender_id) and event.text:
+AttributeError: 'NoneType' object has no attribute 'id'
+07/24/2021, 13:18:01 || telethon.client.updates [ERROR] - Unhandled exception on chatBot_replies
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 455, in _dispatch_update
+    await callback(event)
+  File "/root/TeamUltroid/plugins/_ChatActions.py", line 139, in chatBot_replies
+    if event.sender_id and chatbot_stats(event.chat.id, event.sender_id) and event.text:
+AttributeError: 'NoneType' object has no attribute 'id'
+07/24/2021, 13:18:15 || telethon.client.updates [ERROR] - Unhandled exception on chatBot_replies
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 455, in _dispatch_update
+    await callback(event)
+  File "/root/TeamUltroid/plugins/_ChatActions.py", line 139, in chatBot_replies
+    if event.sender_id and chatbot_stats(event.chat.id, event.sender_id) and event.text:
+AttributeError: 'NoneType' object has no attribute 'id'
+07/24/2021, 13:20:16 || telethon.client.updates [ERROR] - Unhandled exception on chatBot_replies
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 455, in _dispatch_update
+    await callback(event)
+  File "/root/TeamUltroid/plugins/_ChatActions.py", line 139, in chatBot_replies
+    if event.sender_id and chatbot_stats(event.chat.id, event.sender_id) and event.text:
+AttributeError: 'NoneType' object has no attribute 'id'
+07/24/2021, 13:21:10 || telethon.client.updates [ERROR] - Unhandled exception on chatBot_replies
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 455, in _dispatch_update
+    await callback(event)
+  File "/root/TeamUltroid/plugins/_ChatActions.py", line 139, in chatBot_replies
+    if event.sender_id and chatbot_stats(event.chat.id, event.sender_id) and event.text:
+AttributeError: 'NoneType' object has no attribute 'id'
+07/24/2021, 13:21:14 || telethon.client.updates [ERROR] - Unhandled exception on chatBot_replies
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 455, in _dispatch_update
+    await callback(event)
+  File "/root/TeamUltroid/plugins/_ChatActions.py", line 139, in chatBot_replies
+    if event.sender_id and chatbot_stats(event.chat.id, event.sender_id) and event.text:
+AttributeError: 'NoneType' object has no attribute 'id'
+07/24/2021, 13:21:19 || telethon.client.updates [ERROR] - Unhandled exception on chatBot_replies
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 455, in _dispatch_update
+    await callback(event)
+  File "/root/TeamUltroid/plugins/_ChatActions.py", line 139, in chatBot_replies
+    if event.sender_id and chatbot_stats(event.chat.id, event.sender_id) and event.text:
+AttributeError: 'NoneType' object has no attribute 'id'
+07/24/2021, 13:21:34 || telethon.client.updates [ERROR] - Unhandled exception on chatBot_replies
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 455, in _dispatch_update
+    await callback(event)
+  File "/root/TeamUltroid/plugins/_ChatActions.py", line 139, in chatBot_replies
+    if event.sender_id and chatbot_stats(event.chat.id, event.sender_id) and event.text:
+AttributeError: 'NoneType' object has no attribute 'id'
+07/24/2021, 13:45:17 || telethon.client.updates [ERROR] - Unhandled exception on chatBot_replies
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 455, in _dispatch_update
+    await callback(event)
+  File "/root/TeamUltroid/plugins/_ChatActions.py", line 139, in chatBot_replies
+    if event.sender_id and chatbot_stats(event.chat.id, event.sender_id) and event.text:
+AttributeError: 'NoneType' object has no attribute 'id'
+07/24/2021, 13:53:35 || telethon.client.updates [ERROR] - Unhandled exception on chatBot_replies
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 455, in _dispatch_update
+    await callback(event)
+  File "/root/TeamUltroid/plugins/_ChatActions.py", line 139, in chatBot_replies
+    if event.sender_id and chatbot_stats(event.chat.id, event.sender_id) and event.text:
+AttributeError: 'NoneType' object has no attribute 'id'
+07/24/2021, 14:06:15 || telethon.client.updates [ERROR] - Unhandled exception on chatBot_replies
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 455, in _dispatch_update
+    await callback(event)
+  File "/root/TeamUltroid/plugins/_ChatActions.py", line 139, in chatBot_replies
+    if event.sender_id and chatbot_stats(event.chat.id, event.sender_id) and event.text:
+AttributeError: 'NoneType' object has no attribute 'id'
+07/24/2021, 14:06:43 || telethon.client.updates [ERROR] - Unhandled exception on chatBot_replies
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 455, in _dispatch_update
+    await callback(event)
+  File "/root/TeamUltroid/plugins/_ChatActions.py", line 139, in chatBot_replies
+    if event.sender_id and chatbot_stats(event.chat.id, event.sender_id) and event.text:
+AttributeError: 'NoneType' object has no attribute 'id'
+07/24/2021, 14:07:27 || telethon.client.updates [ERROR] - Unhandled exception on chatBot_replies
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 455, in _dispatch_update
+    await callback(event)
+  File "/root/TeamUltroid/plugins/_ChatActions.py", line 139, in chatBot_replies
+    if event.sender_id and chatbot_stats(event.chat.id, event.sender_id) and event.text:
+AttributeError: 'NoneType' object has no attribute 'id'
+07/24/2021, 14:07:51 || telethon.client.updates [ERROR] - Unhandled exception on chatBot_replies
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 455, in _dispatch_update
+    await callback(event)
+  File "/root/TeamUltroid/plugins/_ChatActions.py", line 139, in chatBot_replies
+    if event.sender_id and chatbot_stats(event.chat.id, event.sender_id) and event.text:
+AttributeError: 'NoneType' object has no attribute 'id'
+07/24/2021, 14:07:55 || telethon.client.updates [ERROR] - Unhandled exception on chatBot_replies
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 455, in _dispatch_update
+    await callback(event)
+  File "/root/TeamUltroid/plugins/_ChatActions.py", line 139, in chatBot_replies
+    if event.sender_id and chatbot_stats(event.chat.id, event.sender_id) and event.text:
+AttributeError: 'NoneType' object has no attribute 'id'
+07/24/2021, 14:08:00 || telethon.client.updates [ERROR] - Unhandled exception on chatBot_replies
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 455, in _dispatch_update
+    await callback(event)
+  File "/root/TeamUltroid/plugins/_ChatActions.py", line 139, in chatBot_replies
+    if event.sender_id and chatbot_stats(event.chat.id, event.sender_id) and event.text:
+AttributeError: 'NoneType' object has no attribute 'id'
+07/24/2021, 14:08:12 || telethon.client.updates [ERROR] - Unhandled exception on chatBot_replies
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 455, in _dispatch_update
+    await callback(event)
+  File "/root/TeamUltroid/plugins/_ChatActions.py", line 139, in chatBot_replies
+    if event.sender_id and chatbot_stats(event.chat.id, event.sender_id) and event.text:
+AttributeError: 'NoneType' object has no attribute 'id'
+07/24/2021, 14:08:20 || telethon.client.updates [ERROR] - Unhandled exception on chatBot_replies
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 455, in _dispatch_update
+    await callback(event)
+  File "/root/TeamUltroid/plugins/_ChatActions.py", line 139, in chatBot_replies
+    if event.sender_id and chatbot_stats(event.chat.id, event.sender_id) and event.text:
+AttributeError: 'NoneType' object has no attribute 'id'
+07/24/2021, 14:08:30 || telethon.client.updates [ERROR] - Unhandled exception on chatBot_replies
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 455, in _dispatch_update
+    await callback(event)
+  File "/root/TeamUltroid/plugins/_ChatActions.py", line 139, in chatBot_replies
+    if event.sender_id and chatbot_stats(event.chat.id, event.sender_id) and event.text:
+AttributeError: 'NoneType' object has no attribute 'id'
+07/24/2021, 14:08:42 || telethon.client.updates [ERROR] - Unhandled exception on chatBot_replies
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 455, in _dispatch_update
+    await callback(event)
+  File "/root/TeamUltroid/plugins/_ChatActions.py", line 139, in chatBot_replies
+    if event.sender_id and chatbot_stats(event.chat.id, event.sender_id) and event.text:
+AttributeError: 'NoneType' object has no attribute 'id'
+07/24/2021, 14:08:48 || telethon.client.updates [ERROR] - Unhandled exception on chatBot_replies
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 455, in _dispatch_update
+    await callback(event)
+  File "/root/TeamUltroid/plugins/_ChatActions.py", line 139, in chatBot_replies
+    if event.sender_id and chatbot_stats(event.chat.id, event.sender_id) and event.text:
+AttributeError: 'NoneType' object has no attribute 'id'
+07/24/2021, 14:09:11 || telethon.client.updates [ERROR] - Unhandled exception on chatBot_replies
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 455, in _dispatch_update
+    await callback(event)
+  File "/root/TeamUltroid/plugins/_ChatActions.py", line 139, in chatBot_replies
+    if event.sender_id and chatbot_stats(event.chat.id, event.sender_id) and event.text:
+AttributeError: 'NoneType' object has no attribute 'id'
+07/24/2021, 15:04:43 || telethon.client.downloads [INFO] - Starting direct file download in chunks of 65536 at 0, stride 65536
+07/24/2021, 15:04:43 || telethon.network.mtprotosender [INFO] - Connecting to 91.108.56.190:443/TcpFull...
+07/24/2021, 15:04:43 || telethon.network.mtprotosender [INFO] - Connection to 91.108.56.190:443/TcpFull complete!
+07/24/2021, 15:04:46 || telethon.client.uploads [INFO] - Uploading file of 186259 bytes in 2 chunks of 131072
+07/24/2021, 15:06:32 || telethon.client.telegrambaseclient [INFO] - Disconnecting borrowed sender for DC 5
+07/24/2021, 15:06:32 || telethon.network.mtprotosender [INFO] - Disconnecting from 91.108.56.190:443/TcpFull...
+07/24/2021, 15:06:32 || telethon.network.mtprotosender [INFO] - Disconnection from 91.108.56.190:443/TcpFull complete!
+07/24/2021, 15:44:39 || telethon.client.updates [ERROR] - Unhandled exception on chatBot_replies
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 455, in _dispatch_update
+    await callback(event)
+  File "/root/TeamUltroid/plugins/_ChatActions.py", line 139, in chatBot_replies
+    if event.sender_id and chatbot_stats(event.chat.id, event.sender_id) and event.text:
+AttributeError: 'NoneType' object has no attribute 'id'
+07/24/2021, 15:44:55 || telethon.client.updates [ERROR] - Unhandled exception on chatBot_replies
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 455, in _dispatch_update
+    await callback(event)
+  File "/root/TeamUltroid/plugins/_ChatActions.py", line 139, in chatBot_replies
+    if event.sender_id and chatbot_stats(event.chat.id, event.sender_id) and event.text:
+AttributeError: 'NoneType' object has no attribute 'id'
+07/24/2021, 16:02:40 || pyUltroid [ERROR] - module 'pyUltroid.utils' has no attribute 'get_input_document'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/pyUltroid/misc/_decorators.py", line 142, in wrapper
+    await func(ult)
+  File "/root/TeamUltroid/plugins/stickertools.py", line 161, in pack_kangish
+    x = utils.get_input_document(i)
+AttributeError: module 'pyUltroid.utils' has no attribute 'get_input_document'
+07/24/2021, 16:03:26 || pyUltroid [ERROR] - module 'pyUltroid.utils' has no attribute 'get_input_document'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/pyUltroid/misc/_decorators.py", line 142, in wrapper
+    await func(ult)
+  File "/root/TeamUltroid/plugins/stickertools.py", line 161, in pack_kangish
+    x = utils.get_input_document(i)
+AttributeError: module 'pyUltroid.utils' has no attribute 'get_input_document'
+07/24/2021, 16:34:25 || telethon.client.updates [ERROR] - Unhandled exception on chatBot_replies
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 455, in _dispatch_update
+    await callback(event)
+  File "/root/TeamUltroid/plugins/_ChatActions.py", line 139, in chatBot_replies
+    if event.sender_id and chatbot_stats(event.chat.id, event.sender_id) and event.text:
+AttributeError: 'NoneType' object has no attribute 'id'
+07/24/2021, 16:36:23 || telethon.client.updates [ERROR] - Unhandled exception on chatBot_replies
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 455, in _dispatch_update
+    await callback(event)
+  File "/root/TeamUltroid/plugins/_ChatActions.py", line 139, in chatBot_replies
+    if event.sender_id and chatbot_stats(event.chat.id, event.sender_id) and event.text:
+AttributeError: 'NoneType' object has no attribute 'id'
+07/24/2021, 16:36:30 || telethon.client.updates [ERROR] - Unhandled exception on chatBot_replies
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 455, in _dispatch_update
+    await callback(event)
+  File "/root/TeamUltroid/plugins/_ChatActions.py", line 139, in chatBot_replies
+    if event.sender_id and chatbot_stats(event.chat.id, event.sender_id) and event.text:
+AttributeError: 'NoneType' object has no attribute 'id'
+07/24/2021, 16:36:51 || telethon.client.updates [ERROR] - Unhandled exception on chatBot_replies
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 455, in _dispatch_update
+    await callback(event)
+  File "/root/TeamUltroid/plugins/_ChatActions.py", line 139, in chatBot_replies
+    if event.sender_id and chatbot_stats(event.chat.id, event.sender_id) and event.text:
+AttributeError: 'NoneType' object has no attribute 'id'
+07/24/2021, 16:36:52 || telethon.client.updates [ERROR] - Unhandled exception on chatBot_replies
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 455, in _dispatch_update
+    await callback(event)
+  File "/root/TeamUltroid/plugins/_ChatActions.py", line 139, in chatBot_replies
+    if event.sender_id and chatbot_stats(event.chat.id, event.sender_id) and event.text:
+AttributeError: 'NoneType' object has no attribute 'id'
+07/24/2021, 16:36:52 || telethon.client.updates [ERROR] - Unhandled exception on chatBot_replies
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 455, in _dispatch_update
+    await callback(event)
+  File "/root/TeamUltroid/plugins/_ChatActions.py", line 139, in chatBot_replies
+    if event.sender_id and chatbot_stats(event.chat.id, event.sender_id) and event.text:
+AttributeError: 'NoneType' object has no attribute 'id'
+07/24/2021, 16:37:03 || telethon.client.updates [ERROR] - Unhandled exception on chatBot_replies
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 455, in _dispatch_update
+    await callback(event)
+  File "/root/TeamUltroid/plugins/_ChatActions.py", line 139, in chatBot_replies
+    if event.sender_id and chatbot_stats(event.chat.id, event.sender_id) and event.text:
+AttributeError: 'NoneType' object has no attribute 'id'
+07/24/2021, 16:37:12 || telethon.client.updates [ERROR] - Unhandled exception on chatBot_replies
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 455, in _dispatch_update
+    await callback(event)
+  File "/root/TeamUltroid/plugins/_ChatActions.py", line 139, in chatBot_replies
+    if event.sender_id and chatbot_stats(event.chat.id, event.sender_id) and event.text:
+AttributeError: 'NoneType' object has no attribute 'id'
+07/24/2021, 16:37:24 || telethon.client.updates [ERROR] - Unhandled exception on chatBot_replies
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 455, in _dispatch_update
+    await callback(event)
+  File "/root/TeamUltroid/plugins/_ChatActions.py", line 139, in chatBot_replies
+    if event.sender_id and chatbot_stats(event.chat.id, event.sender_id) and event.text:
+AttributeError: 'NoneType' object has no attribute 'id'
+07/24/2021, 16:37:28 || telethon.client.updates [ERROR] - Unhandled exception on chatBot_replies
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 455, in _dispatch_update
+    await callback(event)
+  File "/root/TeamUltroid/plugins/_ChatActions.py", line 139, in chatBot_replies
+    if event.sender_id and chatbot_stats(event.chat.id, event.sender_id) and event.text:
+AttributeError: 'NoneType' object has no attribute 'id'
+07/24/2021, 16:37:34 || telethon.client.updates [ERROR] - Unhandled exception on chatBot_replies
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 455, in _dispatch_update
+    await callback(event)
+  File "/root/TeamUltroid/plugins/_ChatActions.py", line 139, in chatBot_replies
+    if event.sender_id and chatbot_stats(event.chat.id, event.sender_id) and event.text:
+AttributeError: 'NoneType' object has no attribute 'id'
+07/24/2021, 16:37:59 || telethon.client.updates [ERROR] - Unhandled exception on chatBot_replies
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 455, in _dispatch_update
+    await callback(event)
+  File "/root/TeamUltroid/plugins/_ChatActions.py", line 139, in chatBot_replies
+    if event.sender_id and chatbot_stats(event.chat.id, event.sender_id) and event.text:
+AttributeError: 'NoneType' object has no attribute 'id'
+07/24/2021, 16:38:32 || telethon.client.updates [ERROR] - Unhandled exception on chatBot_replies
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 455, in _dispatch_update
+    await callback(event)
+  File "/root/TeamUltroid/plugins/_ChatActions.py", line 139, in chatBot_replies
+    if event.sender_id and chatbot_stats(event.chat.id, event.sender_id) and event.text:
+AttributeError: 'NoneType' object has no attribute 'id'
+07/24/2021, 16:38:41 || telethon.client.updates [ERROR] - Unhandled exception on chatBot_replies
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 455, in _dispatch_update
+    await callback(event)
+  File "/root/TeamUltroid/plugins/_ChatActions.py", line 139, in chatBot_replies
+    if event.sender_id and chatbot_stats(event.chat.id, event.sender_id) and event.text:
+AttributeError: 'NoneType' object has no attribute 'id'
+07/24/2021, 16:40:52 || telethon.client.updates [ERROR] - Unhandled exception on chatBot_replies
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 455, in _dispatch_update
+    await callback(event)
+  File "/root/TeamUltroid/plugins/_ChatActions.py", line 139, in chatBot_replies
+    if event.sender_id and chatbot_stats(event.chat.id, event.sender_id) and event.text:
+AttributeError: 'NoneType' object has no attribute 'id'
+07/24/2021, 16:41:09 || telethon.client.updates [ERROR] - Unhandled exception on chatBot_replies
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 455, in _dispatch_update
+    await callback(event)
+  File "/root/TeamUltroid/plugins/_ChatActions.py", line 139, in chatBot_replies
+    if event.sender_id and chatbot_stats(event.chat.id, event.sender_id) and event.text:
+AttributeError: 'NoneType' object has no attribute 'id'
+07/24/2021, 16:41:18 || telethon.client.updates [ERROR] - Unhandled exception on chatBot_replies
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 455, in _dispatch_update
+    await callback(event)
+  File "/root/TeamUltroid/plugins/_ChatActions.py", line 139, in chatBot_replies
+    if event.sender_id and chatbot_stats(event.chat.id, event.sender_id) and event.text:
+AttributeError: 'NoneType' object has no attribute 'id'
+07/24/2021, 16:41:32 || telethon.client.updates [ERROR] - Unhandled exception on chatBot_replies
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 455, in _dispatch_update
+    await callback(event)
+  File "/root/TeamUltroid/plugins/_ChatActions.py", line 139, in chatBot_replies
+    if event.sender_id and chatbot_stats(event.chat.id, event.sender_id) and event.text:
+AttributeError: 'NoneType' object has no attribute 'id'
+07/24/2021, 16:42:17 || telethon.client.updates [ERROR] - Unhandled exception on chatBot_replies
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 455, in _dispatch_update
+    await callback(event)
+  File "/root/TeamUltroid/plugins/_ChatActions.py", line 139, in chatBot_replies
+    if event.sender_id and chatbot_stats(event.chat.id, event.sender_id) and event.text:
+AttributeError: 'NoneType' object has no attribute 'id'
+07/24/2021, 16:43:41 || telethon.client.updates [ERROR] - Unhandled exception on chatBot_replies
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 455, in _dispatch_update
+    await callback(event)
+  File "/root/TeamUltroid/plugins/_ChatActions.py", line 139, in chatBot_replies
+    if event.sender_id and chatbot_stats(event.chat.id, event.sender_id) and event.text:
+AttributeError: 'NoneType' object has no attribute 'id'
+07/24/2021, 16:43:44 || telethon.client.updates [ERROR] - Unhandled exception on chatBot_replies
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 455, in _dispatch_update
+    await callback(event)
+  File "/root/TeamUltroid/plugins/_ChatActions.py", line 139, in chatBot_replies
+    if event.sender_id and chatbot_stats(event.chat.id, event.sender_id) and event.text:
+AttributeError: 'NoneType' object has no attribute 'id'
+07/24/2021, 16:44:22 || telethon.client.updates [ERROR] - Unhandled exception on chatBot_replies
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 455, in _dispatch_update
+    await callback(event)
+  File "/root/TeamUltroid/plugins/_ChatActions.py", line 139, in chatBot_replies
+    if event.sender_id and chatbot_stats(event.chat.id, event.sender_id) and event.text:
+AttributeError: 'NoneType' object has no attribute 'id'
+07/24/2021, 16:44:27 || telethon.client.updates [ERROR] - Unhandled exception on chatBot_replies
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 455, in _dispatch_update
+    await callback(event)
+  File "/root/TeamUltroid/plugins/_ChatActions.py", line 139, in chatBot_replies
+    if event.sender_id and chatbot_stats(event.chat.id, event.sender_id) and event.text:
+AttributeError: 'NoneType' object has no attribute 'id'
+07/24/2021, 16:44:31 || telethon.client.updates [ERROR] - Unhandled exception on chatBot_replies
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 455, in _dispatch_update
+    await callback(event)
+  File "/root/TeamUltroid/plugins/_ChatActions.py", line 139, in chatBot_replies
+    if event.sender_id and chatbot_stats(event.chat.id, event.sender_id) and event.text:
+AttributeError: 'NoneType' object has no attribute 'id'
+07/24/2021, 16:45:13 || telethon.client.updates [ERROR] - Unhandled exception on chatBot_replies
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 455, in _dispatch_update
+    await callback(event)
+  File "/root/TeamUltroid/plugins/_ChatActions.py", line 139, in chatBot_replies
+    if event.sender_id and chatbot_stats(event.chat.id, event.sender_id) and event.text:
+AttributeError: 'NoneType' object has no attribute 'id'
+07/24/2021, 16:45:25 || telethon.client.updates [ERROR] - Unhandled exception on chatBot_replies
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 455, in _dispatch_update
+    await callback(event)
+  File "/root/TeamUltroid/plugins/_ChatActions.py", line 139, in chatBot_replies
+    if event.sender_id and chatbot_stats(event.chat.id, event.sender_id) and event.text:
+AttributeError: 'NoneType' object has no attribute 'id'
+07/24/2021, 16:45:27 || telethon.client.updates [ERROR] - Unhandled exception on chatBot_replies
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 455, in _dispatch_update
+    await callback(event)
+  File "/root/TeamUltroid/plugins/_ChatActions.py", line 139, in chatBot_replies
+    if event.sender_id and chatbot_stats(event.chat.id, event.sender_id) and event.text:
+AttributeError: 'NoneType' object has no attribute 'id'
+07/24/2021, 16:47:46 || telethon.client.updates [ERROR] - Unhandled exception on chatBot_replies
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 455, in _dispatch_update
+    await callback(event)
+  File "/root/TeamUltroid/plugins/_ChatActions.py", line 139, in chatBot_replies
+    if event.sender_id and chatbot_stats(event.chat.id, event.sender_id) and event.text:
+AttributeError: 'NoneType' object has no attribute 'id'
+07/24/2021, 16:49:34 || telethon.client.updates [ERROR] - Unhandled exception on chatBot_replies
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 455, in _dispatch_update
+    await callback(event)
+  File "/root/TeamUltroid/plugins/_ChatActions.py", line 139, in chatBot_replies
+    if event.sender_id and chatbot_stats(event.chat.id, event.sender_id) and event.text:
+AttributeError: 'NoneType' object has no attribute 'id'
+07/24/2021, 16:49:41 || telethon.client.updates [ERROR] - Unhandled exception on chatBot_replies
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 455, in _dispatch_update
+    await callback(event)
+  File "/root/TeamUltroid/plugins/_ChatActions.py", line 139, in chatBot_replies
+    if event.sender_id and chatbot_stats(event.chat.id, event.sender_id) and event.text:
+AttributeError: 'NoneType' object has no attribute 'id'
+07/24/2021, 16:51:28 || telethon.client.updates [ERROR] - Unhandled exception on chatBot_replies
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 455, in _dispatch_update
+    await callback(event)
+  File "/root/TeamUltroid/plugins/_ChatActions.py", line 139, in chatBot_replies
+    if event.sender_id and chatbot_stats(event.chat.id, event.sender_id) and event.text:
+AttributeError: 'NoneType' object has no attribute 'id'
+07/24/2021, 16:52:25 || telethon.client.updates [ERROR] - Unhandled exception on chatBot_replies
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 455, in _dispatch_update
+    await callback(event)
+  File "/root/TeamUltroid/plugins/_ChatActions.py", line 139, in chatBot_replies
+    if event.sender_id and chatbot_stats(event.chat.id, event.sender_id) and event.text:
+AttributeError: 'NoneType' object has no attribute 'id'
+07/24/2021, 16:52:26 || telethon.client.updates [ERROR] - Unhandled exception on chatBot_replies
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 455, in _dispatch_update
+    await callback(event)
+  File "/root/TeamUltroid/plugins/_ChatActions.py", line 139, in chatBot_replies
+    if event.sender_id and chatbot_stats(event.chat.id, event.sender_id) and event.text:
+AttributeError: 'NoneType' object has no attribute 'id'
+07/24/2021, 16:53:10 || telethon.client.updates [ERROR] - Unhandled exception on chatBot_replies
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 455, in _dispatch_update
+    await callback(event)
+  File "/root/TeamUltroid/plugins/_ChatActions.py", line 139, in chatBot_replies
+    if event.sender_id and chatbot_stats(event.chat.id, event.sender_id) and event.text:
+AttributeError: 'NoneType' object has no attribute 'id'
+07/24/2021, 16:53:28 || telethon.client.updates [ERROR] - Unhandled exception on chatBot_replies
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 455, in _dispatch_update
+    await callback(event)
+  File "/root/TeamUltroid/plugins/_ChatActions.py", line 139, in chatBot_replies
+    if event.sender_id and chatbot_stats(event.chat.id, event.sender_id) and event.text:
+AttributeError: 'NoneType' object has no attribute 'id'
+07/24/2021, 16:55:25 || telethon.client.updates [ERROR] - Unhandled exception on chatBot_replies
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 455, in _dispatch_update
+    await callback(event)
+  File "/root/TeamUltroid/plugins/_ChatActions.py", line 139, in chatBot_replies
+    if event.sender_id and chatbot_stats(event.chat.id, event.sender_id) and event.text:
+AttributeError: 'NoneType' object has no attribute 'id'
+07/24/2021, 16:55:35 || telethon.client.updates [ERROR] - Unhandled exception on chatBot_replies
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 455, in _dispatch_update
+    await callback(event)
+  File "/root/TeamUltroid/plugins/_ChatActions.py", line 139, in chatBot_replies
+    if event.sender_id and chatbot_stats(event.chat.id, event.sender_id) and event.text:
+AttributeError: 'NoneType' object has no attribute 'id'
+07/24/2021, 16:55:37 || telethon.client.updates [ERROR] - Unhandled exception on chatBot_replies
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 455, in _dispatch_update
+    await callback(event)
+  File "/root/TeamUltroid/plugins/_ChatActions.py", line 139, in chatBot_replies
+    if event.sender_id and chatbot_stats(event.chat.id, event.sender_id) and event.text:
+AttributeError: 'NoneType' object has no attribute 'id'
+07/24/2021, 16:56:08 || telethon.client.updates [ERROR] - Unhandled exception on chatBot_replies
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 455, in _dispatch_update
+    await callback(event)
+  File "/root/TeamUltroid/plugins/_ChatActions.py", line 139, in chatBot_replies
+    if event.sender_id and chatbot_stats(event.chat.id, event.sender_id) and event.text:
+AttributeError: 'NoneType' object has no attribute 'id'
+07/24/2021, 16:57:20 || telethon.client.updates [ERROR] - Unhandled exception on chatBot_replies
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 455, in _dispatch_update
+    await callback(event)
+  File "/root/TeamUltroid/plugins/_ChatActions.py", line 139, in chatBot_replies
+    if event.sender_id and chatbot_stats(event.chat.id, event.sender_id) and event.text:
+AttributeError: 'NoneType' object has no attribute 'id'
+07/24/2021, 17:02:24 || telethon.client.updates [ERROR] - Unhandled exception on chatBot_replies
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 455, in _dispatch_update
+    await callback(event)
+  File "/root/TeamUltroid/plugins/_ChatActions.py", line 139, in chatBot_replies
+    if event.sender_id and chatbot_stats(event.chat.id, event.sender_id) and event.text:
+AttributeError: 'NoneType' object has no attribute 'id'
+07/24/2021, 17:07:03 || telethon.client.updates [ERROR] - Unhandled exception on chatBot_replies
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 455, in _dispatch_update
+    await callback(event)
+  File "/root/TeamUltroid/plugins/_ChatActions.py", line 139, in chatBot_replies
+    if event.sender_id and chatbot_stats(event.chat.id, event.sender_id) and event.text:
+AttributeError: 'NoneType' object has no attribute 'id'
+07/24/2021, 17:07:11 || telethon.client.updates [ERROR] - Unhandled exception on chatBot_replies
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 455, in _dispatch_update
+    await callback(event)
+  File "/root/TeamUltroid/plugins/_ChatActions.py", line 139, in chatBot_replies
+    if event.sender_id and chatbot_stats(event.chat.id, event.sender_id) and event.text:
+AttributeError: 'NoneType' object has no attribute 'id'
+07/24/2021, 17:07:27 || telethon.client.updates [ERROR] - Unhandled exception on chatBot_replies
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 455, in _dispatch_update
+    await callback(event)
+  File "/root/TeamUltroid/plugins/_ChatActions.py", line 139, in chatBot_replies
+    if event.sender_id and chatbot_stats(event.chat.id, event.sender_id) and event.text:
+AttributeError: 'NoneType' object has no attribute 'id'
+07/24/2021, 17:08:24 || telethon.client.updates [ERROR] - Unhandled exception on chatBot_replies
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 455, in _dispatch_update
+    await callback(event)
+  File "/root/TeamUltroid/plugins/_ChatActions.py", line 139, in chatBot_replies
+    if event.sender_id and chatbot_stats(event.chat.id, event.sender_id) and event.text:
+AttributeError: 'NoneType' object has no attribute 'id'
+07/24/2021, 17:08:32 || telethon.client.updates [ERROR] - Unhandled exception on chatBot_replies
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 455, in _dispatch_update
+    await callback(event)
+  File "/root/TeamUltroid/plugins/_ChatActions.py", line 139, in chatBot_replies
+    if event.sender_id and chatbot_stats(event.chat.id, event.sender_id) and event.text:
+AttributeError: 'NoneType' object has no attribute 'id'
+07/24/2021, 17:08:39 || telethon.client.updates [ERROR] - Unhandled exception on chatBot_replies
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 455, in _dispatch_update
+    await callback(event)
+  File "/root/TeamUltroid/plugins/_ChatActions.py", line 139, in chatBot_replies
+    if event.sender_id and chatbot_stats(event.chat.id, event.sender_id) and event.text:
+AttributeError: 'NoneType' object has no attribute 'id'
+07/24/2021, 17:09:21 || telethon.client.updates [ERROR] - Unhandled exception on chatBot_replies
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 455, in _dispatch_update
+    await callback(event)
+  File "/root/TeamUltroid/plugins/_ChatActions.py", line 139, in chatBot_replies
+    if event.sender_id and chatbot_stats(event.chat.id, event.sender_id) and event.text:
+AttributeError: 'NoneType' object has no attribute 'id'
+07/24/2021, 17:21:49 || telethon.client.updates [ERROR] - Unhandled exception on chatBot_replies
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 455, in _dispatch_update
+    await callback(event)
+  File "/root/TeamUltroid/plugins/_ChatActions.py", line 139, in chatBot_replies
+    if event.sender_id and chatbot_stats(event.chat.id, event.sender_id) and event.text:
+AttributeError: 'NoneType' object has no attribute 'id'
+07/24/2021, 17:21:54 || telethon.client.updates [ERROR] - Unhandled exception on chatBot_replies
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 455, in _dispatch_update
+    await callback(event)
+  File "/root/TeamUltroid/plugins/_ChatActions.py", line 139, in chatBot_replies
+    if event.sender_id and chatbot_stats(event.chat.id, event.sender_id) and event.text:
+AttributeError: 'NoneType' object has no attribute 'id'
+07/24/2021, 17:22:04 || telethon.client.updates [ERROR] - Unhandled exception on chatBot_replies
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 455, in _dispatch_update
+    await callback(event)
+  File "/root/TeamUltroid/plugins/_ChatActions.py", line 139, in chatBot_replies
+    if event.sender_id and chatbot_stats(event.chat.id, event.sender_id) and event.text:
+AttributeError: 'NoneType' object has no attribute 'id'
+07/24/2021, 17:22:21 || telethon.client.updates [ERROR] - Unhandled exception on chatBot_replies
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 455, in _dispatch_update
+    await callback(event)
+  File "/root/TeamUltroid/plugins/_ChatActions.py", line 139, in chatBot_replies
+    if event.sender_id and chatbot_stats(event.chat.id, event.sender_id) and event.text:
+AttributeError: 'NoneType' object has no attribute 'id'
+07/24/2021, 17:39:15 || telethon.network.connection.connection [INFO] - The server closed the connection
+07/24/2021, 17:39:15 || telethon.network.mtprotosender [INFO] - Connection closed while receiving data
+07/24/2021, 17:39:15 || telethon.network.mtprotosender [INFO] - Closing current connection to begin reconnect...
+07/24/2021, 17:39:15 || telethon.network.mtprotosender [INFO] - Connecting to 149.154.175.55:443/TcpFull...
+07/24/2021, 17:39:15 || telethon.network.mtprotosender [INFO] - Connection to 149.154.175.55:443/TcpFull complete!
+07/24/2021, 17:40:27 || telethon.network.connection.connection [INFO] - The server closed the connection
+07/24/2021, 17:40:27 || telethon.network.mtprotosender [INFO] - Connection closed while receiving data
+07/24/2021, 17:40:27 || telethon.network.mtprotosender [INFO] - Closing current connection to begin reconnect...
+07/24/2021, 17:40:27 || telethon.network.mtprotosender [INFO] - Connecting to 149.154.175.55:443/TcpFull...
+07/24/2021, 17:40:27 || telethon.network.mtprotosender [INFO] - Connection to 149.154.175.55:443/TcpFull complete!
+07/24/2021, 17:41:16 || telethon.network.connection.connection [INFO] - The server closed the connection
+07/24/2021, 17:41:16 || telethon.network.mtprotosender [INFO] - Connection closed while receiving data
+07/24/2021, 17:41:16 || telethon.network.mtprotosender [INFO] - Closing current connection to begin reconnect...
+07/24/2021, 17:41:16 || telethon.network.mtprotosender [INFO] - Connecting to 149.154.175.55:443/TcpFull...
+07/24/2021, 17:41:16 || telethon.network.mtprotosender [INFO] - Connection to 149.154.175.55:443/TcpFull complete!
+07/24/2021, 17:43:16 || telethon.network.connection.connection [INFO] - The server closed the connection
+07/24/2021, 17:43:16 || telethon.network.mtprotosender [INFO] - Connection closed while receiving data
+07/24/2021, 17:43:16 || telethon.network.mtprotosender [INFO] - Closing current connection to begin reconnect...
+07/24/2021, 17:43:16 || telethon.network.mtprotosender [INFO] - Connecting to 149.154.175.55:443/TcpFull...
+07/24/2021, 17:43:16 || telethon.network.mtprotosender [INFO] - Connection to 149.154.175.55:443/TcpFull complete!
+07/24/2021, 17:44:19 || telethon.network.connection.connection [INFO] - The server closed the connection
+07/24/2021, 17:44:19 || telethon.network.mtprotosender [INFO] - Connection closed while receiving data
+07/24/2021, 17:44:19 || telethon.network.mtprotosender [INFO] - Closing current connection to begin reconnect...
+07/24/2021, 17:44:19 || telethon.network.mtprotosender [INFO] - Connecting to 149.154.175.55:443/TcpFull...
+07/24/2021, 17:44:19 || telethon.network.mtprotosender [INFO] - Connection to 149.154.175.55:443/TcpFull complete!
+07/24/2021, 17:49:15 || telethon.network.connection.connection [INFO] - The server closed the connection
+07/24/2021, 17:49:15 || telethon.network.mtprotosender [INFO] - Connection closed while receiving data
+07/24/2021, 17:49:15 || telethon.network.mtprotosender [INFO] - Closing current connection to begin reconnect...
+07/24/2021, 17:49:15 || telethon.network.mtprotosender [INFO] - Connecting to 149.154.175.55:443/TcpFull...
+07/24/2021, 17:49:16 || telethon.network.mtprotosender [INFO] - Connection to 149.154.175.55:443/TcpFull complete!
+07/24/2021, 17:52:16 || telethon.network.connection.connection [INFO] - The server closed the connection
+07/24/2021, 17:52:16 || telethon.network.mtprotosender [INFO] - Connection closed while receiving data
+07/24/2021, 17:52:16 || telethon.network.mtprotosender [INFO] - Closing current connection to begin reconnect...
+07/24/2021, 17:52:16 || telethon.network.mtprotosender [INFO] - Connecting to 149.154.175.55:443/TcpFull...
+07/24/2021, 17:52:16 || telethon.network.mtprotosender [INFO] - Connection to 149.154.175.55:443/TcpFull complete!
+07/24/2021, 17:53:33 || telethon.network.connection.connection [INFO] - The server closed the connection
+07/24/2021, 17:53:33 || telethon.network.mtprotosender [INFO] - Connection closed while receiving data
+07/24/2021, 17:53:33 || telethon.network.mtprotosender [INFO] - Closing current connection to begin reconnect...
+07/24/2021, 17:53:33 || telethon.network.mtprotosender [INFO] - Connecting to 149.154.175.55:443/TcpFull...
+07/24/2021, 17:53:33 || telethon.network.mtprotosender [INFO] - Connection to 149.154.175.55:443/TcpFull complete!
+07/24/2021, 17:54:14 || telethon.network.connection.connection [INFO] - The server closed the connection
+07/24/2021, 17:54:14 || telethon.network.mtprotosender [INFO] - Connection closed while receiving data
+07/24/2021, 17:54:14 || telethon.network.mtprotosender [INFO] - Closing current connection to begin reconnect...
+07/24/2021, 17:54:14 || telethon.network.mtprotosender [INFO] - Connecting to 149.154.175.55:443/TcpFull...
+07/24/2021, 17:54:14 || telethon.network.mtprotosender [INFO] - Connection to 149.154.175.55:443/TcpFull complete!
+07/24/2021, 17:56:14 || telethon.network.connection.connection [INFO] - The server closed the connection
+07/24/2021, 17:56:14 || telethon.network.mtprotosender [INFO] - Connection closed while receiving data
+07/24/2021, 17:56:14 || telethon.network.mtprotosender [INFO] - Closing current connection to begin reconnect...
+07/24/2021, 17:56:14 || telethon.network.mtprotosender [INFO] - Connecting to 149.154.175.55:443/TcpFull...
+07/24/2021, 17:56:14 || telethon.network.mtprotosender [INFO] - Connection to 149.154.175.55:443/TcpFull complete!
+07/24/2021, 17:57:14 || telethon.network.connection.connection [INFO] - The server closed the connection
+07/24/2021, 17:57:14 || telethon.network.mtprotosender [INFO] - Connection closed while receiving data
+07/24/2021, 17:57:14 || telethon.network.mtprotosender [INFO] - Closing current connection to begin reconnect...
+07/24/2021, 17:57:14 || telethon.network.mtprotosender [INFO] - Connecting to 149.154.175.55:443/TcpFull...
+07/24/2021, 17:57:14 || telethon.network.mtprotosender [INFO] - Connection to 149.154.175.55:443/TcpFull complete!
+07/24/2021, 17:59:21 || telethon.network.connection.connection [INFO] - The server closed the connection
+07/24/2021, 17:59:21 || telethon.network.mtprotosender [INFO] - Connection closed while receiving data
+07/24/2021, 17:59:21 || telethon.network.mtprotosender [INFO] - Closing current connection to begin reconnect...
+07/24/2021, 17:59:21 || telethon.network.mtprotosender [INFO] - Connecting to 149.154.175.55:443/TcpFull...
+07/24/2021, 17:59:21 || telethon.network.mtprotosender [INFO] - Connection to 149.154.175.55:443/TcpFull complete!
+07/24/2021, 18:10:15 || telethon.network.connection.connection [INFO] - The server closed the connection
+07/24/2021, 18:10:15 || telethon.network.mtprotosender [INFO] - Connection closed while receiving data
+07/24/2021, 18:10:15 || telethon.network.mtprotosender [INFO] - Closing current connection to begin reconnect...
+07/24/2021, 18:10:15 || telethon.network.mtprotosender [INFO] - Connecting to 149.154.175.55:443/TcpFull...
+07/24/2021, 18:10:15 || telethon.network.mtprotosender [INFO] - Connection to 149.154.175.55:443/TcpFull complete!
+07/24/2021, 18:14:15 || telethon.network.connection.connection [INFO] - The server closed the connection
+07/24/2021, 18:14:15 || telethon.network.mtprotosender [INFO] - Connection closed while receiving data
+07/24/2021, 18:14:15 || telethon.network.mtprotosender [INFO] - Closing current connection to begin reconnect...
+07/24/2021, 18:14:15 || telethon.network.mtprotosender [INFO] - Connecting to 149.154.175.55:443/TcpFull...
+07/24/2021, 18:14:15 || telethon.network.mtprotosender [INFO] - Connection to 149.154.175.55:443/TcpFull complete!
+07/24/2021, 18:17:16 || telethon.network.connection.connection [INFO] - The server closed the connection
+07/24/2021, 18:17:16 || telethon.network.mtprotosender [INFO] - Connection closed while receiving data
+07/24/2021, 18:17:16 || telethon.network.mtprotosender [INFO] - Closing current connection to begin reconnect...
+07/24/2021, 18:17:16 || telethon.network.mtprotosender [INFO] - Connecting to 149.154.175.55:443/TcpFull...
+07/24/2021, 18:17:16 || telethon.network.mtprotosender [INFO] - Connection to 149.154.175.55:443/TcpFull complete!
+07/24/2021, 18:19:18 || telethon.network.connection.connection [INFO] - The server closed the connection
+07/24/2021, 18:19:18 || telethon.network.mtprotosender [INFO] - Connection closed while receiving data
+07/24/2021, 18:19:18 || telethon.network.mtprotosender [INFO] - Closing current connection to begin reconnect...
+07/24/2021, 18:19:18 || telethon.network.mtprotosender [INFO] - Connecting to 149.154.175.55:443/TcpFull...
+07/24/2021, 18:19:18 || telethon.network.mtprotosender [INFO] - Connection to 149.154.175.55:443/TcpFull complete!
+07/24/2021, 18:20:16 || telethon.network.connection.connection [INFO] - The server closed the connection
+07/24/2021, 18:20:16 || telethon.network.mtprotosender [INFO] - Connection closed while receiving data
+07/24/2021, 18:20:16 || telethon.network.mtprotosender [INFO] - Closing current connection to begin reconnect...
+07/24/2021, 18:20:16 || telethon.network.mtprotosender [INFO] - Connecting to 149.154.175.55:443/TcpFull...
+07/24/2021, 18:20:16 || telethon.network.mtprotosender [INFO] - Connection to 149.154.175.55:443/TcpFull complete!
+07/24/2021, 18:21:16 || telethon.network.connection.connection [INFO] - The server closed the connection
+07/24/2021, 18:21:16 || telethon.network.mtprotosender [INFO] - Connection closed while receiving data
+07/24/2021, 18:21:16 || telethon.network.mtprotosender [INFO] - Closing current connection to begin reconnect...
+07/24/2021, 18:21:16 || telethon.network.mtprotosender [INFO] - Connecting to 149.154.175.55:443/TcpFull...
+07/24/2021, 18:21:16 || telethon.network.mtprotosender [INFO] - Connection to 149.154.175.55:443/TcpFull complete!
+07/24/2021, 18:23:16 || telethon.network.connection.connection [INFO] - The server closed the connection
+07/24/2021, 18:23:16 || telethon.network.mtprotosender [INFO] - Connection closed while receiving data
+07/24/2021, 18:23:16 || telethon.network.mtprotosender [INFO] - Closing current connection to begin reconnect...
+07/24/2021, 18:23:16 || telethon.network.mtprotosender [INFO] - Connecting to 149.154.175.55:443/TcpFull...
+07/24/2021, 18:23:16 || telethon.network.mtprotosender [INFO] - Connection to 149.154.175.55:443/TcpFull complete!
+07/24/2021, 18:26:15 || telethon.network.connection.connection [INFO] - The server closed the connection
+07/24/2021, 18:26:15 || telethon.network.mtprotosender [INFO] - Connection closed while receiving data
+07/24/2021, 18:26:15 || telethon.network.mtprotosender [INFO] - Closing current connection to begin reconnect...
+07/24/2021, 18:26:15 || telethon.network.mtprotosender [INFO] - Connecting to 149.154.175.55:443/TcpFull...
+07/24/2021, 18:26:15 || telethon.network.mtprotosender [INFO] - Connection to 149.154.175.55:443/TcpFull complete!
+07/24/2021, 18:27:32 || telethon.network.connection.connection [INFO] - The server closed the connection
+07/24/2021, 18:27:32 || telethon.network.mtprotosender [INFO] - Connection closed while receiving data
+07/24/2021, 18:27:32 || telethon.network.mtprotosender [INFO] - Closing current connection to begin reconnect...
+07/24/2021, 18:27:32 || telethon.network.mtprotosender [INFO] - Connecting to 149.154.175.55:443/TcpFull...
+07/24/2021, 18:27:32 || telethon.network.mtprotosender [INFO] - Connection to 149.154.175.55:443/TcpFull complete!
+07/24/2021, 18:29:16 || telethon.network.connection.connection [INFO] - The server closed the connection
+07/24/2021, 18:29:16 || telethon.network.mtprotosender [INFO] - Connection closed while receiving data
+07/24/2021, 18:29:16 || telethon.network.mtprotosender [INFO] - Closing current connection to begin reconnect...
+07/24/2021, 18:29:16 || telethon.network.mtprotosender [INFO] - Connecting to 149.154.175.55:443/TcpFull...
+07/24/2021, 18:29:16 || telethon.network.mtprotosender [INFO] - Connection to 149.154.175.55:443/TcpFull complete!
+07/24/2021, 20:18:25 || telethon.client.updates [ERROR] - Unhandled exception on chatBot_replies
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 455, in _dispatch_update
+    await callback(event)
+  File "/root/TeamUltroid/plugins/_ChatActions.py", line 139, in chatBot_replies
+    if event.sender_id and chatbot_stats(event.chat.id, event.sender_id) and event.text:
+AttributeError: 'NoneType' object has no attribute 'id'
+07/24/2021, 20:18:26 || telethon.client.updates [ERROR] - Unhandled exception on chatBot_replies
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 455, in _dispatch_update
+    await callback(event)
+  File "/root/TeamUltroid/plugins/_ChatActions.py", line 139, in chatBot_replies
+    if event.sender_id and chatbot_stats(event.chat.id, event.sender_id) and event.text:
+AttributeError: 'NoneType' object has no attribute 'id'
+07/24/2021, 20:19:29 || telethon.network.mtprotosender [INFO] - Connecting to 149.154.175.56:443/TcpFull...
+07/24/2021, 20:19:29 || telethon.network.mtprotosender [INFO] - Connection to 149.154.175.56:443/TcpFull complete!
+07/24/2021, 20:19:29 || telethon.network.mtprotosender [INFO] - Disconnecting from 149.154.175.56:443/TcpFull...
+07/24/2021, 20:19:29 || telethon.network.mtprotosender [INFO] - Disconnection from 149.154.175.56:443/TcpFull complete!
+07/24/2021, 20:19:29 || telethon.network.mtprotosender [INFO] - Connecting to 149.154.175.56:443/TcpFull...
+07/24/2021, 20:19:29 || telethon.network.mtprotosender [INFO] - Connection to 149.154.175.56:443/TcpFull complete!
+07/24/2021, 20:19:29 || telethon.network.mtprotosender [INFO] - Disconnecting from 149.154.175.56:443/TcpFull...
+07/24/2021, 20:19:29 || telethon.network.mtprotosender [INFO] - Disconnection from 149.154.175.56:443/TcpFull complete!
+07/24/2021, 20:19:29 || telethon.client.uploads [INFO] - Uploading file of 48325 bytes in 1 chunks of 131072
+07/24/2021, 20:19:33 || telethon.client.downloads [INFO] - Starting direct file download in chunks of 131072 at 0, stride 131072
+07/24/2021, 20:20:29 || telethon.client.downloads [INFO] - Starting direct file download in chunks of 131072 at 0, stride 131072
+07/24/2021, 20:22:37 || telethon.client.downloads [INFO] - Starting direct file download in chunks of 131072 at 0, stride 131072
+07/24/2021, 20:23:04 || telethon.client.downloads [INFO] - Starting direct file download in chunks of 131072 at 0, stride 131072
+07/24/2021, 20:29:40 || telethon.client.downloads [INFO] - Starting direct file download in chunks of 131072 at 0, stride 131072
+07/24/2021, 20:32:26 || telethon.client.uploads [INFO] - Uploading file of 106182 bytes in 1 chunks of 131072
