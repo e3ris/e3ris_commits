@@ -1,0 +1,100 @@
+2021-08-02T04:14:22.517914+00:00 app[ultroid.1]: 08/02/2021, 09:44:22 || telethon.client.downloads [INFO] - Starting direct file download in chunks of 131072 at 0, stride 131072
+2021-08-02T04:14:22.631682+00:00 app[ultroid.1]: 08/02/2021, 09:44:22 || pyUltroid [INFO] - Ultroid - PLUGIN_CHANNEL - Installed - padmin
+2021-08-02T04:14:23.233425+00:00 app[ultroid.1]: 08/02/2021, 09:44:23 || telethon.client.downloads [INFO] - Starting direct file download in chunks of 131072 at 0, stride 131072
+2021-08-02T04:14:23.362076+00:00 app[ultroid.1]: 08/02/2021, 09:44:23 || pyUltroid [INFO] - Ultroid - PLUGIN_CHANNEL - Installed - userlist
+2021-08-02T04:14:23.963954+00:00 app[ultroid.1]: 08/02/2021, 09:44:23 || telethon.client.downloads [INFO] - Starting direct file download in chunks of 131072 at 0, stride 131072
+2021-08-02T04:14:24.136290+00:00 app[ultroid.1]: 08/02/2021, 09:44:24 || pyUltroid [INFO] - Ultroid - PLUGIN_CHANNEL - Installed - autodp
+2021-08-02T04:14:24.750110+00:00 app[ultroid.1]: 08/02/2021, 09:44:24 || telethon.client.downloads [INFO] - Starting direct file download in chunks of 131072 at 0, stride 131072
+2021-08-02T04:14:24.782815+00:00 app[ultroid.1]: 08/02/2021, 09:44:24 || telethon.client.downloads [INFO] - File lives in another DC
+2021-08-02T04:14:25.133442+00:00 app[ultroid.1]: 08/02/2021, 09:44:25 || pyUltroid [INFO] - Ultroid - PLUGIN_CHANNEL - Installed - animation11
+2021-08-02T04:14:25.734968+00:00 app[ultroid.1]: 08/02/2021, 09:44:25 || telethon.client.downloads [INFO] - Starting direct file download in chunks of 131072 at 0, stride 131072
+2021-08-02T04:14:25.769724+00:00 app[ultroid.1]: 08/02/2021, 09:44:25 || telethon.client.downloads [INFO] - File lives in another DC
+2021-08-02T04:14:26.122629+00:00 app[ultroid.1]: 08/02/2021, 09:44:26 || pyUltroid [INFO] - Ultroid - PLUGIN_CHANNEL - Installed - iwarn
+2021-08-02T04:14:26.724903+00:00 app[ultroid.1]: 08/02/2021, 09:44:26 || telethon.client.downloads [INFO] - Starting direct file download in chunks of 131072 at 0, stride 131072
+2021-08-02T04:14:26.765587+00:00 app[ultroid.1]: 08/02/2021, 09:44:26 || telethon.client.downloads [INFO] - File lives in another DC
+2021-08-02T04:14:27.070134+00:00 app[ultroid.1]: 08/02/2021, 09:44:27 || pyUltroid [INFO] - Ultroid - PLUGIN_CHANNEL - Installed - me_total
+2021-08-02T04:14:27.672052+00:00 app[ultroid.1]: 08/02/2021, 09:44:27 || telethon.client.downloads [INFO] - Starting direct file download in chunks of 131072 at 0, stride 131072
+2021-08-02T04:14:27.709456+00:00 app[ultroid.1]: 08/02/2021, 09:44:27 || telethon.client.downloads [INFO] - File lives in another DC
+2021-08-02T04:14:27.998421+00:00 app[ultroid.1]: 08/02/2021, 09:44:27 || pyUltroid [INFO] - Ultroid - PLUGIN_CHANNEL - Installed - hquote
+2021-08-02T04:14:28.600631+00:00 app[ultroid.1]: 08/02/2021, 09:44:28 || telethon.client.downloads [INFO] - Starting direct file download in chunks of 131072 at 0, stride 131072
+2021-08-02T04:14:28.750212+00:00 app[ultroid.1]: 08/02/2021, 09:44:28 || pyUltroid [INFO] - Ultroid - PLUGIN_CHANNEL - Installed - insult
+2021-08-02T04:14:29.352491+00:00 app[ultroid.1]: 08/02/2021, 09:44:29 || telethon.client.downloads [INFO] - Starting direct file download in chunks of 131072 at 0, stride 131072
+2021-08-02T04:14:29.428322+00:00 app[ultroid.1]: 08/02/2021, 09:44:29 || pyUltroid [INFO] - Ultroid - PLUGIN_CHANNEL - Installed - snap
+2021-08-02T04:14:30.033061+00:00 app[ultroid.1]: 08/02/2021, 09:44:30 || telethon.client.downloads [INFO] - Starting direct file download in chunks of 131072 at 0, stride 131072
+2021-08-02T04:14:30.153037+00:00 app[ultroid.1]: 08/02/2021, 09:44:30 || pyUltroid [INFO] - Ultroid - PLUGIN_CHANNEL - Installed - iwish
+2021-08-02T04:14:30.755171+00:00 app[ultroid.1]: 08/02/2021, 09:44:30 || telethon.client.downloads [INFO] - Starting direct file download in chunks of 131072 at 0, stride 131072
+2021-08-02T04:14:30.903179+00:00 app[ultroid.1]: 08/02/2021, 09:44:30 || pyUltroid [INFO] - Ultroid - PLUGIN_CHANNEL - Installed - sd
+2021-08-02T04:14:31.505052+00:00 app[ultroid.1]: 08/02/2021, 09:44:31 || telethon.client.downloads [INFO] - Starting direct file download in chunks of 131072 at 0, stride 131072
+2021-08-02T04:14:31.590078+00:00 app[ultroid.1]: 08/02/2021, 09:44:31 || pyUltroid [INFO] - Ultroid - PLUGIN_CHANNEL - Installed - musik
+2021-08-02T04:14:32.192213+00:00 app[ultroid.1]: 08/02/2021, 09:44:32 || telethon.client.downloads [INFO] - Starting direct file download in chunks of 131072 at 0, stride 131072
+2021-08-02T04:14:32.371788+00:00 app[ultroid.1]: 08/02/2021, 09:44:32 || pyUltroid [INFO] - Ultroid - PLUGIN_CHANNEL - Installed - emojigames
+2021-08-02T04:14:32.973992+00:00 app[ultroid.1]: 08/02/2021, 09:44:32 || telethon.client.downloads [INFO] - Starting direct file download in chunks of 131072 at 0, stride 131072
+2021-08-02T04:14:33.081188+00:00 app[ultroid.1]: 08/02/2021, 09:44:33 || pyUltroid [INFO] - Ultroid - PLUGIN_CHANNEL - Installed - lenk
+2021-08-02T04:14:33.683809+00:00 app[ultroid.1]: 08/02/2021, 09:44:33 || telethon.client.downloads [INFO] - Starting direct file download in chunks of 131072 at 0, stride 131072
+2021-08-02T04:14:33.734418+00:00 app[ultroid.1]: 08/02/2021, 09:44:33 || pyUltroid [INFO] - Ultroid - PLUGIN_CHANNEL - Installed - bio_auto
+2021-08-02T04:14:34.336380+00:00 app[ultroid.1]: 08/02/2021, 09:44:34 || telethon.client.downloads [INFO] - Starting direct file download in chunks of 131072 at 0, stride 131072
+2021-08-02T04:14:34.444275+00:00 app[ultroid.1]: 08/02/2021, 09:44:34 || pyUltroid [INFO] - Ultroid - PLUGIN_CHANNEL - Installed - dspem
+2021-08-02T04:14:35.045847+00:00 app[ultroid.1]: 08/02/2021, 09:44:35 || telethon.client.downloads [INFO] - Starting direct file download in chunks of 131072 at 0, stride 131072
+2021-08-02T04:14:35.084260+00:00 app[ultroid.1]: 08/02/2021, 09:44:35 || telethon.client.downloads [INFO] - File lives in another DC
+2021-08-02T04:14:35.399868+00:00 app[ultroid.1]: 08/02/2021, 09:44:35 || pyUltroid [INFO] - Ultroid - PLUGIN_CHANNEL - Installed - cricker_score
+2021-08-02T04:14:36.002231+00:00 app[ultroid.1]: 08/02/2021, 09:44:36 || telethon.client.downloads [INFO] - Starting direct file download in chunks of 131072 at 0, stride 131072
+2021-08-02T04:14:36.161034+00:00 app[ultroid.1]: 08/02/2021, 09:44:36 || pyUltroid [INFO] - Ultroid - PLUGIN_CHANNEL - Installed - cringe
+2021-08-02T04:14:36.763628+00:00 app[ultroid.1]: 08/02/2021, 09:44:36 || telethon.client.downloads [INFO] - Starting direct file download in chunks of 131072 at 0, stride 131072
+2021-08-02T04:14:36.883896+00:00 app[ultroid.1]: 08/02/2021, 09:44:36 || pyUltroid [INFO] - Ultroid - PLUGIN_CHANNEL - Installed - ttyp
+2021-08-02T04:14:37.485221+00:00 app[ultroid.1]: 08/02/2021, 09:44:37 || telethon.client.downloads [INFO] - Starting direct file download in chunks of 131072 at 0, stride 131072
+2021-08-02T04:14:37.538972+00:00 app[ultroid.1]: 08/02/2021, 09:44:37 || pyUltroid [INFO] - Ultroid - PLUGIN_CHANNEL - Installed - off_bio
+2021-08-02T04:14:38.140902+00:00 app[ultroid.1]: 08/02/2021, 09:44:38 || telethon.client.downloads [INFO] - Starting direct file download in chunks of 131072 at 0, stride 131072
+2021-08-02T04:14:38.268630+00:00 app[ultroid.1]: 08/02/2021, 09:44:38 || pyUltroid [INFO] - Ultroid - PLUGIN_CHANNEL - Installed - FLAC
+2021-08-02T04:14:38.674140+00:00 app[ultroid.1]: 08/02/2021, 09:44:38 || pyUltroid [INFO] - 
+2021-08-02T04:14:38.674148+00:00 app[ultroid.1]:             ----------------------------------------------------------------------
+2021-08-02T04:14:38.674149+00:00 app[ultroid.1]:                 Ultroid has been deployed! Visit @TheUltroid for updates!!
+2021-08-02T04:14:38.674149+00:00 app[ultroid.1]:             ----------------------------------------------------------------------
+2021-08-02T04:14:38.674150+00:00 app[ultroid.1]: 
+2021-08-02T04:16:01.736272+00:00 app[ultroid.1]: 08/02/2021, 09:46:01 || telethon.client.telegrambaseclient [INFO] - Disconnecting borrowed sender for DC 5
+2021-08-02T04:16:01.736435+00:00 app[ultroid.1]: 08/02/2021, 09:46:01 || telethon.network.mtprotosender [INFO] - Disconnecting from 91.108.56.185:443/TcpFull...
+2021-08-02T04:16:01.737254+00:00 app[ultroid.1]: 08/02/2021, 09:46:01 || telethon.network.mtprotosender [INFO] - Disconnection from 91.108.56.185:443/TcpFull complete!
+2021-08-02T04:21:52.005673+00:00 app[ultroid.1]: 08/02/2021, 09:51:52 || asyncio [ERROR] - Task exception was never retrieved
+2021-08-02T04:21:52.005688+00:00 app[ultroid.1]: future: <Task finished name='Task-1654' coro=<UpdateMethods._dispatch_update() done, defined at /usr/local/lib/python3.9/site-packages/telethon/client/updates.py:385> exception=AttributeError("type object 'str' has no attribute 'build'")>
+2021-08-02T04:21:52.005689+00:00 app[ultroid.1]: Traceback (most recent call last):
+2021-08-02T04:21:52.005689+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 657, in __getitem__
+2021-08-02T04:21:52.005690+00:00 app[ultroid.1]:     return self.__dict__[builder]
+2021-08-02T04:21:52.005690+00:00 app[ultroid.1]: KeyError: <class 'str'>
+2021-08-02T04:21:52.005691+00:00 app[ultroid.1]: 
+2021-08-02T04:21:52.005691+00:00 app[ultroid.1]: During handling of the above exception, another exception occurred:
+2021-08-02T04:21:52.005691+00:00 app[ultroid.1]: 
+2021-08-02T04:21:52.005692+00:00 app[ultroid.1]: Traceback (most recent call last):
+2021-08-02T04:21:52.005692+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 441, in _dispatch_update
+2021-08-02T04:21:52.005693+00:00 app[ultroid.1]:     event = built[type(builder)]
+2021-08-02T04:21:52.005693+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 659, in __getitem__
+2021-08-02T04:21:52.005694+00:00 app[ultroid.1]:     event = self.__dict__[builder] = builder.build(
+2021-08-02T04:21:52.005694+00:00 app[ultroid.1]: AttributeError: type object 'str' has no attribute 'build'
+2021-08-02T04:21:52.323113+00:00 app[ultroid.1]: 08/02/2021, 09:51:52 || asyncio [ERROR] - Task exception was never retrieved
+2021-08-02T04:21:52.323122+00:00 app[ultroid.1]: future: <Task finished name='Task-1662' coro=<UpdateMethods._dispatch_update() done, defined at /usr/local/lib/python3.9/site-packages/telethon/client/updates.py:385> exception=AttributeError("type object 'str' has no attribute 'build'")>
+2021-08-02T04:21:52.323123+00:00 app[ultroid.1]: Traceback (most recent call last):
+2021-08-02T04:21:52.323124+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 657, in __getitem__
+2021-08-02T04:21:52.323124+00:00 app[ultroid.1]:     return self.__dict__[builder]
+2021-08-02T04:21:52.323125+00:00 app[ultroid.1]: KeyError: <class 'str'>
+2021-08-02T04:21:52.323125+00:00 app[ultroid.1]: 
+2021-08-02T04:21:52.323126+00:00 app[ultroid.1]: During handling of the above exception, another exception occurred:
+2021-08-02T04:21:52.323126+00:00 app[ultroid.1]: 
+2021-08-02T04:21:52.323126+00:00 app[ultroid.1]: Traceback (most recent call last):
+2021-08-02T04:21:52.323127+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 441, in _dispatch_update
+2021-08-02T04:21:52.323127+00:00 app[ultroid.1]:     event = built[type(builder)]
+2021-08-02T04:21:52.323128+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 659, in __getitem__
+2021-08-02T04:21:52.323128+00:00 app[ultroid.1]:     event = self.__dict__[builder] = builder.build(
+2021-08-02T04:21:52.323129+00:00 app[ultroid.1]: AttributeError: type object 'str' has no attribute 'build'
+2021-08-02T04:21:59.972390+00:00 app[ultroid.1]: 08/02/2021, 09:51:59 || asyncio [ERROR] - Task exception was never retrieved
+2021-08-02T04:21:59.972401+00:00 app[ultroid.1]: future: <Task finished name='Task-1685' coro=<UpdateMethods._dispatch_update() done, defined at /usr/local/lib/python3.9/site-packages/telethon/client/updates.py:385> exception=AttributeError("type object 'str' has no attribute 'build'")>
+2021-08-02T04:21:59.972402+00:00 app[ultroid.1]: Traceback (most recent call last):
+2021-08-02T04:21:59.972402+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 657, in __getitem__
+2021-08-02T04:21:59.972402+00:00 app[ultroid.1]:     return self.__dict__[builder]
+2021-08-02T04:21:59.972403+00:00 app[ultroid.1]: KeyError: <class 'str'>
+2021-08-02T04:21:59.972403+00:00 app[ultroid.1]: 
+2021-08-02T04:21:59.972404+00:00 app[ultroid.1]: During handling of the above exception, another exception occurred:
+2021-08-02T04:21:59.972404+00:00 app[ultroid.1]: 
+2021-08-02T04:21:59.972404+00:00 app[ultroid.1]: Traceback (most recent call last):
+2021-08-02T04:21:59.972405+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 441, in _dispatch_update
+2021-08-02T04:21:59.972405+00:00 app[ultroid.1]:     event = built[type(builder)]
+2021-08-02T04:21:59.972405+00:00 app[ultroid.1]:   File "/usr/local/lib/python3.9/site-packages/telethon/client/updates.py", line 659, in __getitem__
+2021-08-02T04:21:59.972406+00:00 app[ultroid.1]:     event = self.__dict__[builder] = builder.build(
+2021-08-02T04:21:59.972406+00:00 app[ultroid.1]: AttributeError: type object 'str' has no attribute 'build'
