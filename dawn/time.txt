@@ -1,9 +1,0 @@
-► EVALPy
-from datetime import datetime
-x = datetime.now()
-await asyncio.sleep(5)
-y = datetime.now()
-p(y-x) 
-
- ► OUTPUT: 
-0:00:05.003688

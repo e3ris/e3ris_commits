@@ -1,4 +1,0 @@
-#AFKFALSE 
-Set AFK mode to False
-Back alive! No Longer afk.
-Was afk for 2h 16m 34s
