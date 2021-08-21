@@ -1,0 +1,6 @@
+__►__ **EVALPy**
+```from addons.g import commit as n
+p(n(reply.text))``` 
+
+ __►__ **OUTPUT**: 
+```<coroutine object commit at 0x7f54788c25c0>```
