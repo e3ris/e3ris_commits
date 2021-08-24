@@ -1,0 +1,14 @@
+► EVALPy
+from addons.funcs import commit
+p(await commit(reply, True)) 
+
+ ► OUTPUT: 
+Traceback (most recent call last):
+  File "/root/TeamUltroid/plugins/devtools.py", line 132, in _
+    await aexec(cmd, event)
+  File "/root/TeamUltroid/plugins/devtools.py", line 181, in aexec
+    return await locals()["__aexec"](event, event.client)
+  File "<string>", line 6, in __aexec
+  File "/root/TeamUltroid/addons/funcs.py", line 226, in commit
+    samay = time()
+TypeError: 'module' object is not callable
