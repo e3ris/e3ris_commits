@@ -1,0 +1,7 @@
+☞ BASH
+
+• COMMAND:
+echo "LmJhc2U2NA==" | base64 -d 
+
+• OUTPUT:
+.base64
