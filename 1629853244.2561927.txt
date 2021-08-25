@@ -1,0 +1,6 @@
+► EVALPy
+from addons.dees import pastebin as pi
+p(await pi(reply)) 
+
+ ► OUTPUT: 
+#Error :
