@@ -1,0 +1,14 @@
+► EVALPy
+from addons.func import tgs
+p(await tgs(reply)) 
+
+ ► OUTPUT: 
+Traceback (most recent call last):
+  File "/root/TeamUltroid/plugins/devtools.py", line 132, in _
+    await aexec(cmd, event)
+  File "/root/TeamUltroid/plugins/devtools.py", line 181, in aexec
+    return await locals()["__aexec"](event, event.client)
+  File "<string>", line 6, in __aexec
+  File "/root/TeamUltroid/addons/func.py", line 561, in tgs
+    await bash(tgs.format(_dl, fn))
+AttributeError: 'function' object has no attribute 'format'
