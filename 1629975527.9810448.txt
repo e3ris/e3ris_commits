@@ -1,0 +1,13 @@
+>  .ev async def callback(e, current, total):
+    await e.edit(str(round(current / total)*100))
+
+x = await e.respond("...")
+await client.download_media(reply, progress_callback=callback(x, current, total)) 
+
+>>  Traceback (most recent call last):
+  File "/app/e3ris-rhythmic-2226e0464f5d614c31d03302f706165ca7d0ecc7/userbot/plugins/evaluators.py", line 97, in _
+    await aexec(cmd, event)
+  File "/app/e3ris-rhythmic-2226e0464f5d614c31d03302f706165ca7d0ecc7/userbot/plugins/evaluators.py", line 145, in aexec
+    return await locals()["__aexec"](
+  File "<string>", line 6, in __aexec
+NameError: name 'current' is not defined
