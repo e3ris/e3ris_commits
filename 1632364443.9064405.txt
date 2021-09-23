@@ -1,0 +1,100 @@
+2021-09-23T01:28:35.781487+00:00 heroku[web.1]: Stopping remaining processes with SIGKILL
+2021-09-23T01:28:35.937516+00:00 heroku[web.1]: Process exited with status 137
+2021-09-23T01:49:48.893801+00:00 heroku[web.1]: Unidling
+2021-09-23T01:49:49.080408+00:00 heroku[web.1]: State changed from down to starting
+2021-09-23T01:49:56.663016+00:00 heroku[web.1]: Starting process with command `python -m app`
+2021-09-23T01:49:57.550774+00:00 app[web.1]: > Initalizing [Telethon]
+2021-09-23T01:50:04.290205+00:00 app[web.1]: Done ✅
+2021-09-23T01:50:04.290219+00:00 app[web.1]: 
+2021-09-23T01:50:04.290225+00:00 app[web.1]: > Initalizing [Pyrogram]
+2021-09-23T01:50:06.051694+00:00 app[web.1]: Pyrogram v1.2.9, Copyright (C) 2017-2021 Dan <https://github.com/delivrance>
+2021-09-23T01:50:06.051702+00:00 app[web.1]: Licensed under the terms of the GNU Lesser General Public License v3 or later (LGPLv3+)
+2021-09-23T01:50:06.051702+00:00 app[web.1]: 
+2021-09-23T01:50:08.083041+00:00 app[web.1]: Done ✅
+2021-09-23T01:50:08.083046+00:00 app[web.1]: 
+2021-09-23T01:50:08.083047+00:00 app[web.1]: > Initalizing [Redis]
+2021-09-23T01:50:08.438979+00:00 app[web.1]: Done ✅
+2021-09-23T01:50:08.439017+00:00 app[web.1]: 
+2021-09-23T01:50:08.439019+00:00 app[web.1]: > Initializing [UserBot v1]
+2021-09-23T01:50:08.914993+00:00 app[web.1]: Please enter your phone (or bot token): >>>> EOF when reading a line
+2021-09-23T01:50:08.915220+00:00 app[web.1]: 
+2021-09-23T01:50:08.915261+00:00 app[web.1]: > Initalizing [UserBot v2]
+2021-09-23T01:50:09.427209+00:00 app[web.1]: Please enter your phone (or bot token): >>>> EOF when reading a line
+2021-09-23T01:50:09.427218+00:00 app[web.1]: 
+2021-09-23T01:50:09.648793+00:00 app[web.1]: > Initializing [MongoDB]
+2021-09-23T01:50:10.366128+00:00 app[web.1]: Done ✅
+2021-09-23T01:50:10.366139+00:00 app[web.1]: 
+2021-09-23T01:50:10.366336+00:00 app[web.1]: > Downloading Plugins...
+2021-09-23T01:50:21.200263+00:00 app[web.1]: >> **[7]** Plugins downLoaded!
+2021-09-23T01:50:21.200274+00:00 app[web.1]: > Importing Plugins now..
+2021-09-23T01:50:21.200275+00:00 app[web.1]: 
+2021-09-23T01:50:21.583560+00:00 app[web.1]: Imported -> speedtest
+2021-09-23T01:50:21.588128+00:00 app[web.1]: Imported -> evaluation
+2021-09-23T01:50:21.589493+00:00 app[web.1]: Imported -> ping
+2021-09-23T01:50:21.590555+00:00 app[web.1]: Imported -> share
+2021-09-23T01:50:21.593320+00:00 app[web.1]: Imported -> Downloader
+2021-09-23T01:50:21.595443+00:00 app[web.1]: Imported -> start
+2021-09-23T01:50:21.596692+00:00 app[web.1]: Imported -> link
+2021-09-23T01:50:22.006136+00:00 app[web.1]: Imported -> Heroku3
+2021-09-23T01:50:22.006147+00:00 app[web.1]: > Initalizing Web Server
+2021-09-23T01:50:22.006147+00:00 app[web.1]: > Service Started.
+2021-09-23T01:50:22.006148+00:00 app[web.1]: > DC ID --> 4
+2021-09-23T01:50:22.006148+00:00 app[web.1]: > Server IP --> 0.0.0.0
+2021-09-23T01:50:22.006149+00:00 app[web.1]: App running on --> e3-direct.herokuapp.com
+2021-09-23T01:50:22.551602+00:00 heroku[web.1]: State changed from starting to up
+2021-09-23T01:50:25.343702+00:00 heroku[router]: at=info method=GET path="/" host=e3-direct.herokuapp.com request_id=52a36d1f-d6a9-428a-a316-23445080e5e4 fwd="20.106.90.195" dyno=web.1 connect=0ms service=12ms status=200 bytes=274 protocol=https
+2021-09-23T02:22:21.103069+00:00 heroku[web.1]: Idling
+2021-09-23T02:22:21.165404+00:00 heroku[web.1]: State changed from up to down
+2021-09-23T02:22:23.273669+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2021-09-23T02:22:23.328152+00:00 app[web.1]: 02: 22: 23 : root • INFO : Stop signal received (15). Exiting...
+2021-09-23T02:22:53.338719+00:00 heroku[web.1]: Error R12 (Exit timeout) -> At least one process failed to exit within 30 seconds of SIGTERM
+2021-09-23T02:22:53.376995+00:00 heroku[web.1]: Stopping remaining processes with SIGKILL
+2021-09-23T02:22:53.603246+00:00 heroku[web.1]: Process exited with status 137
+2021-09-23T02:23:40.700023+00:00 app[api]: Scaled to web@0:Free by user bambam.kumar.0099@gmail.com
+2021-09-23T02:23:54.026024+00:00 app[api]: Scaled to web@1:Free by user bambam.kumar.0099@gmail.com
+2021-09-23T02:24:00.856262+00:00 heroku[web.1]: Starting process with command `python -m app`
+2021-09-23T02:24:01.558413+00:00 app[web.1]: > Initalizing [Telethon]
+2021-09-23T02:24:06.852393+00:00 app[web.1]: Done ✅
+2021-09-23T02:24:06.852417+00:00 app[web.1]: 
+2021-09-23T02:24:06.852418+00:00 app[web.1]: > Initalizing [Pyrogram]
+2021-09-23T02:24:08.292570+00:00 app[web.1]: Pyrogram v1.2.9, Copyright (C) 2017-2021 Dan <https://github.com/delivrance>
+2021-09-23T02:24:08.292572+00:00 app[web.1]: Licensed under the terms of the GNU Lesser General Public License v3 or later (LGPLv3+)
+2021-09-23T02:24:08.292573+00:00 app[web.1]: 
+2021-09-23T02:24:09.961024+00:00 app[web.1]: Done ✅
+2021-09-23T02:24:09.961055+00:00 app[web.1]: 
+2021-09-23T02:24:09.961057+00:00 app[web.1]: > Initalizing [Redis]
+2021-09-23T02:24:10.320874+00:00 app[web.1]: Done ✅
+2021-09-23T02:24:10.320882+00:00 app[web.1]: 
+2021-09-23T02:24:10.320886+00:00 app[web.1]: > Initializing [UserBot v1]
+2021-09-23T02:24:10.871925+00:00 app[web.1]: Please enter your phone (or bot token): >>>> EOF when reading a line
+2021-09-23T02:24:10.871936+00:00 app[web.1]: 
+2021-09-23T02:24:10.871936+00:00 app[web.1]: > Initalizing [UserBot v2]
+2021-09-23T02:24:11.353392+00:00 app[web.1]: Please enter your phone (or bot token): >>>> EOF when reading a line
+2021-09-23T02:24:11.353401+00:00 app[web.1]: 
+2021-09-23T02:24:11.482301+00:00 app[web.1]: > Initializing [MongoDB]
+2021-09-23T02:24:12.013453+00:00 app[web.1]: Done ✅
+2021-09-23T02:24:12.013461+00:00 app[web.1]: 
+2021-09-23T02:24:12.013579+00:00 app[web.1]: > Downloading Plugins...
+2021-09-23T02:24:21.979138+00:00 app[web.1]: >> **[7]** Plugins downLoaded!
+2021-09-23T02:24:21.979154+00:00 app[web.1]: > Importing Plugins now..
+2021-09-23T02:24:21.979154+00:00 app[web.1]: 
+2021-09-23T02:24:22.319068+00:00 app[web.1]: Imported -> share
+2021-09-23T02:24:22.320986+00:00 app[web.1]: Imported -> start
+2021-09-23T02:24:22.323861+00:00 app[web.1]: Imported -> evaluation
+2021-09-23T02:24:22.324706+00:00 app[web.1]: Imported -> link
+2021-09-23T02:24:22.647213+00:00 app[web.1]: Imported -> Heroku3
+2021-09-23T02:24:22.667640+00:00 app[web.1]: Imported -> speedtest
+2021-09-23T02:24:22.669299+00:00 app[web.1]: Imported -> Downloader
+2021-09-23T02:24:22.670087+00:00 app[web.1]: Imported -> ping
+2021-09-23T02:24:22.670090+00:00 app[web.1]: > Initalizing Web Server
+2021-09-23T02:24:22.670939+00:00 app[web.1]: > Service Started.
+2021-09-23T02:24:22.670944+00:00 app[web.1]: > DC ID --> 4
+2021-09-23T02:24:22.670947+00:00 app[web.1]: > Server IP --> 0.0.0.0
+2021-09-23T02:24:22.670969+00:00 app[web.1]: App running on --> e3-direct.herokuapp.com
+2021-09-23T02:24:23.073115+00:00 heroku[web.1]: State changed from starting to up
+2021-09-23T02:26:53.737828+00:00 heroku[router]: at=info method=GET path="/" host=e3-direct.herokuapp.com request_id=d3504dd6-7294-4ca7-bf69-120a0c17df48 fwd="40.121.83.136" dyno=web.1 connect=0ms service=1ms status=200 bytes=278 protocol=https
+2021-09-23T02:29:42.960168+00:00 app[web.1]: 02: 29: 42 : root • INFO : Pinged server with response: 200
+2021-09-23T02:29:42.961512+00:00 heroku[router]: at=info method=GET path="/" host=e3-direct.herokuapp.com request_id=e6ce2648-f7b8-4dc9-9d7b-39720c8062d9 fwd="34.244.27.38" dyno=web.1 connect=0ms service=0ms status=200 bytes=278 protocol=https
+2021-09-23T02:33:35.701843+00:00 app[web.1]: /app/.heroku/python/lib/python3.9/site-packages/apscheduler/executors/base.py:71: RuntimeWarning: coroutine 'ping_server' was never awaited
+2021-09-23T02:33:35.701856+00:00 app[web.1]:   self._do_submit_job(job, run_times)
+2021-09-23T02:33:35.701856+00:00 app[web.1]: RuntimeWarning: Enable tracemalloc to get the object allocation traceback
