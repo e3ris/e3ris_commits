@@ -1,0 +1,5 @@
+🕹️ Command (T) :
+await e.reply(file=rm) 
+
+🕹️ Output :
+Success
