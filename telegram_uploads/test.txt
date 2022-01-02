@@ -1,0 +1,11 @@
+► EVALPy
+p(dt.now()) 
+
+ ► OUTPUT: 
+Traceback (most recent call last):
+  File "/root/TeamUltroid/plugins/devtools.py", line 171, in _
+    value = await aexec(cmd, event)
+  File "/root/TeamUltroid/plugins/devtools.py", line 233, in aexec
+    return await locals()["__aexec"](event, event.client)
+  File "<string>", line 6, in __aexec
+NameError: name 'dt' is not defined
