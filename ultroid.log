@@ -1,0 +1,163 @@
+01/02/2022, 15:28:16 || pyUltLogs [INFO] : 
+                -----------------------------------
+                        Starting Deployment
+                -----------------------------------
+
+01/02/2022, 15:28:16 || pyUltLogs [INFO] : Python version - 3.8.10
+01/02/2022, 15:28:16 || pyUltLogs [INFO] : py-Ultroid Version - 2022.01.01.1
+01/02/2022, 15:28:16 || pyUltLogs [INFO] : Telethon Version - 1.25.0
+01/02/2022, 15:28:16 || pyUltLogs [INFO] : Ultroid Version - 0.3.1
+01/02/2022, 15:28:23 || pyUltLogs [INFO] : Connecting to Redis...
+01/02/2022, 15:28:23 || pyUltLogs [INFO] : Connected to Redis Successfully!
+01/02/2022, 15:28:23 || pyUltLogs [INFO] : Trying to login.
+01/02/2022, 15:28:24 || pyUltLogs [INFO] : Logged in as Avish
+01/02/2022, 15:28:24 || pyUltLogs [INFO] : Trying to login.
+01/02/2022, 15:28:26 || Telethon.client.users [INFO] : Phone migrated to 5
+01/02/2022, 15:28:26 || Telethon.client.telegrambaseclient [INFO] : Reconnecting to new data center 5
+01/02/2022, 15:28:29 || pyUltLogs [INFO] : Logged in as @avish_sonu_bot
+01/02/2022, 15:28:29 || pyUltLogs [INFO] : Cmd('git') failed due to: exit code(128)
+  cmdline: git remote add upstream https://github.com/TeamUltroid/Ultroid
+  stderr: 'fatal: remote upstream already exists.'
+01/02/2022, 15:28:30 || pyUltLogs [INFO] : Initialising...
+01/02/2022, 15:28:31 || pyUltLogs [INFO] : • Installing Official's Plugins || Count : 82 •
+01/02/2022, 15:28:43 || pyUltLogs [INFO] : • Installing Addons's Plugins || Count : 63 •
+01/02/2022, 15:28:44 || apscheduler.scheduler [INFO] : Adding job tentatively -- it will be properly scheduled when the scheduler starts
+01/02/2022, 15:28:44 || apscheduler.scheduler [INFO] : Added job "ping" to job store "default"
+01/02/2022, 15:28:44 || apscheduler.scheduler [INFO] : Scheduler started
+01/02/2022, 15:28:45 || pyUltLogs [INFO] : • Installing Group Manager's Plugins || Count : 7 •
+01/02/2022, 15:28:45 || pyUltLogs [INFO] : • Installing VCBot's Plugins || Count : 9 •
+01/02/2022, 15:28:45 || pyUltLogs [INFO] : • Loading Plugins from Plugin Channel(s) •
+01/02/2022, 15:28:45 || pyUltLogs [INFO] : •••• -1001509657590
+01/02/2022, 15:28:46 || apscheduler.scheduler [INFO] : Adding job tentatively -- it will be properly scheduled when the scheduler starts
+01/02/2022, 15:28:46 || apscheduler.scheduler [INFO] : Added job "ping" to job store "default"
+01/02/2022, 15:28:46 || apscheduler.scheduler [INFO] : Scheduler started
+01/02/2022, 15:28:46 || pyUltLogs [INFO] : Cmd('git') failed due to: exit code(128)
+  cmdline: git remote add upstream https://github.com/TeamUltroid/Ultroid
+  stderr: 'fatal: remote upstream already exists.'
+01/02/2022, 15:28:47 || pyUltLogs [INFO] : Took 31s to start •ULTROID•
+01/02/2022, 15:28:47 || pyUltLogs [INFO] : 
+            ----------------------------------------------------------------------
+                Ultroid has been deployed! Visit @TheUltroid for updates!!
+            ----------------------------------------------------------------------
+
+01/02/2022, 15:30:37 || Telethon.client.users [INFO] : Sleeping for 3s (0:00:03) on SendMessageRequest flood wait
+01/02/2022, 15:30:40 || Telethon.client.users [INFO] : Sleeping for 3s (0:00:03) on SendMessageRequest flood wait
+01/02/2022, 15:30:45 || Telethon.client.users [INFO] : Sleeping for 3s (0:00:03) on SendMessageRequest flood wait
+01/02/2022, 15:30:48 || Telethon.client.users [INFO] : Sleeping for 3s (0:00:03) on SendMessageRequest flood wait
+01/02/2022, 15:30:53 || Telethon.client.users [INFO] : Sleeping for 3s (0:00:03) on SendMessageRequest flood wait
+01/02/2022, 15:30:56 || Telethon.client.users [INFO] : Sleeping for 3s (0:00:03) on SendMessageRequest flood wait
+01/02/2022, 15:31:01 || Telethon.client.users [INFO] : Sleeping for 34s (0:00:34) on SendMessageRequest flood wait
+01/02/2022, 15:31:18 || Telethon.client.users [INFO] : Sleeping early for 17s (0:00:17) on SendMessageRequest flood wait
+01/02/2022, 15:31:31 || Telethon.client.users [INFO] : Sleeping early for 4s (0:00:04) on SendMessageRequest flood wait
+01/02/2022, 15:31:35 || Telethon.client.users [INFO] : Sleeping for 3s (0:00:03) on SendMessageRequest flood wait
+01/02/2022, 15:33:17 || Telethon.client.downloads [INFO] : Starting direct file download in chunks of 131072 at 0, stride 131072
+01/02/2022, 15:33:17 || Telethon.client.downloads [INFO] : File lives in another DC
+01/02/2022, 15:33:19 || Telethon.client.telegrambaseclient [INFO] : Exporting auth for new borrowed sender in DcOption(id=2, ip_address='149.154.167.50', port=443, ipv6=False, media_only=False, tcpo_only=False, cdn=False, static=False, secret=None)
+01/02/2022, 15:34:00 || Telethon.client.updates [ERROR] : Unhandled exception on ChatActionsHandler
+Traceback (most recent call last):
+  File "/home/error/.local/lib/python3.8/site-packages/telethon/client/updates.py", line 467, in _dispatch_update
+    await callback(event)
+  File "/home/error/Ultroid/plugins/_chatactions.py", line 124, in ChatActionsHandler
+    await ult.reply(file=med)
+  File "/home/error/.local/lib/python3.8/site-packages/telethon/events/chataction.py", line 251, in reply
+    return await self._client.send_message(
+  File "/home/error/.local/lib/python3.8/site-packages/telethon/client/messages.py", line 809, in send_message
+    return await self.send_file(
+  File "/home/error/.local/lib/python3.8/site-packages/telethon/client/uploads.py", line 415, in send_file
+    return self._get_response_message(request, await self(request), entity)
+  File "/home/error/.local/lib/python3.8/site-packages/telethon/client/users.py", line 32, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/home/error/.local/lib/python3.8/site-packages/telethon/client/users.py", line 92, in _call
+    result = await future
+telethon.errors.rpcerrorlist.FileReferenceEmptyError: The file reference must exist to access the media and it cannot be empty (caused by SendMediaRequest)
+01/02/2022, 15:34:23 || Telethon.client.telegrambaseclient [INFO] : Disconnecting borrowed sender for DC 2
+01/02/2022, 15:36:57 || Telethon.client.downloads [INFO] : Starting direct file download in chunks of 131072 at 0, stride 131072
+01/02/2022, 15:36:57 || Telethon.client.downloads [INFO] : File lives in another DC
+01/02/2022, 15:38:23 || Telethon.client.telegrambaseclient [INFO] : Disconnecting borrowed sender for DC 2
+01/02/2022, 15:39:01 || Telethon.client.downloads [INFO] : Starting direct file download in chunks of 131072 at 0, stride 131072
+01/02/2022, 15:39:02 || Telethon.client.downloads [INFO] : File lives in another DC
+01/02/2022, 15:40:24 || Telethon.client.telegrambaseclient [INFO] : Disconnecting borrowed sender for DC 2
+01/02/2022, 15:44:46 || Telethon.client.downloads [INFO] : Starting direct file download in chunks of 131072 at 0, stride 131072
+01/02/2022, 15:44:46 || Telethon.client.downloads [INFO] : File lives in another DC
+01/02/2022, 15:44:48 || Telethon.client.telegrambaseclient [INFO] : Exporting auth for new borrowed sender in DcOption(id=1, ip_address='149.154.175.58', port=443, ipv6=False, media_only=False, tcpo_only=False, cdn=False, static=False, secret=None)
+01/02/2022, 15:46:24 || Telethon.client.telegrambaseclient [INFO] : Disconnecting borrowed sender for DC 1
+01/02/2022, 15:47:04 || Telethon.client.downloads [INFO] : Starting direct file download in chunks of 131072 at 0, stride 131072
+01/02/2022, 15:47:05 || Telethon.client.downloads [INFO] : File lives in another DC
+01/02/2022, 15:47:05 || Telethon.client.downloads [INFO] : Starting direct file download in chunks of 131072 at 0, stride 131072
+01/02/2022, 15:47:05 || Telethon.client.downloads [INFO] : File lives in another DC
+01/02/2022, 15:47:45 || Telethon.client.downloads [INFO] : Starting direct file download in chunks of 131072 at 0, stride 131072
+01/02/2022, 15:47:46 || Telethon.client.downloads [INFO] : File lives in another DC
+01/02/2022, 15:48:42 || Telethon.client.downloads [INFO] : Starting direct file download in chunks of 131072 at 0, stride 131072
+01/02/2022, 15:48:43 || Telethon.client.downloads [INFO] : File lives in another DC
+01/02/2022, 15:48:46 || pyUltLogs [ERROR] : The specified message ID is invalid or you can't do that operation on such message (caused by EditMessageRequest)
+Traceback (most recent call last):
+  File "/home/error/.local/lib/python3.8/site-packages/pyUltroid/misc/_decorators.py", line 99, in wrapp
+    await dec(ult)
+  File "/home/error/Ultroid/addons/commit.py", line 42, in git_commit
+    eris = await eor(e, "__downloading__")
+  File "/home/error/.local/lib/python3.8/site-packages/pyUltroid/misc/_wrappers.py", line 30, in eor
+    ok = await event.edit(text, **args)
+  File "/home/error/.local/lib/python3.8/site-packages/telethon/tl/custom/message.py", line 864, in edit
+    return await self._client.edit_message(
+  File "/home/error/.local/lib/python3.8/site-packages/telethon/client/messages.py", line 1240, in edit_message
+    return self._get_response_message(request, await self(request), entity)
+  File "/home/error/.local/lib/python3.8/site-packages/telethon/client/users.py", line 32, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/home/error/.local/lib/python3.8/site-packages/telethon/client/users.py", line 92, in _call
+    result = await future
+telethon.errors.rpcerrorlist.MessageIdInvalidError: The specified message ID is invalid or you can't do that operation on such message (caused by EditMessageRequest)
+01/02/2022, 15:49:01 || Telethon.client.downloads [INFO] : Starting direct file download in chunks of 131072 at 0, stride 131072
+01/02/2022, 15:49:05 || pyUltLogs [ERROR] : The specified message ID is invalid or you can't do that operation on such message (caused by EditMessageRequest)
+Traceback (most recent call last):
+  File "/home/error/.local/lib/python3.8/site-packages/pyUltroid/misc/_decorators.py", line 99, in wrapp
+    await dec(ult)
+  File "/home/error/Ultroid/addons/commit.py", line 42, in git_commit
+    eris = await eor(e, "__downloading__")
+  File "/home/error/.local/lib/python3.8/site-packages/pyUltroid/misc/_wrappers.py", line 30, in eor
+    ok = await event.edit(text, **args)
+  File "/home/error/.local/lib/python3.8/site-packages/telethon/tl/custom/message.py", line 864, in edit
+    return await self._client.edit_message(
+  File "/home/error/.local/lib/python3.8/site-packages/telethon/client/messages.py", line 1240, in edit_message
+    return self._get_response_message(request, await self(request), entity)
+  File "/home/error/.local/lib/python3.8/site-packages/telethon/client/users.py", line 32, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/home/error/.local/lib/python3.8/site-packages/telethon/client/users.py", line 92, in _call
+    result = await future
+telethon.errors.rpcerrorlist.MessageIdInvalidError: The specified message ID is invalid or you can't do that operation on such message (caused by EditMessageRequest)
+01/02/2022, 15:50:16 || Telethon.client.downloads [INFO] : Starting direct file download in chunks of 131072 at 0, stride 131072
+01/02/2022, 15:50:16 || Telethon.client.downloads [INFO] : File lives in another DC
+01/02/2022, 15:51:05 || Telethon.client.downloads [INFO] : Starting direct file download in chunks of 131072 at 0, stride 131072
+01/02/2022, 15:51:05 || pyUltLogs [ERROR] : The specified message ID is invalid or you can't do that operation on such message (caused by EditMessageRequest)
+Traceback (most recent call last):
+  File "/home/error/.local/lib/python3.8/site-packages/pyUltroid/misc/_decorators.py", line 99, in wrapp
+    await dec(ult)
+  File "/home/error/Ultroid/addons/commit.py", line 42, in git_commit
+    eris = await eor(e, "__downloading__")
+  File "/home/error/.local/lib/python3.8/site-packages/pyUltroid/misc/_wrappers.py", line 30, in eor
+    ok = await event.edit(text, **args)
+  File "/home/error/.local/lib/python3.8/site-packages/telethon/tl/custom/message.py", line 864, in edit
+    return await self._client.edit_message(
+  File "/home/error/.local/lib/python3.8/site-packages/telethon/client/messages.py", line 1240, in edit_message
+    return self._get_response_message(request, await self(request), entity)
+  File "/home/error/.local/lib/python3.8/site-packages/telethon/client/users.py", line 32, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/home/error/.local/lib/python3.8/site-packages/telethon/client/users.py", line 92, in _call
+    result = await future
+telethon.errors.rpcerrorlist.MessageIdInvalidError: The specified message ID is invalid or you can't do that operation on such message (caused by EditMessageRequest)
+01/02/2022, 15:51:05 || Telethon.client.downloads [INFO] : File lives in another DC
+01/02/2022, 15:52:08 || pyUltLogs [ERROR] : [0;31mERROR:[0m ffmpeg or avconv not found. Please install one.
+01/02/2022, 15:52:09 || pyUltLogs [ERROR] : [Errno 2] No such file or directory: 'cX6g4cbVBwI.mkv.webm'
+Traceback (most recent call last):
+  File "/home/error/.local/lib/python3.8/site-packages/pyUltroid/misc/_assistant.py", line 72, in wrapper
+    await func(event)
+  File "/home/error/Ultroid/assistant/ytdl.py", line 241, in _
+    file, _ = await event.client.fast_uploader(
+  File "/home/error/.local/lib/python3.8/site-packages/pyUltroid/startup/BaseClient.py", line 149, in fast_uploader
+    size = os.path.getsize(file)
+  File "/usr/lib/python3.8/genericpath.py", line 50, in getsize
+    return os.stat(filename).st_size
+FileNotFoundError: [Errno 2] No such file or directory: 'cX6g4cbVBwI.mkv.webm'
+01/02/2022, 15:52:10 || Telethon.client.downloads [INFO] : Starting direct file download in chunks of 131072 at 0, stride 131072
+01/02/2022, 15:52:10 || Telethon.client.downloads [INFO] : File lives in another DC
+01/02/2022, 15:52:24 || Telethon.client.telegrambaseclient [INFO] : Disconnecting borrowed sender for DC 1
+01/02/2022, 15:52:55 || Telethon.client.uploads [INFO] : Uploading file of 13943 bytes in 1 chunks of 131072
